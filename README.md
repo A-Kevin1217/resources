@@ -3,9 +3,8 @@
 #### <div align="center">介绍</div>
 <div align="center">用于更新Tlon-Sky插件复刻图</div>
 
-<div align="center">更新复刻图</div>
+# <div align="center">国服复刻</div>
 
-```
-# 使用指令：#刷新复刻或#更新复刻
-# 后续更新也是这个指令
-```
+<p align="center">
+<img width = "600" src="image/Reprint.png">
+</p>
