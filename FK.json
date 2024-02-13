@@ -1,3 +1,10 @@
 {
-    "endTime": "2024-02-19 12:00:00"
+    "endTime": {
+        "years": 2024,
+        "month": 1,
+        "day": 19,
+        "Hour": 12,
+        "minute": 0,
+        "second": 0
+    }
 }

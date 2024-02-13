@@ -6,6 +6,6 @@
 # <div align="center">国服复刻</div>
 
 <p align="center">
-<img width = "600" src="image/Reprint.png">
+<img width = "600" src="PICTURE/FK.jpg">
 </p>
 // Renewal
