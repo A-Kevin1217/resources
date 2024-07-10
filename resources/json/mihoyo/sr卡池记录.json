@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "流萤",
-        "阮•梅"
+        "翡翠",
+        "银枝"
     ],
     "LastUpdatedDate": "2024-07-08",
     "OtherRoles": [
@@ -194,6 +194,12 @@
                     "EndTime": "2023-12-26",
                     "Version": 1.5,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-07-10",
+                    "EndTime": "2024-07-30",
+                    "Version": 2.3,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -299,6 +305,17 @@
                     "EndTime": "2024-07-10",
                     "Version": 2.3,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "翡翠",
+            "Record": [
+                {
+                    "StartTime": "2024-07-10",
+                    "EndTime": "2024-07-30",
+                    "Version": 2.3,
+                    "UpOrDown": "下"
                 }
             ]
         }
