@@ -7,11 +7,11 @@
     },
     "活动": [
         {
-            "name": "5周年庆",
-            "number": 35,
-            "DailyGetNumber": 4,
-            "startDate": "2024-06-21 00:00:00",
-            "endDate": "2024-07-14 23:59:59",
+            "name": "向日葵de成长日记",
+            "number": 2400,
+            "DailyGetNumber": 100,
+            "startDate": "2024-07-17 00:00:00",
+            "endDate": "2024-08-27 23:59:59",
             "other": ""
         }
     ]
