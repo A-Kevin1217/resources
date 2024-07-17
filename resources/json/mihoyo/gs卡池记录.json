@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "希洛雯",
-        "芙宁娜"
+        "娜维娅",
+        "妮露"
     ],
     "LastUpdatedDate": "2024-07-07",
     "OtherRoles": [
@@ -609,6 +609,12 @@
                     "EndTime": "2023-05-02",
                     "Version": 3.6,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-07-17",
+                    "EndTime": "2024-08-06",
+                    "Version": 4.8,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -784,6 +790,12 @@
                     "StartTime": "2023-12-20",
                     "EndTime": "2024-01-09",
                     "Version": 4.3,
+                    "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-07-17",
+                    "EndTime": "2024-08-06",
+                    "Version": 4.8,
                     "UpOrDown": "上"
                 }
             ]
