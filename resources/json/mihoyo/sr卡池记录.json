@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "翡翠",
-        "银枝"
+        "云璃",
+        "藿藿"
     ],
     "LastUpdatedDate": "2024-07-08",
     "OtherRoles": [
@@ -183,6 +183,12 @@
                     "EndTime": "2023-12-06",
                     "Version": 1.5,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-07-31",
+                    "EndTime": "2024-08-21",
+                    "Version": 2.4,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -316,6 +322,17 @@
                     "EndTime": "2024-07-30",
                     "Version": 2.3,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "云璃",
+            "Record": [
+                {
+                    "StartTime": "2024-07-31",
+                    "EndTime": "2024-08-21",
+                    "Version": 2.4,
+                    "UpOrDown": "上"
                 }
             ]
         }
