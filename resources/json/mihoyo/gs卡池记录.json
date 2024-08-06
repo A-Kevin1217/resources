@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "娜维娅",
-        "妮露"
+        "艾梅莉埃",
+        "夜兰"
     ],
     "LastUpdatedDate": "2024-07-07",
     "OtherRoles": [
@@ -558,6 +558,12 @@
                     "EndTime": "2023-09-05",
                     "Version": 4.0,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-08-06",
+                    "EndTime": "2024-08-27",
+                    "Version": 4.8,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -851,6 +857,17 @@
                     "StartTime": "2024-06-25",
                     "EndTime": "2024-07-16",
                     "Version": 4.7,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "艾梅莉埃",
+            "Record": [
+                {
+                    "StartTime": "2024-08-06",
+                    "EndTime": "2024-08-27",
+                    "Version": 4.8,
                     "UpOrDown": "下"
                 }
             ]
