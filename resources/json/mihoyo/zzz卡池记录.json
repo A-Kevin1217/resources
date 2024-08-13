@@ -1,6 +1,6 @@
 {
     "CurrentRole": [
-        "朱鸢"
+        "青衣"
     ],
     "LastUpdatedDate": "2024-07-08",
     "OtherRoles": [
@@ -16,13 +16,24 @@
             ]
         },
         {
-            "name":"朱鸢",
-            "Record":[
+            "name": "朱鸢",
+            "Record": [
                 {
-                    "StartTime":"2024-07-24",
-                    "EndTime":"2024-08-13",
-                    "Version":1.0,
-                    "UpOrDown":"下"
+                    "StartTime": "2024-07-24",
+                    "EndTime": "2024-08-13",
+                    "Version": 1.0,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "青衣",
+            "Record": [
+                {
+                    "StartTime": "2024-08-14",
+                    "EndTime": "2024-09-04",
+                    "Version": 1.0,
+                    "UpOrDown": "上"
                 }
             ]
         }
