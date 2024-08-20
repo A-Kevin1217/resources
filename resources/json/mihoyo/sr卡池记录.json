@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "云璃",
-        "藿藿"
+        "椒丘",
+        "花火"
     ],
     "LastUpdatedDate": "2024-07-08",
     "OtherRoles": [
@@ -256,6 +256,12 @@
                     "EndTime": "2024-03-26",
                     "Version": 2.0,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-08-21",
+                    "EndTime": "2024-09-09",
+                    "Version": 2.4,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -333,6 +339,17 @@
                     "EndTime": "2024-08-21",
                     "Version": 2.4,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "椒丘",
+            "Record": [
+                {
+                    "StartTime": "2024-08-21",
+                    "EndTime": "2024-09-09",
+                    "Version": 2.4,
+                    "UpOrDown": "下"
                 }
             ]
         }
