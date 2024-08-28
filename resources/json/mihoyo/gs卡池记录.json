@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "艾梅莉埃",
-        "夜兰"
+        "玛拉尼",
+        "枫原万叶"
     ],
     "LastUpdatedDate": "2024-07-07",
     "OtherRoles": [
@@ -315,6 +315,12 @@
                     "EndTime": "2024-04-23",
                     "Version": 4.5,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-08-28",
+                    "EndTime": "2024-09-17",
+                    "Version": 5.0,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -869,6 +875,17 @@
                     "EndTime": "2024-08-27",
                     "Version": 4.8,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "玛拉尼",
+            "Record": [
+                {
+                    "StartTime": "2024-08-28",
+                    "EndTime": "2024-09-17",
+                    "Version": 5.0,
+                    "UpOrDown": "上"
                 }
             ]
         }
