@@ -5,6 +5,7 @@
     "OtherRoles": [
         {
             "name": "忌炎",
+            "picID": "6e32ec1408344fbbab52710c9244b24920240521",
             "Record": [
                 {
                     "StartTime": "2024-05-23",
@@ -16,6 +17,7 @@
         },
         {
             "name": "吟霖",
+            "picID": "2fcfa0c4ca13407488953cbb88e5022320240606",
             "Record": [
                 {
                     "StartTime": "2024-06-06",
@@ -27,6 +29,7 @@
         },
         {
             "name": "今汐",
+            "picID": "5a77c64dae0c4e2a8cd90c312cf771c120240805",
             "Record": [
                 {
                     "StartTime": "2024-06-28",
@@ -38,6 +41,7 @@
         },
         {
             "name": "长离",
+            "picID": "2d0a50affed448f6821c8baa624d5f5f20240805",
             "Record": [
                 {
                     "StartTime": "2024-07-22",
@@ -49,6 +53,7 @@
         },
         {
             "name": "折枝",
+            "picID": "0eee57a8da2a4bb98c01d6b594315e4320240812",
             "Record": [
                 {
                     "StartTime": "2024-08-15",
