@@ -1,0 +1,62 @@
+{
+    "CurrentRole": [
+        "折枝"
+    ],
+    "OtherRoles": [
+        {
+            "name": "忌炎",
+            "Record": [
+                {
+                    "StartTime": "2024-05-23",
+                    "EndTime": "2024-06-06",
+                    "Version": 1.0,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "吟霖",
+            "Record": [
+                {
+                    "StartTime": "2024-06-06",
+                    "EndTime": "2024-06-26",
+                    "Version": 1.0,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "今汐",
+            "Record": [
+                {
+                    "StartTime": "2024-06-28",
+                    "EndTime": "2024-07-22",
+                    "Version": 1.1,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "长离",
+            "Record": [
+                {
+                    "StartTime": "2024-07-22",
+                    "EndTime": "2024-08-14",
+                    "Version": 1.1,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "折枝",
+            "Record": [
+                {
+                    "StartTime": "2024-08-15",
+                    "EndTime": "2024-09-07",
+                    "Version": 1.2,
+                    "UpOrDown": "上"
+                }
+            ]
+        }
+    ]
+}
