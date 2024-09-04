@@ -1,6 +1,6 @@
 {
     "CurrentRole": [
-        "青衣"
+        "简"
     ],
     "OtherRoles": [
         {
@@ -31,8 +31,19 @@
                 {
                     "StartTime": "2024-08-14",
                     "EndTime": "2024-09-04",
-                    "Version": 1.0,
+                    "Version": 1.1,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "简",
+            "Record": [
+                {
+                    "StartTime": "2024-09-04",
+                    "EndTime": "2024-09-24",
+                    "Version": 1.1,
+                    "UpOrDown": "下"
                 }
             ]
         }
