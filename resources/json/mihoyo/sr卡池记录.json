@@ -1,7 +1,9 @@
 {
     "CurrentRole": [
-        "椒丘",
-        "花火"
+        "飞霄",
+        "卡芙卡",
+        "黑天鹅",
+        "知更鸟"
     ],
     "OtherRoles": [
         {
@@ -103,6 +105,12 @@
                     "EndTime": "2024-02-05",
                     "Version": 1.6,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-09-10",
+                    "EndTime": "2024-10-02",
+                    "Version": 2.5,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -244,6 +252,12 @@
                     "EndTime": "2024-02-29",
                     "Version": 2.0,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-09-10",
+                    "EndTime": "2024-10-02",
+                    "Version": 2.5,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -293,6 +307,12 @@
                     "StartTime": "2024-05-08",
                     "EndTime": "2024-05-29",
                     "Version": 2.2,
+                    "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-09-10",
+                    "EndTime": "2024-10-02",
+                    "Version": 2.5,
                     "UpOrDown": "上"
                 }
             ]
@@ -349,6 +369,17 @@
                     "EndTime": "2024-09-09",
                     "Version": 2.4,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "飞霄",
+            "Record": [
+                {
+                    "StartTime": "2024-09-10",
+                    "EndTime": "2024-10-02",
+                    "Version": 2.5,
+                    "UpOrDown": "上"
                 }
             ]
         }
