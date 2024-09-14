@@ -19,8 +19,16 @@
             "name": "夏之日",
             "number": 50,
             "DailyGetNumber": 6,
-            "startDate": "2024-08-29",
+            "startDate": "2024-08-29 00:00:00",
             "endDate": "2024-09-11 23:59:59",
+            "other": "无"
+        },
+        {
+            "name": "秋宵节",
+            "number": 49,
+            "DailyGetNumber": 5,
+            "startDate": "2024-09-15 00:00:00",
+            "endDate": "2024-09-28 23:59:59",
             "other": "无"
         }
     ],
