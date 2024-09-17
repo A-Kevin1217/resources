@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "玛拉尼",
-        "枫原万叶"
+        "基尼奇",
+        "雷电将军"
     ],
     "OtherRoles": [
         {
@@ -412,6 +412,12 @@
                     "StartTime": "2024-01-09",
                     "EndTime": "2024-01-30",
                     "Version": 4.3,
+                    "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-09-17",
+                    "EndTime": "2024-10-08",
+                    "Version": 5.0,
                     "UpOrDown": "下"
                 }
             ]
@@ -885,6 +891,17 @@
                     "EndTime": "2024-09-17",
                     "Version": 5.0,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "基尼奇",
+            "Record": [
+                {
+                    "StartTime": "2024-09-17",
+                    "EndTime": "2024-10-08",
+                    "Version": 5.0,
+                    "UpOrDown": "下"
                 }
             ]
         }
