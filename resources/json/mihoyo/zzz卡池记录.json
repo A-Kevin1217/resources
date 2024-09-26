@@ -1,6 +1,6 @@
 {
     "CurrentRole": [
-        "简"
+        "凯撒"
     ],
     "OtherRoles": [
         {
@@ -44,6 +44,17 @@
                     "EndTime": "2024-09-24",
                     "Version": 1.1,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "凯撒",
+            "Record": [
+                {
+                    "StartTime": "2024-09-25",
+                    "EndTime": "2024-10-16",
+                    "Version": 1.2,
+                    "UpOrDown": "上"
                 }
             ]
         }
