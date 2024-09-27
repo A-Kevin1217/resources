@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物品展示</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            width: 2650px;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(20, 1fr);
+            gap: 10px;
+            max-width: 2260px;
+            width: 100%;
+        }
+
+        .item-card {
+            position: relative;
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100px;
+            height: 120px;
+        }
+
+        .item-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .item-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .item-card .item-name {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            right: 5px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 3px;
+            font-size: 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .item-card:hover .item-name {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .item-quantity {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 3px 6px;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+
+        .category-title {
+            grid-column: span 20;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="category-title">基础材料</div>
+        {{each data.基础材料 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">采集物</div>
+        {{each data.采集物 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">角色与武器培养素材</div>
+        {{each data.角色与武器培养素材 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">武器突破素材</div>
+        {{each data.武器突破素材 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">角色天赋素材</div>
+        {{each data.角色天赋素材 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">角色突破素材</div>
+        {{each data.角色突破素材 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">首领材料</div>
+        {{each data.首领材料 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">周本材料</div>
+        {{each data.周本材料 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+
+        <div class="category-title">其他</div>
+        {{each data.其他 item}}
+        <div class="item-card">
+            <img src="{{item.icon}}" alt="icon">
+            <div class="item-name">{{item.name}}</div>
+            <div class="item-quantity">x{{item.number}}</div>
+        </div>
+        {{/each}}
+    </div>
+</body>
+
+</html>
