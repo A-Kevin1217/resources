@@ -1,6 +1,6 @@
 {
     "CurrentRole": [
-        "相里要"
+        "守岸人"
     ],
     "OtherRoles": [
         {
@@ -72,6 +72,18 @@
                     "EndTime": "2024-09-28",
                     "Version": 1.2,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "守岸人",
+            "picID": "b8480f98f7ed4d9ba44a82b6fe66de2620240923",
+            "Record": [
+                {
+                    "StartTime": "2024-09-29",
+                    "EndTime": "2024-10-24",
+                    "Version": 1.3,
+                    "UpOrDown": "上"
                 }
             ]
         }
