@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "name": "基础剑法",
+    "cost": 100,
+    "effect": {
+      "attack": 5
+    },
+    "description": "增加5点攻击力"
+  },
+  {
+    "id": 2,
+    "name": "初级防御术",
+    "cost": 150,
+    "effect": {
+      "defense": 5
+    },
+    "description": "增加5点防御力"
+  },
+  {
+    "id": 3,
+    "name": "火球术",
+    "cost": 200,
+    "effect": {
+      "magicAttack": 15
+    },
+    "description": "造成15点魔法伤害"
+  },
+  {
+    "id": 4,
+    "name": "治疗术",
+    "cost": 250,
+    "effect": {
+      "heal": 30
+    },
+    "description": "恢复30点生命值"
+  },
+  {
+    "id": 5,
+    "name": "雷击术",
+    "cost": 300,
+    "effect": {
+      "magicAttack": 25,
+      "stun": 1
+    },
+    "description": "造成25点魔法伤害，并有机会使敌人眩晕1回合"
+  },
+  {
+    "id": 6,
+    "name": "金刚护体",
+    "cost": 350,
+    "effect": {
+      "defense": 15,
+      "duration": 3
+    },
+    "description": "增加15点防御力，持续3回合"
+  },
+  {
+    "id": 7,
+    "name": "疾风步",
+    "cost": 400,
+    "effect": {
+      "speed": 10,
+      "dodge": 20
+    },
+    "description": "增加10点速度和20%闪避率"
+  },
+  {
+    "id": 8,
+    "name": "毒雾术",
+    "cost": 450,
+    "effect": {
+      "poison": 10,
+      "duration": 3
+    },
+    "description": "每回合造成10点毒素伤害，持续3回合"
+  },
+  {
+    "id": 9,
+    "name": "生命汲取",
+    "cost": 500,
+    "effect": {
+      "magicAttack": 20,
+      "lifesteal": 50
+    },
+    "description": "造成20点魔法伤害，并吸收50%伤害转化为生命值"
+  },
+  {
+    "id": 10,
+    "name": "狂暴术",
+    "cost": 550,
+    "effect": {
+      "attack": 30,
+      "defense": -10,
+      "duration": 3
+    },
+    "description": "增加30点攻击力，降低10点防御力，持续3回合"
+  }
+]

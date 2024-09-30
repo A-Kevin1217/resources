@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "初入修仙",
+    "description": "完成10次修炼",
+    "requirement": 10,
+    "type": "修炼",
+    "reward": {
+      "exp": 100,
+      "lingshi": 50
+    }
+  },
+  {
+    "id": 2,
+    "name": "初级探索者",
+    "description": "完成5次探索",
+    "requirement": 5,
+    "type": "探索",
+    "reward": {
+      "exp": 150,
+      "lingshi": 100
+    }
+  },
+  {
+    "id": 3,
+    "name": "勇者无惧",
+    "description": "完成3次战斗",
+    "requirement": 3,
+    "type": "战斗",
+    "reward": {
+      "exp": 200,
+      "lingshi": 150
+    }
+  },
+  {
+    "id": 4,
+    "name": "突破界限",
+    "description": "完成1次突破",
+    "requirement": 1,
+    "type": "突破",
+    "reward": {
+      "exp": 300,
+      "lingshi": 200
+    }
+  },
+  {
+    "id": 5,
+    "name": "炼丹师学徒",
+    "description": "使用5次丹药",
+    "requirement": 5,
+    "type": "使用丹药",
+    "reward": {
+      "exp": 150,
+      "lingshi": 100
+    }
+  },
+  {
+    "id": 6,
+    "name": "初级炼器师",
+    "description": "购买3件法器",
+    "requirement": 3,
+    "type": "购买法器",
+    "reward": {
+      "exp": 200,
+      "lingshi": 150
+    }
+  },
+  {
+    "id": 7,
+    "name": "勤学苦练",
+    "description": "学习2个技能",
+    "requirement": 2,
+    "type": "学习技能",
+    "reward": {
+      "exp": 250,
+      "lingshi": 200
+    }
+  },
+  {
+    "id": 8,
+    "name": "宗门新秀",
+    "description": "加入或创建宗门",
+    "requirement": 1,
+    "type": "加入宗门",
+    "reward": {
+      "exp": 300,
+      "lingshi": 250
+    }
+  },
+  {
+    "id": 9,
+    "name": "修炼大师",
+    "description": "完成100次修炼",
+    "requirement": 100,
+    "type": "修炼",
+    "reward": {
+      "exp": 1000,
+      "lingshi": 500
+    }
+  },
+  {
+    "id": 10,
+    "name": "探索专家",
+    "description": "完成50次探索",
+    "requirement": 50,
+    "type": "探索",
+    "reward": {
+      "exp": 1500,
+      "lingshi": 1000
+    }
+  },
+  {
+    "id": 11,
+    "name": "战斗高手",
+    "description": "完成30次战斗",
+    "requirement": 30,
+    "type": "战斗",
+    "reward": {
+      "exp": 2000,
+      "lingshi": 1500
+    }
+  },
+  {
+    "id": 12,
+    "name": "突破大师",
+    "description": "完成10次突破",
+    "requirement": 10,
+    "type": "突破",
+    "reward": {
+      "exp": 3000,
+      "lingshi": 2000
+    }
+  },
+  {
+    "id": 13,
+    "name": "炼丹大师",
+    "description": "使用50次丹药",
+    "requirement": 50,
+    "type": "使用丹药",
+    "reward": {
+      "exp": 1500,
+      "lingshi": 1000
+    }
+  },
+  {
+    "id": 14,
+    "name": "炼器大师",
+    "description": "购买30件法器",
+    "requirement": 30,
+    "type": "购买法器",
+    "reward": {
+      "exp": 2000,
+      "lingshi": 1500
+    }
+  },
+  {
+    "id": 15,
+    "name": "技能大师",
+    "description": "学习10个技能",
+    "requirement": 10,
+    "type": "学习技能",
+    "reward": {
+      "exp": 2500,
+      "lingshi": 2000
+    }
+  }
+]

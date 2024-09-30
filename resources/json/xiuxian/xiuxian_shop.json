@@ -1,0 +1,152 @@
+[
+  {
+    "name": "小还丹",
+    "price": 100,
+    "effect": {
+      "type": "energy",
+      "value": 20
+    },
+    "description": "恢复少量灵力的丹药"
+  },
+  {
+    "name": "大还丹",
+    "price": 300,
+    "effect": {
+      "type": "energy",
+      "value": 50
+    },
+    "description": "恢复大量灵力的丹药"
+  },
+  {
+    "name": "聚灵丹",
+    "price": 500,
+    "effect": {
+      "type": "exp",
+      "value": 100
+    },
+    "description": "增加修炼经验的珍贵丹药"
+  },
+  {
+    "name": "筑基丹",
+    "price": 1000,
+    "effect": {
+      "type": "attribute",
+      "attribute": "maxHp",
+      "value": 50
+    },
+    "description": "永久提升最大生命值的稀有丹药"
+  },
+  {
+    "name": "淬体丹",
+    "price": 800,
+    "effect": {
+      "type": "attribute",
+      "attribute": "attack",
+      "value": 5
+    },
+    "description": "永久提升攻击力的珍贵丹药"
+  },
+  {
+    "name": "玄铁剑",
+    "price": 2000,
+    "effect": {
+      "type": "attribute",
+      "attribute": "attack",
+      "value": 20
+    },
+    "description": "大幅提升攻击力的法器"
+  },
+  {
+    "name": "金刚护甲",
+    "price": 2500,
+    "effect": {
+      "type": "attribute",
+      "attribute": "defense",
+      "value": 15
+    },
+    "description": "大幅提升防御力的法器"
+  },
+  {
+    "name": "洗髓丹",
+    "price": 3000,
+    "effect": {
+      "type": "attribute",
+      "attribute": "all",
+      "value": 10
+    },
+    "description": "全面提升各项属性的珍稀丹药"
+  },
+  {
+    "name": "回春丹",
+    "price": 1200,
+    "effect": {
+      "type": "heal",
+      "value": 100
+    },
+    "description": "立即恢复大量生命值的丹药"
+  },
+  {
+    "name": "五行遁符",
+    "price": 3000,
+    "effect": {
+      "type": "special",
+      "value": "遁地"
+    },
+    "description": "可以短暂隐身躲避敌人的符箓"
+  },
+  {
+    "name": "真元丹",
+    "price": 2000,
+    "effect": {
+      "type": "buff",
+      "attribute": "attack",
+      "value": 20,
+      "duration": 3
+    },
+    "description": "临时提升攻击力的丹药,持续3次战斗"
+  },
+  {
+    "name": "金刚丸",
+    "price": 2500,
+    "effect": {
+      "type": "buff",
+      "attribute": "defense",
+      "value": 15,
+      "duration": 3
+    },
+    "description": "临时提升防御力的丹药,持续3次战斗"
+  },
+  {
+    "name": "疾风丹",
+    "price": 2200,
+    "effect": {
+      "type": "buff",
+      "attribute": "speed",
+      "value": 10,
+      "duration": 3
+    },
+    "description": "临时提升速度的丹药,持续3次战斗"
+  },
+  {
+    "name": "神识丹",
+    "price": 3000,
+    "effect": {
+      "type": "buff",
+      "attribute": "critRate",
+      "value": 10,
+      "duration": 3
+    },
+    "description": "临时提升暴击率的丹药,持续3次战斗"
+  },
+  {
+    "name": "元气丹",
+    "price": 5000,
+    "effect": {
+      "type": "buff",
+      "attribute": "all",
+      "value": 10,
+      "duration": 5
+    },
+    "description": "临时提升所有属性的珍稀丹药,持续5次战斗"
+  }
+]
