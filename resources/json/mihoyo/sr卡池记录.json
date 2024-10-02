@@ -1,9 +1,7 @@
 {
     "CurrentRole": [
-        "飞霄",
-        "卡芙卡",
-        "黑天鹅",
-        "知更鸟"
+        "灵砂",
+        "托帕&账账"
     ],
     "OtherRoles": [
         {
@@ -179,6 +177,12 @@
                     "EndTime": "2024-05-29",
                     "Version": 2.2,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-10-02",
+                    "EndTime": "2024-10-22",
+                    "Version": 2.5,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -380,6 +384,17 @@
                     "EndTime": "2024-10-02",
                     "Version": 2.5,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "灵砂",
+            "Record": [
+                {
+                    "StartTime": "2024-10-02",
+                    "EndTime": "2024-10-22",
+                    "Version": 2.5,
+                    "UpOrDown": "下"
                 }
             ]
         }
