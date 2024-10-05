@@ -11,6 +11,7 @@
             color: #ffffff;
             font-family: Arial, sans-serif;
             padding: 20px;
+            width: 1260px;
         }
 
         h1 {
@@ -50,17 +51,17 @@
 </head>
 
 <body>
-    {{each data i}}
-    <h1>{{i.name}}</h1>
+    {{each data item}}
+    <h1>{{item.name}}</h1>
     <div class="boss-container">
-        {{each i.boss_list t}}
+        {{each item.boss_list item}}
         <div class="boss">
-            <img src="{{t.icon}}" alt="BOSS头像">
-            <span>{{t.name}}</span> - 击杀数: {{t.kill_num}}
+            <img src="{{item.icon}}" alt="BOSS头像">
+            <span>{{item.name}}</span> - 击杀数: {{item.kill_num}}
         </div>
         {{/each}}
     </div>
-    {{each}}
+    {{/each}}
 </body>
 
 </html>
