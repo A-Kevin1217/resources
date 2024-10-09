@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "基尼奇",
-        "雷电将军"
+        "希诺宁",
+        "千织"
     ],
     "OtherRoles": [
         {
@@ -836,6 +836,12 @@
                     "EndTime": "2024-04-02",
                     "Version": 4.5,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-10-09",
+                    "EndTime": "2024-10-29",
+                    "Version": 5.1,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -902,6 +908,17 @@
                     "EndTime": "2024-10-08",
                     "Version": 5.0,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "希诺宁",
+            "Record": [
+                {
+                    "StartTime": "2024-10-09",
+                    "EndTime": "2024-10-29",
+                    "Version": 5.1,
+                    "UpOrDown": "上"
                 }
             ]
         }
