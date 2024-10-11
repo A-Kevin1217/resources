@@ -1,57 +1,29 @@
 {
     "items": [
         {
-            "avatar_id": 10000014,
+            "avatar_id": 10000015,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 1431,
+                    "id": 1531,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 1432,
+                    "id": 1532,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 1439,
+                    "id": 1539,
                     "level_current": 1,
                     "level_target": 10
                 }
             ],
             "weapon": {
-                "id": 13424,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000068,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 6831,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 6832,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 6839,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 14414,
+                "id": 14515,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -79,7 +51,7 @@
                 }
             ],
             "weapon": {
-                "id": 14424,
+                "id": 13501,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -107,7 +79,7 @@
                 }
             ],
             "weapon": {
-                "id": 14426,
+                "id": 13513,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -135,7 +107,7 @@
                 }
             ],
             "weapon": {
-                "id": 14515,
+                "id": 14412,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -191,7 +163,7 @@
                 }
             ],
             "weapon": {
-                "id": 14512,
+                "id": 14416,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -219,7 +191,7 @@
                 }
             ],
             "weapon": {
-                "id": 13419,
+                "id": 14424,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -247,7 +219,7 @@
                 }
             ],
             "weapon": {
-                "id": 14427,
+                "id": 14425,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -275,35 +247,7 @@
                 }
             ],
             "weapon": {
-                "id": 13416,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000067,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 6731,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 6732,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 6739,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 11413,
+                "id": 13424,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -331,259 +275,35 @@
                 }
             ],
             "weapon": {
-                "id": 12512,
+                "id": 14414,
                 "level_current": 1,
                 "level_target": 90
             }
         },
         {
-            "avatar_id": 10000088,
+            "avatar_id": 10000068,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 8831,
+                    "id": 6831,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 8832,
+                    "id": 6832,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 8839,
+                    "id": 6839,
                     "level_current": 1,
                     "level_target": 10
                 }
             ],
             "weapon": {
-                "id": 12426,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000091,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 9131,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9132,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9139,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 12424,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000093,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 9331,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9332,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9339,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 12415,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000095,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 9531,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9532,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9539,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 12414,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000097,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 9731,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9732,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9739,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 11431,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000099,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 9931,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9932,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 9939,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 11425,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000100,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 10031,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 10032,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 10039,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 11418,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000101,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 10131,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 10132,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 10139,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 11415,
-                "level_current": 1,
-                "level_target": 90
-            }
-        },
-        {
-            "avatar_id": 10000102,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 10231,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 10232,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 10239,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ],
-            "weapon": {
-                "id": 15411,
+                "id": 13419,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -611,35 +331,315 @@
                 }
             ],
             "weapon": {
-                "id": 12513,
+                "id": 12416,
                 "level_current": 1,
                 "level_target": 90
             }
         },
         {
-            "avatar_id": 10000066,
+            "avatar_id": 10000091,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 6631,
+                    "id": 9131,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 6632,
+                    "id": 9132,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 6639,
+                    "id": 9139,
                     "level_current": 1,
                     "level_target": 10
                 }
             ],
             "weapon": {
-                "id": 15413,
+                "id": 12511,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000093,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 9331,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9332,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9339,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 12431,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000095,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 9531,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9532,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9539,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 12426,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000097,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 9731,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9732,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9739,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 12301,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000099,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 9931,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9932,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 9939,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 11516,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000100,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 10031,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10032,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10039,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 11426,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000101,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 10131,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10132,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10139,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 11422,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000102,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 10231,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10232,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10239,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 11417,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000103,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 10331,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10332,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 10339,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 11407,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000088,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 8831,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 8832,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 8839,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 13414,
+                "level_current": 1,
+                "level_target": 90
+            }
+        },
+        {
+            "avatar_id": 10000067,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 6731,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 6732,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 6739,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ],
+            "weapon": {
+                "id": 15411,
                 "level_current": 1,
                 "level_target": 90
             }
@@ -662,29 +662,6 @@
                 },
                 {
                     "id": 8439,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ]
-        },
-        {
-            "avatar_id": 10000064,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 6431,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 6432,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 6439,
                     "level_current": 1,
                     "level_target": 10
                 }
@@ -714,46 +691,69 @@
             ]
         },
         {
-            "avatar_id": 10000016,
+            "avatar_id": 10000066,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 1631,
+                    "id": 6631,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 1632,
+                    "id": 6632,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 1639,
+                    "id": 6639,
                     "level_current": 1,
                     "level_target": 10
                 }
             ]
         },
         {
-            "avatar_id": 10000020,
+            "avatar_id": 10000021,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 2031,
+                    "id": 2131,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 2032,
+                    "id": 2132,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 2039,
+                    "id": 2139,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ]
+        },
+        {
+            "avatar_id": 10000022,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 2231,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 2232,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 2239,
                     "level_current": 1,
                     "level_target": 10
                 }
@@ -806,121 +806,6 @@
             ]
         },
         {
-            "avatar_id": 10000025,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 2531,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 2532,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 2539,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ]
-        },
-        {
-            "avatar_id": 10000026,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 2631,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 2632,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 2639,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ]
-        },
-        {
-            "avatar_id": 10000034,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 3431,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 3432,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 3439,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ]
-        },
-        {
-            "avatar_id": 10000038,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 3831,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 3832,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 3839,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ]
-        },
-        {
-            "avatar_id": 10000039,
-            "avatar_level_current": 1,
-            "avatar_level_target": 90,
-            "element_attr_id": 0,
-            "skill_list": [
-                {
-                    "id": 3931,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 3932,
-                    "level_current": 1,
-                    "level_target": 10
-                },
-                {
-                    "id": 3939,
-                    "level_current": 1,
-                    "level_target": 10
-                }
-            ]
-        },
-        {
             "avatar_id": 10000030,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
@@ -944,23 +829,92 @@
             ]
         },
         {
-            "avatar_id": 10000060,
+            "avatar_id": 10000032,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 6031,
+                    "id": 3231,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 6032,
+                    "id": 3232,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 6039,
+                    "id": 3239,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ]
+        },
+        {
+            "avatar_id": 10000041,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 4131,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 4132,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 4139,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ]
+        },
+        {
+            "avatar_id": 10000045,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 4531,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 4532,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 4539,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ]
+        },
+        {
+            "avatar_id": 10000046,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 4631,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 4632,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 4639,
                     "level_current": 1,
                     "level_target": 10
                 }
@@ -990,23 +944,46 @@
             ]
         },
         {
-            "avatar_id": 10000051,
+            "avatar_id": 10000020,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 5131,
+                    "id": 2031,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 5132,
+                    "id": 2032,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 5139,
+                    "id": 2039,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ]
+        },
+        {
+            "avatar_id": 10000052,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 5231,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 5232,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 5239,
                     "level_current": 1,
                     "level_target": 10
                 }
@@ -1128,56 +1105,98 @@
             ]
         },
         {
-            "avatar_id": 10000043,
+            "avatar_id": 10000060,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 4331,
+                    "id": 6031,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 4332,
+                    "id": 6032,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 4339,
+                    "id": 6039,
                     "level_current": 1,
                     "level_target": 10
                 }
             ]
         },
         {
-            "avatar_id": 10000061,
+            "avatar_id": 10000063,
             "avatar_level_current": 1,
             "avatar_level_target": 90,
             "element_attr_id": 0,
             "skill_list": [
                 {
-                    "id": 6131,
+                    "id": 6331,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 6132,
+                    "id": 6332,
                     "level_current": 1,
                     "level_target": 10
                 },
                 {
-                    "id": 6139,
+                    "id": 6339,
                     "level_current": 1,
                     "level_target": 10
                 }
-            ],
-            "weapon": {
-                "id": 11413,
-                "level_current": 1,
-                "level_target": 90
-            }
+            ]
+        },
+        {
+            "avatar_id": 10000064,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 6431,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 6432,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 6439,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ]
+        },
+        {
+            "avatar_id": 10000051,
+            "avatar_level_current": 1,
+            "avatar_level_target": 90,
+            "element_attr_id": 0,
+            "skill_list": [
+                {
+                    "id": 5131,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 5132,
+                    "level_current": 1,
+                    "level_target": 10
+                },
+                {
+                    "id": 5139,
+                    "level_current": 1,
+                    "level_target": 10
+                }
+            ]
         }
     ],
-    "region": "cn_gf01"
+    "region": "cn_gf01",
+    "uid": "209069761"
 }
