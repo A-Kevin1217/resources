@@ -402,7 +402,7 @@
                 "monthRecord": [
                     {
                         "day": 14,
-                        "name": "冷漠木士",
+                        "name": "冷漠术士",
                         "platform": "All",
                         "count": {
                             "i": 1,
@@ -915,7 +915,7 @@
                     },
                     {
                         "day": 10,
-                        "name": "偷窃邮差",
+                        "name": "偷窥邮差",
                         "platform": "All",
                         "count": {
                             "i": 1,
@@ -946,7 +946,7 @@
                 "monthRecord": [
                     {
                         "day": 10,
-                        "name": "冷漠木士",
+                        "name": "冷漠术士",
                         "platform": "All",
                         "count": {
                             "i": 2,
@@ -1340,7 +1340,7 @@
                     },
                     {
                         "day": 21,
-                        "name": "莲头青年",
+                        "name": "蓬头青年",
                         "platform": "All",
                         "count": {
                             "i": 3,
@@ -1609,7 +1609,7 @@
                     },
                     {
                         "day": 24,
-                        "name": "冷漠木士",
+                        "name": "冷漠术士",
                         "platform": "All",
                         "count": {
                             "i": 3,
@@ -1728,7 +1728,7 @@
                     },
                     {
                         "day": 30,
-                        "name": "泰然不振的士兵",
+                        "name": "萎靡不振的士兵",
                         "platform": "All",
                         "count": {
                             "i": 1,
@@ -1785,7 +1785,7 @@
                     },
                     {
                         "day": 28,
-                        "name": "天才建筑者",
+                        "name": "天才建筑师",
                         "platform": "All",
                         "count": {
                             "i": 1,
@@ -1853,7 +1853,7 @@
                     },
                     {
                         "day": 15,
-                        "name": "莲头青年",
+                        "name": "蓬头青年",
                         "platform": "All",
                         "count": {
                             "i": 4,
