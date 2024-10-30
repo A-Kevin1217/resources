@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "希诺宁",
-        "千织"
+        "纳西妲",
+        "胡桃"
     ],
     "OtherRoles": [
         {
@@ -262,6 +262,12 @@
                     "EndTime": "2023-10-17",
                     "Version": 4.1,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-10-29",
+                    "EndTime": "2024-11-19",
+                    "Version": 5.1,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -655,6 +661,12 @@
                     "EndTime": "2024-02-20",
                     "Version": 4.4,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-10-29",
+                    "EndTime": "2024-11-19",
+                    "Version": 5.1,
+                    "UpOrDown": "下"
                 }
             ]
         },

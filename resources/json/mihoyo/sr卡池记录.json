@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "灵砂",
-        "托帕&账账"
+        "乱破",
+        "丹恒•饮月"
     ],
     "OtherRoles": [
         {
@@ -125,6 +125,12 @@
                     "StartTime": "2024-02-06",
                     "EndTime": "2024-02-29",
                     "Version": 2.0,
+                    "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024=10-23",
+                    "EndTime": "2024-11-13",
+                    "Version": 2.6,
                     "UpOrDown": "上"
                 }
             ]
@@ -395,6 +401,17 @@
                     "EndTime": "2024-10-22",
                     "Version": 2.5,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "乱破",
+            "Record": [
+                {
+                    "StartTime": "2024=10-23",
+                    "EndTime": "2024-11-13",
+                    "Version": 2.6,
+                    "UpOrDown": "上"
                 }
             ]
         }
