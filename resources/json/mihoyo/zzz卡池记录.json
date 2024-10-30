@@ -1,6 +1,6 @@
 {
     "CurrentRole": [
-        "凯撒"
+        "柏妮思"
     ],
     "OtherRoles": [
         {
@@ -55,6 +55,17 @@
                     "EndTime": "2024-10-16",
                     "Version": 1.2,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "柏妮思",
+            "Record": [
+                {
+                    "StartTime": "2024-10-16",
+                    "EndTime": "2024-11-05",
+                    "Version": 1.2,
+                    "UpOrDown": "下"
                 }
             ]
         }
