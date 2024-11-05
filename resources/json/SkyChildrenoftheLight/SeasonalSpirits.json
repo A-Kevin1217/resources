@@ -77,7 +77,8 @@
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Double-Five.png",
                     "Hair/Lightseekers/Doublefive_Light_Catcher_Hair.png",
-                    "Masks/Lightseekers/Doublefive_Light_Catcher_Mask.png"
+                    "Masks/Lightseekers/Doublefive_Light_Catcher_Mask.png",
+                    "Props/Instruments/Lightseekers/Flute.png"
                 ]
             },
             {
@@ -85,7 +86,8 @@
                 "icon": [
                     "Expressions/Stances/Lightseekers/Laidback Stance.png",
                     "Masks/Lightseekers/Laidback_Pioneer_Mask.png",
-                    "Hair/Lightseekers/Laidback_Pioneer_Hair.png"
+                    "Hair/Lightseekers/Laidback_Pioneer_Hair.png",
+                    "Props/Instruments/Lightseekers/Laidback_Pioneer_Umbrella.png"
                 ]
             },
             {
@@ -93,7 +95,8 @@
                 "icon": [
                     "Expressions/Emotes/Lightseekers/Triple_Axel.png",
                     "Masks/Lightseekers/Twirling_Champion_Mask.png",
-                    "Hair/Lightseekers/Twirling_Champion_Hair.png"
+                    "Hair/Lightseekers/Twirling_Champion_Hair.png",
+                    "Props/Instruments/Lightseekers/Panflute.png"
                 ]
             },
             {
