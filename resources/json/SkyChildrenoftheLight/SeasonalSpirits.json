@@ -67,7 +67,7 @@
                 "name": "肩背追光",
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Piggyback.png",
-                    "Hats/Lightseekers/Piggyback_Lightseeker_Mask.png",
+                    "Masks/Lightseekers/Piggyback_Lightseeker_Mask.png",
                     "Capes/Lightseekers/Piggyback_Lightseeker_Cape.png"
                 ]
             },
@@ -75,28 +75,28 @@
                 "name": "击掌光农",
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Double-Five.png",
-                    "Hats/Lightseekers/Doublefive_Light_Catcher_Mask.png"
+                    "Masks/Lightseekers/Doublefive_Light_Catcher_Mask.png"
                 ]
             },
             {
                 "name": "随性拓荒者",
                 "icon": [
                     "Expressions/Stances/Lightseekers/Laidback Stance.png",
-                    "Hats/Lightseekers/Laidback_Pioneer_Mask.png"
+                    "Masks/Lightseekers/Laidback_Pioneer_Mask.png"
                 ]
             },
             {
                 "name": "螺旋舞冠",
                 "icon": [
                     "Expressions/Emotes/Lightseekers/Triple_Axel.png",
-                    "Hats/Lightseekers/Twirling_Champion_Mask.png"
+                    "Masks/Lightseekers/Twirling_Champion_Mask.png"
                 ]
             },
             {
                 "name": "蟹语者",
                 "icon": [
                     "Expressions/Calls/Lightseekers/Crab_Call.png",
-                    "Hats/Lightseekers/Crab_Whisperer_Mask.png",
+                    "Masks/Lightseekers/Crab_Whisperer_Mask.png",
                     "Capes/Lightseekers/Crab_Whisperer_Cape.png"
                 ]
             },
@@ -104,7 +104,7 @@
                 "name": "静光学者",
                 "icon": [
                     "Expressions/Emotes/Lightseekers/Shush.png",
-                    "Hats/Lightseekers/Shushing_Light_Scholar_Mask.png",
+                    "Masks/Lightseekers/Shushing_Light_Scholar_Mask.png",
                     "Capes/Lightseekers/Shushing_Light_Scholar_Cape.png"
                 ]
             }
