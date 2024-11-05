@@ -68,6 +68,7 @@
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Piggyback.png",
                     "Masks/Lightseekers/Piggyback_Lightseeker_Mask.png",
+                    "Hair/Lightseekers/Piggyback_Lightseeker_Hair.png",
                     "Capes/Lightseekers/Piggyback_Lightseeker_Cape.png"
                 ]
             },
@@ -75,6 +76,7 @@
                 "name": "击掌光农",
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Double-Five.png",
+                    "Hair/Lightseekers/Doublefive_Light_Catcher_Hair.png",
                     "Masks/Lightseekers/Doublefive_Light_Catcher_Mask.png"
                 ]
             },
@@ -82,14 +84,16 @@
                 "name": "随性拓荒者",
                 "icon": [
                     "Expressions/Stances/Lightseekers/Laidback Stance.png",
-                    "Masks/Lightseekers/Laidback_Pioneer_Mask.png"
+                    "Masks/Lightseekers/Laidback_Pioneer_Mask.png",
+                    "Hair/Lightseekers/Laidback_Pioneer_Hair.png"
                 ]
             },
             {
                 "name": "螺旋舞冠",
                 "icon": [
                     "Expressions/Emotes/Lightseekers/Triple_Axel.png",
-                    "Masks/Lightseekers/Twirling_Champion_Mask.png"
+                    "Masks/Lightseekers/Twirling_Champion_Mask.png",
+                    "Hair/Lightseekers/Twirling_Champion_Hair.png"
                 ]
             },
             {
@@ -97,6 +101,7 @@
                 "icon": [
                     "Expressions/Calls/Lightseekers/Crab_Call.png",
                     "Masks/Lightseekers/Crab_Whisperer_Mask.png",
+                    "Hair/Lightseekers/Crab_Whisperer_Hair.png",
                     "Capes/Lightseekers/Crab_Whisperer_Cape.png"
                 ]
             },
