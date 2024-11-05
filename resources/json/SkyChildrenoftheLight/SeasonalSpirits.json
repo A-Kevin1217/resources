@@ -66,37 +66,43 @@
             {
                 "name": "肩背追光",
                 "icon": [
-                    "Expressions/FriendActions/Lightseekers/Piggyback.png"
+                    "Expressions/FriendActions/Lightseekers/Piggyback.png",
+                    "Hats/Lightseekers/Piggyback_Lightseeker_Mask.png"
                 ]
             },
             {
                 "name": "击掌光农",
                 "icon": [
-                    "Expressions/FriendActions/Lightseekers/Double-Five.png"
+                    "Expressions/FriendActions/Lightseekers/Double-Five.png",
+                    "Hats/Lightseekers/Doublefive_Light_Catcher_Mask.png"
                 ]
             },
             {
                 "name": "随性拓荒者",
                 "icon": [
-                    "Expressions/Stances/Lightseekers/Laidback Stance.png"
+                    "Expressions/Stances/Lightseekers/Laidback Stance.png",
+                    "Hats/Lightseekers/Laidback_Pioneer_Mask.png"
                 ]
             },
             {
                 "name": "螺旋舞冠",
                 "icon": [
-                    "Expressions/Emotes/Lightseekers/Triple_Axel.png"
+                    "Expressions/Emotes/Lightseekers/Triple_Axel.png",
+                    "Hats/Lightseekers/Twirling_Champion_Mask.png"
                 ]
             },
             {
                 "name": "蟹语者",
                 "icon": [
-                    "Expressions/Calls/Lightseekers/Crab_Call.png"
+                    "Expressions/Calls/Lightseekers/Crab_Call.png",
+                    "Hats/Lightseekers/Crab_Whisperer_Mask.png"
                 ]
             },
             {
                 "name": "静光学者",
                 "icon": [
-                    "Expressions/Emotes/Lightseekers/Shush.png"
+                    "Expressions/Emotes/Lightseekers/Shush.png",
+                    "Hats/Lightseekers/Shushing_Light_Scholar_Mask.png"
                 ]
             }
         ]
