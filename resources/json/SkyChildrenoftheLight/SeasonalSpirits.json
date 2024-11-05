@@ -22,7 +22,9 @@
             {
                 "name": "挑衅艺伎",
                 "icon": [
-                    "Expressions/Emotes/Gratitude/Kabuki.png"
+                    "Expressions/Emotes/Gratitude/Kabuki.png",
+                    "Hair/Gratitude/Provoking_Performer_Hair.png",
+                    "Masks/Gratitude/Provoking_Performer_Mask.png"
                 ]
             },
             {
