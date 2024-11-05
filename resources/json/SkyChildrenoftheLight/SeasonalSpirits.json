@@ -49,12 +49,42 @@
         "name": "追光",
         "seasonIcon": "Necklaces/2_Lightseekers.png",
         "spirits": [
-            "肩背追光",
-            "静光学者",
-            "螺旋舞冠",
-            "蟹语者",
-            "随性拓荒者",
-            "击掌光农"
+            {
+                "name": "肩背追光",
+                "icon": [
+                    "Expressions/FriendActions/Lightseekers/Piggyback.png"
+                ]
+            },
+            {
+                "name":"击掌光农",
+                "icon": [
+                    "Expressions/FriendActions/Lightseekers/Double-Five.png"
+                ]
+            },
+            {
+                "name": "随性拓荒者",
+                "icon": [
+                    "Expressions/Stances/Lightseekers/Laidback Stance.png"
+                ]
+            },
+            {
+                "name": "螺旋舞冠",
+                "icon": [
+                    "Expressions/Emotes/Lightseekers/Triple_Axel.png"
+                ]
+            },
+            {
+                "name": "蟹语者",
+                "icon": [
+                    "Expressions/Calls/Lightseekers/Crab_Call.png"
+                ]
+            },
+            {
+                "name": "静光学者",
+                "icon": [
+                    "Expressions/Emotes/Lightseekers/Shush.png"
+                ]
+            }
         ]
     },
     {
