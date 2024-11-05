@@ -6,7 +6,7 @@
             {
                 "name": "刁蛮浪者",
                 "icon": [
-                    "Expressions/Stances/Sassy_Stance.png",
+                    "Expressions/Stances/Gratitude/Sassy_Stance.png",
                     "Hair/Sassy_Drifter_Hair.png",
                     "Masks/Sassy_Drifter_Mask.png"
                 ]
@@ -14,7 +14,7 @@
             {
                 "name": "舒展大师",
                 "icon":[
-                    "Expressions/Emotes/Yoge.png",
+                    "Expressions/Emotes/Gratitude/Yoge.png",
                     "Hair/Stretching_Guru_Hair.png",
                     "Capes/Stretching_Guru_Cape.png"
                 ]
@@ -22,25 +22,25 @@
             {
                 "name": "挑衅艺伎",
                 "icon":[
-                    "Expressions/Emotes/Kabuki.png"
+                    "Expressions/Emotes/Gratitude/Kabuki.png"
                 ]
             },
             {
                 "name": "跳跃舞者",
                 "icon":[
-                    "Expressions/Emotes/Leap.png"
+                    "Expressions/Emotes/Gratitude/Leap.png"
                 ]
             },
             {
                 "name": "敬礼护卫",
                 "icon":[
-                    "Expressions/Emotes/Acknowledge.png"
+                    "Expressions/Emotes/Gratitude/Acknowledge.png"
                 ]
             },
             {
                 "name": "拳礼武僧",
                 "icon":[
-                    "Expressions/Emotes/Kung_Fu.png"
+                    "Expressions/Emotes/Gratitude/Kung_Fu.png"
                 ]
             }
         ]
