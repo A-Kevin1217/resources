@@ -7,16 +7,16 @@
                 "name": "刁蛮浪者",
                 "icon": [
                     "Expressions/Stances/Gratitude/Sassy_Stance.png",
-                    "Hair/Sassy_Drifter_Hair.png",
-                    "Masks/Sassy_Drifter_Mask.png"
+                    "Hair/Gratitude/Sassy_Drifter_Hair.png",
+                    "Masks/Gratitude/Sassy_Drifter_Mask.png"
                 ]
             },
             {
                 "name": "舒展大师",
                 "icon": [
                     "Expressions/Emotes/Gratitude/Yoge.png",
-                    "Hair/Stretching_Guru_Hair.png",
-                    "Capes/Stretching_Guru_Cape.png"
+                    "Hair/Gratitude/Stretching_Guru_Hair.png",
+                    "Capes/Gratitude/Stretching_Guru_Cape.png"
                 ]
             },
             {
