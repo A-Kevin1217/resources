@@ -91,12 +91,42 @@
         "name": "归属",
         "seasonIcon": "Necklaces/3_Belonging.png",
         "spirits": [
-            "火花家长",
-            "彩纸表亲",
-            "不舍家长",
-            "智慧长者",
-            "蓬头青年",
-            "踏舞孩童"
+            {
+                "name": "彩纸表亲",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Confetti.png"
+                ]
+            },
+            {
+                "name": "踏舞孩童",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Boogie_Dance.png"
+                ]
+            },
+            {
+                "name": "火花家长",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Sparkler.png"
+                ]
+            },
+            {
+                "name": "智慧长者",
+                "icon": [
+                    "Expressions/Stances/Belonging/Wise_Stance.png"
+                ]
+            },
+            {
+                "name":"不舍家长",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Don't_Go!.png"
+                ]
+            },
+            {
+                "name": "蓬头青年",
+                "icon": [
+                    "Expressions/FriendActions/Belonging/Hair_Tousle.png"
+                ]
+            }
         ]
     },
     {
