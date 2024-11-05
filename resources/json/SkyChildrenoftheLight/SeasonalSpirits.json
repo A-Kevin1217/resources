@@ -5,6 +5,7 @@
         "spirits": [
             {
                 "name": "刁蛮浪者",
+                "name_en": "Sassy Drifter",
                 "icon": [
                     "Expressions/Stances/Gratitude/Sassy_Stance.png",
                     "Hair/Gratitude/Sassy_Drifter_Hair.png",
@@ -13,6 +14,7 @@
             },
             {
                 "name": "舒展大师",
+                "name_en": "Stretching Guru",
                 "icon": [
                     "Expressions/Emotes/Gratitude/Yoge.png",
                     "Hair/Gratitude/Stretching_Guru_Hair.png",
@@ -21,6 +23,7 @@
             },
             {
                 "name": "挑衅艺伎",
+                "name_en": "Provoking Performer",
                 "icon": [
                     "Expressions/Emotes/Gratitude/Kabuki.png",
                     "Hair/Gratitude/Provoking_Performer_Hair.png",
@@ -29,6 +32,7 @@
             },
             {
                 "name": "跳跃舞者",
+                "name_en": "Leaping Dancer",
                 "icon": [
                     "Expressions/Emotes/Gratitude/Leap.png",
                     "Props/Instruments/Gratitude/Small_Bel.png",
@@ -37,6 +41,7 @@
             },
             {
                 "name": "敬礼护卫",
+                "name_en": "Saluting Protector",
                 "icon": [
                     "Expressions/Emotes/Gratitude/Acknowledge.png",
                     "Capes/Gratitude/Saluting_Protector_Cape.png",
@@ -45,6 +50,7 @@
             },
             {
                 "name": "拳礼武僧",
+                "name_en": "Greeting Shaman",
                 "icon": [
                     "Expressions/Emotes/Gratitude/Kung_Fu.png",
                     "Props/Instruments/Gratitude/Large_Bell.png",
