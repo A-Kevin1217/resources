@@ -13,7 +13,7 @@
             },
             {
                 "name": "舒展大师",
-                "icon":[
+                "icon": [
                     "Expressions/Emotes/Gratitude/Yoge.png",
                     "Hair/Stretching_Guru_Hair.png",
                     "Capes/Stretching_Guru_Cape.png"
@@ -21,25 +21,25 @@
             },
             {
                 "name": "挑衅艺伎",
-                "icon":[
+                "icon": [
                     "Expressions/Emotes/Gratitude/Kabuki.png"
                 ]
             },
             {
                 "name": "跳跃舞者",
-                "icon":[
+                "icon": [
                     "Expressions/Emotes/Gratitude/Leap.png"
                 ]
             },
             {
                 "name": "敬礼护卫",
-                "icon":[
+                "icon": [
                     "Expressions/Emotes/Gratitude/Acknowledge.png"
                 ]
             },
             {
                 "name": "拳礼武僧",
-                "icon":[
+                "icon": [
                     "Expressions/Emotes/Gratitude/Kung_Fu.png"
                 ]
             }
@@ -47,7 +47,7 @@
     },
     {
         "name": "追光",
-        "seasonIcon": "Necklaces/2_Lightseekers.png",
+        "seasonIcon": "Necklaces/Lightseekers.png",
         "spirits": [
             {
                 "name": "肩背追光",
@@ -56,7 +56,7 @@
                 ]
             },
             {
-                "name":"击掌光农",
+                "name": "击掌光农",
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Double-Five.png"
                 ]
@@ -89,7 +89,7 @@
     },
     {
         "name": "归属",
-        "seasonIcon": "Necklaces/3_Belonging.png",
+        "seasonIcon": "Necklaces/Belonging.png",
         "spirits": [
             {
                 "name": "彩纸表亲",
@@ -116,7 +116,7 @@
                 ]
             },
             {
-                "name":"不舍家长",
+                "name": "不舍家长",
                 "icon": [
                     "Expressions/Emotes/Belonging/Don_t_Go!.png"
                 ]
@@ -131,14 +131,44 @@
     },
     {
         "name": "音韵",
-        "seasonIcon": "Necklaces/4_Rhythm.png",
+        "seasonIcon": "Necklaces/Rhythm.png",
         "spirits": [
-            "迎宾侍者",
-            "旋转舞者",
-            "献情演员",
-            "抛球杂耍",
-            "致敬钢琴家",
-            "沉思编导"
+            {
+                "name": "迎宾侍者",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Welcome.png"
+                ]
+            },
+            {
+                "name": "旋转舞者",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Spin_Dance.png"
+                ]
+            },
+            {
+                "name": "献情演员",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Blow_Kiss.png"
+                ]
+            },
+            {
+                "name": "抛球杂耍",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Juggle.png"
+                ]
+            },
+            {
+                "name": "致敬钢琴家",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Respect.png"
+                ]
+            },
+            {
+                "name": "沉思编导",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Thinking.png"
+                ]
+            }
         ]
     },
     {
