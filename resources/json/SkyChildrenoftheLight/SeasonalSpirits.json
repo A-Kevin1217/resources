@@ -19,10 +19,30 @@
                     "Capes/Stretching_Guru_Cape.png"
                 ]
             },
-            "挑衅艺伎",
-            "跳跃舞者",
-            "敬礼护卫",
-            "拳礼武僧"
+            {
+                "name": "挑衅艺伎",
+                "icon":[
+                    "Expressions/Emotes/Kabuki.png"
+                ]
+            },
+            {
+                "name": "跳跃舞者",
+                "icon":[
+                    "Expressions/Emotes/Leap.png"
+                ]
+            },
+            {
+                "name": "敬礼护卫",
+                "icon":[
+                    "Expressions/Stances/Acknowledge.png"
+                ]
+            },
+            {
+                "name": "拳礼武僧",
+                "icon":[
+                    "Expressions/Emotes/Kung_Fu.png"
+                ]
+            }
         ]
     },
     {
