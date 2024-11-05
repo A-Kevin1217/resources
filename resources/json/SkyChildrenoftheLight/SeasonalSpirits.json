@@ -30,19 +30,25 @@
             {
                 "name": "跳跃舞者",
                 "icon": [
-                    "Expressions/Emotes/Gratitude/Leap.png"
+                    "Expressions/Emotes/Gratitude/Leap.png",
+                    "Props/Instruments/Gratitude/Small_Bel.png",
+                    "Masks/Gratitude/Leaping_Dancer_Mask.png"
                 ]
             },
             {
                 "name": "敬礼护卫",
                 "icon": [
-                    "Expressions/Emotes/Gratitude/Acknowledge.png"
+                    "Expressions/Emotes/Gratitude/Acknowledge.png",
+                    "Capes/Gratitude/Saluting_Protector_Cape.png",
+                    "Masks/Gratitude/Saluting_Protector_Mask.png"
                 ]
             },
             {
                 "name": "拳礼武僧",
                 "icon": [
-                    "Expressions/Emotes/Gratitude/Kung_Fu.png"
+                    "Expressions/Emotes/Gratitude/Kung_Fu.png",
+                    "Props/Instruments/Gratitude/Large_Bell.png",
+                    "Masks/Gratitude/Greeting_Shaman_Mask.png"
                 ]
             }
         ]
