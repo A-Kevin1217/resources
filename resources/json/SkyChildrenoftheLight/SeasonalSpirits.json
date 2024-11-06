@@ -239,7 +239,7 @@
                 "icon": [
                     "Expressions/Emotes/Enchantment/Nod.png",
                     "Masks/Enchantment/Nodding_Muralist_Mask.png",
-                    ""
+                    "Hair/Enchantment/Nodding_Muralist_Hair.png"
                 ]
             },
             {
@@ -247,7 +247,7 @@
                 "icon": [
                     "Expressions/Emotes/Enchantment/Shrug.png",
                     "Masks/Enchantment/Indifferent_Alchemist_Mask.png",
-                    "",
+                    "Hair/Enchantment/Indifferent_Alchemist_Hair.png",
                     ""
                 ]
             },
@@ -255,7 +255,7 @@
                 "name": "蟹舞者",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Crab_Walk.png",
-                    "",
+                    "Hair/Enchantment/Crab_Walker_Hair.png",
                     ""
                 ]
             },
@@ -264,14 +264,14 @@
                 "icon": [
                     "Expressions/Emotes/Enchantment/Boo.png",
                     "Masks/Enchantment/Scarecrow_Farmer_Mask.png",
-                    ""
+                    "Hair/Enchantment/Scarecrow_Farmer_Hair.png"
                 ]
             },
             {
                 "name": "瞌睡木匠",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Doze.png",
-                    "",
+                    "Hair/Enchantment/Snoozing_Carpenter_Hair.png",
                     ""
                 ]
             },
@@ -280,7 +280,7 @@
                 "icon": [
                     "Expressions/FriendActions/Enchantment/Play_Fight.png",
                     "Masks/Enchantment/Playfighting_Herbalist_Mask.png",
-                    "",
+                    "Hair/Enchantment/Playfighting_Herbalist_Hair.png",
                     ""
                 ]
             }
