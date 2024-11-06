@@ -182,22 +182,22 @@
                 "icon": [
                     "Expressions/Emotes/Rhythm/Welcome.png",
                     "Masks/Rhythm/Troupe_Greeter_Mask.png",
-                    "Outfits/Rhythm"
+                    "Outfits/Rhythm/Troupe_Greeter_Outfit.png"
                 ]
             },
             {
                 "name": "旋转舞者",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Spin_Dance.png",
-                    "Hair/Rhythm",
-                    "Outfits/Rhythm"
+                    "Hair/Rhythm/.png",
+                    "Outfits/Rhythm/Festival_Spin_Dancer_Outfit.png"
                 ]
             },
             {
                 "name": "献情演员",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Blow_Kiss.png",
-                    "Outfits/Rhythm",
+                    "Outfits/Rhythm/Admiring_Actor_Outfit.png",
                     "Masks/Rhythm/Admiring_Actor_Mask.png"
                 ]
             },
@@ -207,7 +207,7 @@
                     "Expressions/Emotes/Rhythm/Juggle.png",
                     "Hair/Rhythm",
                     "Capes/Rhythm",
-                    "Outfits/Rhythm"
+                    "Outfits/Rhythm/Troupe_Juggler_Qutfit.png"
                 ]
             },
             {
