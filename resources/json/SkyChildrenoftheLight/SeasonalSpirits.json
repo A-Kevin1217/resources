@@ -756,10 +756,34 @@
         "name": "拾光",
         "seasonIcon": "Necklaces/Moments/Moments.png",
         "spirits": [
-            "可靠护林员",
-            "雀跃地质学家",
-            "苦行僧侣",
-            "夜鸟语者"
+            {
+                "name": "可靠护林员",
+                "name_en": "Reassuring Ranger",
+                "icon": [
+                    "Expressions/FriendActions/Moments/Side_Hug.png"
+                ]
+            },
+            {
+                "name": "雀跃地质学家",
+                "name_en": "Jolly Geologist",
+                "icon": [
+                    "Expressions/Emotes/Moments/Jolly_Dance.png"
+                ]
+            },
+            {
+                "name": "苦行僧侣",
+                "name_en": "Ascetic Monk",
+                "icon": [
+                    "Expressions/Emotes/Moments/Blindfold_Balance_Pose.png"
+                ]
+            },
+            {
+                "name": "夜鸟语者",
+                "name_en": "Nightbird Whisperer",
+                "icon": [
+                    "Expressions/Calls/Moments/Nightbird_Call.png"
+                ]
+            }
         ]
     },
     {
