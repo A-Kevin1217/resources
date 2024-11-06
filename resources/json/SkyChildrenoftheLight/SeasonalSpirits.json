@@ -189,7 +189,7 @@
                 "name": "旋转舞者",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Spin_Dance.png",
-                    "Hair/Rhythm/.png",
+                    "Hair/Rhythm/Festival_Spin_Dancer_Hair.png",
                     "Outfits/Rhythm/Festival_Spin_Dancer_Outfit.png"
                 ]
             },
@@ -205,17 +205,17 @@
                 "name": "抛球杂耍",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Juggle.png",
-                    "Hair/Rhythm",
-                    "Capes/Rhythm",
-                    "Outfits/Rhythm/Troupe_Juggler_Qutfit.png"
+                    "Hair/Rhythm/Troupe_Juggler_Hair.png",
+                    "Capes/Rhythm/Troupe_Juggler_Cape.png",
+                    "Outfits/Rhythm/Troupe_Juggler_Outfit.png"
                 ]
             },
             {
                 "name": "致敬钢琴家",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Respect.png",
-                    "Hair/Rhythm",
-                    "Props/Instruments/Rhythm/.png",
+                    "Hair/Rhythm/Respectful_Pianist_Hair.png",
+                    "Props/Instruments/Rhythm/Winter_Piano.png",
                     "Masks/Rhythm/Respectful_Pianist_Mask.png"
                 ]
             },
@@ -224,8 +224,8 @@
                 "icon": [
                     "Expressions/Emotes/Rhythm/Thinking.png",
                     "Masks/Rhythm/Thoughtful_Director_Mask.png",
-                    "Props/Instruments/Rhythm/.png",
-                    "Capes/Rhythm/.png"
+                    "Props/Instruments/Rhythm/Xylophone.png",
+                    "Capes/Rhythm/Thoughtful_Director_Cape.png"
                 ]
             }
         ]
