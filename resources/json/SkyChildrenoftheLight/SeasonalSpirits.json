@@ -1,7 +1,7 @@
 [
     {
         "name": "感恩",
-        "seasonIcon": "Necklaces/Gratitude.png",
+        "seasonIcon": "Necklaces/Gratitude/Gratitude.png",
         "spirits": [
             {
                 "name": "刁蛮浪者",
@@ -61,7 +61,7 @@
     },
     {
         "name": "追光",
-        "seasonIcon": "Necklaces/Lightseekers.png",
+        "seasonIcon": "Necklaces/Lightseekers/Lightseekers.png",
         "spirits": [
             {
                 "name": "肩背追光",
@@ -120,7 +120,7 @@
     },
     {
         "name": "归属",
-        "seasonIcon": "Necklaces/Belonging.png",
+        "seasonIcon": "Necklaces/Belonging/Belonging.png",
         "spirits": [
             {
                 "name": "彩纸表亲",
@@ -175,7 +175,7 @@
     },
     {
         "name": "音韵",
-        "seasonIcon": "Necklaces/Rhythm.png",
+        "seasonIcon": "Necklaces/Rhythm/Rhythm.png",
         "spirits": [
             {
                 "name": "迎宾侍者",
