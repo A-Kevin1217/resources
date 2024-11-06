@@ -232,14 +232,58 @@
     },
     {
         "name": "魔法",
-        "seasonIcon": "Necklaces/5_Enchantment.png",
+        "seasonIcon": "Necklaces/Enchantment/Enchantment.png",
         "spirits": [
-            "冷漠术士",
-            "稻草人农夫",
-            "情绪草药师",
-            "瞌睡木匠",
-            "蟹舞者",
-            "赞许壁画家"
+            {
+                "name": "赞许壁画家",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Nod.png",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "冷漠术士",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Shrug.png",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "蟹舞者",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Crab_Walk.png",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "稻草人农夫",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Boo.png",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "瞌睡木匠",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Doze.png",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "情绪草药师",
+                "icon": [
+                    "Expressions/FriendActions/EnchantmentPlay_Fight.png",
+                    "",
+                    "",
+                    ""
+                ]
+            }
         ]
     },
     {
