@@ -330,12 +330,32 @@
     },
     {
         "name": "预言",
-        "seasonIcon": "Necklaces/7_Prophecy.png",
+        "seasonIcon": "Necklaces/Prophecy/Prophecy.png",
         "spirits": [
-            "水先知",
-            "土先知",
-            "风先知",
-            "火先知"
+            {
+                "name": "水先知",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Deep_Breath.png"
+                ]
+            },
+            {
+                "name": "土先知",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Dust_Off.png"
+                ]
+            },
+            {
+                "name": "风先知",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Balance.png"
+                ]
+            },
+            {
+                "name": "火先知",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Chest_Pound.png"
+                ]
+            }
         ]
     },
     {
