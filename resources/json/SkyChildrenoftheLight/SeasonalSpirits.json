@@ -125,7 +125,8 @@
             {
                 "name": "彩纸表亲",
                 "icon": [
-                    "Expressions/Emotes/Belonging/Confetti.png"
+                    "Expressions/Emotes/Belonging/Confetti.png",
+                    "Capes/Belonging/Confetti_Cousin_Cape.png"
                 ]
             },
             {
@@ -143,13 +144,18 @@
             {
                 "name": "智慧长者",
                 "icon": [
-                    "Expressions/Stances/Belonging/Wise_Stance.png"
+                    "Expressions/Stances/Belonging/Wise_Stance.png",
+                    "",
+                    "Capes/Belonging/Wise_Grandparent_Cape.png"
                 ]
             },
             {
                 "name": "不舍家长",
                 "icon": [
-                    "Expressions/Emotes/Belonging/Don_t_Go!.png"
+                    "Expressions/Emotes/Belonging/Don_t_Go!.png",
+                    "",
+                    "",
+                    "Capes/Belonging/Pleaful_Parent_Cape.png"
                 ]
             },
             {
