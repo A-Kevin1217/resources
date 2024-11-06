@@ -65,6 +65,7 @@
         "spirits": [
             {
                 "name": "肩背追光",
+                "name_en": "Piggyback Lightseeker",
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Piggyback.png",
                     "Masks/Lightseekers/Piggyback_Lightseeker_Mask.png",
@@ -74,6 +75,7 @@
             },
             {
                 "name": "击掌光农",
+                "name_en": "Doublefive Light Catcher",
                 "icon": [
                     "Expressions/FriendActions/Lightseekers/Double-Five.png",
                     "Hair/Lightseekers/Doublefive_Light_Catcher_Hair.png",
@@ -83,6 +85,7 @@
             },
             {
                 "name": "随性拓荒者",
+                "name_en": "Laidback Pioneer",
                 "icon": [
                     "Expressions/Stances/Lightseekers/Laidback Stance.png",
                     "Masks/Lightseekers/Laidback_Pioneer_Mask.png",
@@ -92,6 +95,7 @@
             },
             {
                 "name": "螺旋舞冠",
+                "name_en": "Twirling Champion",
                 "icon": [
                     "Expressions/Emotes/Lightseekers/Triple_Axel.png",
                     "Masks/Lightseekers/Twirling_Champion_Mask.png",
@@ -101,6 +105,7 @@
             },
             {
                 "name": "蟹语者",
+                "name_en": "Crab Whisperer",
                 "icon": [
                     "Expressions/Calls/Lightseekers/Crab_Call.png",
                     "Masks/Lightseekers/Crab_Whisperer_Mask.png",
@@ -110,6 +115,7 @@
             },
             {
                 "name": "静光学者",
+                "name_en": "Shushing Light Scholar",
                 "icon": [
                     "Expressions/Emotes/Lightseekers/Shush.png",
                     "Masks/Lightseekers/Shushing_Light_Scholar_Mask.png",
@@ -124,6 +130,7 @@
         "spirits": [
             {
                 "name": "彩纸表亲",
+                "name_en": "Confetti Cousin",
                 "icon": [
                     "Expressions/Emotes/Belonging/Confetti.png",
                     "Capes/Belonging/Confetti_Cousin_Cape.png",
@@ -132,6 +139,7 @@
             },
             {
                 "name": "踏舞孩童",
+                "name_en": "Boogie Kid",
                 "icon": [
                     "Expressions/Emotes/Belonging/Boogie_Dance.png",
                     "Masks/Belonging/Boogie_Kid_Mask.png",
@@ -140,6 +148,7 @@
             },
             {
                 "name": "火花家长",
+                "name_en": "Sparkler Parent",
                 "icon": [
                     "Expressions/Emotes/Belonging/Sparkler.png",
                     "Masks/Belonging/Sparkler_Parent_Mask.png",
@@ -148,6 +157,7 @@
             },
             {
                 "name": "智慧长者",
+                "name_en": "Wise Grandparent",
                 "icon": [
                     "Expressions/Stances/Belonging/Wise_Stance.png",
                     "Masks/Belonging/Wise_Grandparent_Mask.png",
@@ -156,6 +166,7 @@
             },
             {
                 "name": "不舍家长",
+                "name_en": "Pleaful Parent",
                 "icon": [
                     "Expressions/Emotes/Belonging/Don_t_Go!.png",
                     "Props/Instruments/Belonging/Guitar.png",
@@ -165,6 +176,7 @@
             },
             {
                 "name": "蓬头青年",
+                "name_en": "Hairtousle Teen",
                 "icon": [
                     "Expressions/FriendActions/Belonging/Hair_Tousle.png",
                     "HeadAccessories/Belonging/Hairtousle_Teen_Earmuffs.png",
@@ -179,6 +191,7 @@
         "spirits": [
             {
                 "name": "迎宾侍者",
+                "name_en": "Troupe Greeter",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Welcome.png",
                     "Masks/Rhythm/Troupe_Greeter_Mask.png",
@@ -187,6 +200,7 @@
             },
             {
                 "name": "旋转舞者",
+                "name_en": "Festival Spin Dancer",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Spin_Dance.png",
                     "Hair/Rhythm/Festival_Spin_Dancer_Hair.png",
@@ -195,6 +209,7 @@
             },
             {
                 "name": "献情演员",
+                "name_en": "Admiring Actor",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Blow_Kiss.png",
                     "Outfits/Rhythm/Admiring_Actor_Outfit.png",
@@ -203,6 +218,7 @@
             },
             {
                 "name": "抛球杂耍",
+                "name_en": "Troupe Juggler",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Juggle.png",
                     "Hair/Rhythm/Troupe_Juggler_Hair.png",
@@ -212,6 +228,7 @@
             },
             {
                 "name": "致敬钢琴家",
+                "name_en": "Respectful Pianist",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Respect.png",
                     "Hair/Rhythm/Respectful_Pianist_Hair.png",
@@ -221,6 +238,7 @@
             },
             {
                 "name": "沉思编导",
+                "name_en": "Thoughtful Director",
                 "icon": [
                     "Expressions/Emotes/Rhythm/Thinking.png",
                     "Masks/Rhythm/Thoughtful_Director_Mask.png",
@@ -236,6 +254,7 @@
         "spirits": [
             {
                 "name": "赞许壁画家",
+                "name_en": "Nodding Muralist",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Nod.png",
                     "Masks/Enchantment/Nodding_Muralist_Mask.png",
@@ -244,6 +263,7 @@
             },
             {
                 "name": "冷漠术士",
+                "name_en": "Indifferent Alchemist",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Shrug.png",
                     "Masks/Enchantment/Indifferent_Alchemist_Mask.png",
@@ -253,6 +273,7 @@
             },
             {
                 "name": "蟹舞者",
+                "name_en": "Crab Walker",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Crab_Walk.png",
                     "Hair/Enchantment/Crab_Walker_Hair.png",
@@ -261,6 +282,7 @@
             },
             {
                 "name": "稻草人农夫",
+                "name_en": "Scarecrow Farmer",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Boo.png",
                     "Masks/Enchantment/Scarecrow_Farmer_Mask.png",
@@ -269,6 +291,7 @@
             },
             {
                 "name": "瞌睡木匠",
+                "name_en": "Snoozing Carpenter",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Doze.png",
                     "Hair/Enchantment/Snoozing_Carpenter_Hair.png",
@@ -277,6 +300,7 @@
             },
             {
                 "name": "情绪草药师",
+                "name_en": "Playfighting Herbalist",
                 "icon": [
                     "Expressions/FriendActions/Enchantment/Play_Fight.png",
                     "Masks/Enchantment/Playfighting_Herbalist_Mask.png",
@@ -292,36 +316,42 @@
         "spirits": [
             {
                 "name": "母语者",
+                "name_en": "Jelly Whisperer",
                 "icon": [
                     "Expressions/Calls/Sanctuary/Jellyfish_Call.png"
                 ]
             },
             {
                 "name": "内秀书虫",
+                "name_en": "Timid Bookworm",
                 "icon": [
                     "Expressions/Stances/Sanctuary/Timid_Stance.png"
                 ]
             },
             {
                 "name": "热血运动员",
+                "name_en": "Rallying Thrillseeker",
                 "icon": [
                     "Expressions/Emotes/Sanctuary/Rally_Cheer.png"
                 ]
             },
             {
                 "name": "固执登山者",
+                "name_en": "Hiking Grouch",
                 "icon": [
                     "Expressions/Emotes/Sanctuary/Grumpy.png"
                 ]
             },
             {
                 "name": "鸣谢收藏家",
+                "name_en": "Grateful Shell Collector",
                 "icon": [
                     "Expressions/Emotes/Sanctuary/Grateful.png"
                 ]
             },
             {
                 "name": "放松日浴者",
+                "name_en": "Chill Sunbather",
                 "icon": [
                     "Expressions/Emotes/Sanctuary/Belly_Scratch.png"
                 ]
@@ -334,24 +364,28 @@
         "spirits": [
             {
                 "name": "水先知",
+                "name_en": "Prophet of Water",
                 "icon": [
                     "Expressions/Emotes/Prophecy/Deep_Breath.png"
                 ]
             },
             {
                 "name": "土先知",
+                "name_en": "Prophet of Earth",
                 "icon": [
                     "Expressions/Emotes/Prophecy/Dust_Off.png"
                 ]
             },
             {
                 "name": "风先知",
+                "name_en": "Prophet of Air",
                 "icon": [
                     "Expressions/Emotes/Prophecy/Balance.png"
                 ]
             },
             {
                 "name": "火先知",
+                "name_en": "Prophet of Fire",
                 "icon": [
                     "Expressions/Emotes/Prophecy/Chest_Pound.png"
                 ]
@@ -364,24 +398,28 @@
         "spirits": [
             {
                 "name": "熊抱雪人",
+                "name_en": "Bearhug Hermit",
                 "icon": [
                     "Expressions/FriendActions/Dreams/Bearhug.png"
                 ]
             },
             {
                 "name": "跳舞艺人",
+                "name_en": "Dancing Performer",
                 "icon": [
                     "Expressions/Emotes/Dreams/Show_Dance.png"
                 ]
             },
             {
                 "name": "偷窥邮差",
+                "name_en": "Peeking Postman",
                 "icon": [
                     "Expressions/Emotes/Dreams/Peek.png"
                 ]
             },
             {
                 "name": "回旋大师",
+                "name_en": "Spinning Mentor",
                 "icon": [
                     "Expressions/Emotes/Dreams/Spin_Trick.png"
                 ]
