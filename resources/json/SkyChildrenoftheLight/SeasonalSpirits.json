@@ -135,7 +135,7 @@
                 "icon": [
                     "Expressions/Emotes/Belonging/Boogie_Dance.png",
                     "Masks/Belonging/Boogie_Kid_Mask.png",
-                    ""
+                    "Outfits/Belonging/Boogie_Kid_Outfit.png"
                 ]
             },
             {
@@ -158,7 +158,7 @@
                 "name": "不舍家长",
                 "icon": [
                     "Expressions/Emotes/Belonging/Don_t_Go!.png",
-                    "",
+                    "Props/Instruments/Belonging/Guitar.png",
                     "Masks/Belonging/Pleaful_Parent_Mask.png",
                     "Capes/Belonging/Pleaful_Parent_Cape.png"
                 ]
@@ -166,7 +166,9 @@
             {
                 "name": "蓬头青年",
                 "icon": [
-                    "Expressions/FriendActions/Belonging/Hair_Tousle.png"
+                    "Expressions/FriendActions/Belonging/Hair_Tousle.png",
+                    "HeadAccessories/Belonging/Hairtousle_Teen_Earmuffs.png",
+                    "Props/Instruments/Belonging/Ukulele.png"
                 ]
             }
         ]
