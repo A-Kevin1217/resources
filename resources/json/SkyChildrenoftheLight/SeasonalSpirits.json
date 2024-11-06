@@ -530,5 +530,10 @@
             "大提琴家的辉煌",
             "钢琴家的辉煌"
         ]
+    },
+    {
+        "name": "姆明",
+        "seasonIcon": "Necklaces/Moomin/Moomin.png",
+        "spirits": []
     }
 ]
