@@ -133,14 +133,16 @@
             {
                 "name": "踏舞孩童",
                 "icon": [
-                    "Expressions/Emotes/Belonging/Boogie_Dance.png"
+                    "Expressions/Emotes/Belonging/Boogie_Dance.png",
+                    "Masks/Belonging/Boogie_Kid_Mask.png",
+                    ""
                 ]
             },
             {
                 "name": "火花家长",
                 "icon": [
                     "Expressions/Emotes/Belonging/Sparkler.png",
-                    "",
+                    "Masks/Belonging/Sparkler_Parent_Mask.png",
                     "Hair/Belonging/Sparkler_Parent_Hair.png"
                 ]
             },
@@ -148,7 +150,7 @@
                 "name": "智慧长者",
                 "icon": [
                     "Expressions/Stances/Belonging/Wise_Stance.png",
-                    "",
+                    "Masks/Belonging/Wise_Grandparent_Mask.png",
                     "Capes/Belonging/Wise_Grandparent_Cape.png"
                 ]
             },
@@ -157,7 +159,7 @@
                 "icon": [
                     "Expressions/Emotes/Belonging/Don_t_Go!.png",
                     "",
-                    "",
+                    "Masks/Belonging/Pleaful_Parent_Mask.png",
                     "Capes/Belonging/Pleaful_Parent_Cape.png"
                 ]
             },
