@@ -572,6 +572,27 @@
     {
         "name": "姆明",
         "seasonIcon": "Necklaces/Moomin/Moomin.png",
-        "spirits": []
+        "spirits": [
+            {
+                "name": "善意的宽慰",
+                "name_en": "Comfort of Kindness",
+                "icon": []
+            },
+            {
+                "name": "自我的意识",
+                "name_en": "Sense of Self",
+                "icon": []
+            },
+            {
+                "name": "冒险的精神",
+                "name_en": "Spirit of Adventure",
+                "icon": []
+            },
+            {
+                "name": "包容的启示",
+                "name_en": "Inspiration of Inclusion",
+                "icon": []
+            }
+        ]
     }
 ]
