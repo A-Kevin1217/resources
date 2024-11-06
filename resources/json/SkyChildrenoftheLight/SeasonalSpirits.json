@@ -390,7 +390,7 @@
     },
     {
         "name": "集结",
-        "seasonIcon": "Necklaces/9_Assembly.png",
+        "seasonIcon": "Necklaces/Assembly/Assembly.png",
         "spirits": [
             "管事小队长",
             "白日梦森林人",
@@ -402,7 +402,7 @@
     },
     {
         "name": "小王子",
-        "seasonIcon": "Necklaces/10_Little_Prince.png",
+        "seasonIcon": "Necklaces/TheLittePrince/The_Litte_Prince.png",
         "spirits": [
             "发号施令的统治者",
             "沾沾自喜的自恋狂",
@@ -414,7 +414,7 @@
     },
     {
         "name": "风行",
-        "seasonIcon": "Necklaces/11_Flight.png",
+        "seasonIcon": "Necklaces/Flight/Flight.png",
         "spirits": [
             "风铃修补匠",
             "天才建筑师",
@@ -424,7 +424,7 @@
     },
     {
         "name": "潜海",
-        "seasonIcon": "Necklaces/Season-of-Abyss-Icon.png",
+        "seasonIcon": "Necklaces/Abyss/Abyss.png",
         "spirits": [
             "焦虑渔夫",
             "笨拙水手",
@@ -434,7 +434,7 @@
     },
     {
         "name": "表演",
-        "seasonIcon": "Necklaces/13_SOPerformance_logo.png",
+        "seasonIcon": "Necklaces/Performance/Performance.png",
         "spirits": [
             "健忘叙事者",
             "谦虚舞者",
@@ -444,7 +444,7 @@
     },
     {
         "name": "破晓",
-        "seasonIcon": "Necklaces/14_SOShattering.png",
+        "seasonIcon": "Necklaces/Shattering/Shattering.png",
         "spirits": [
             "远古光辉",
             "远古冥暗"
@@ -452,7 +452,7 @@
     },
     {
         "name": "欧若拉",
-        "seasonIcon": "Necklaces/15-Aurora.png",
+        "seasonIcon": "Necklaces/AURORA/AURORA.png",
         "spirits": [
             "爱之战士",
             "希望种子",
@@ -462,7 +462,7 @@
     },
     {
         "name": "追忆",
-        "seasonIcon": "Necklaces/16_SORemembrance_logo.png",
+        "seasonIcon": "Necklaces/Remembrance/Remembrance.png",
         "spirits": [
             "蹑足沏茶师",
             "负伤战士",
@@ -472,7 +472,7 @@
     },
     {
         "name": "夜行",
-        "seasonIcon": "Necklaces/17_SOPassage_logo.png",
+        "seasonIcon": "Necklaces/Passage/Passage.png",
         "spirits": [
             "翻滚捣蛋鬼",
             "古怪边缘人",
@@ -482,7 +482,7 @@
     },
     {
         "name": "拾光",
-        "seasonIcon": "Necklaces/Season-of-Moments-icon.png",
+        "seasonIcon": "Necklaces/Moments/Moments.png",
         "spirits": [
             "可靠护林员",
             "雀跃地质学家",
@@ -492,7 +492,7 @@
     },
     {
         "name": "归巢",
-        "seasonIcon": "Necklaces/Season-of-Revival-icon.png",
+        "seasonIcon": "Necklaces/Revival/Revival.png",
         "spirits": [
             "沙漠绿洲的余痕",
             "失落小镇的记忆",
@@ -502,7 +502,7 @@
     },
     {
         "name": "九色鹿",
-        "seasonIcon": "Necklaces/Season-of-The-Nine-Colored-Deer-icon.png",
+        "seasonIcon": "Necklaces/TheNine-ColoredDeer/TheNine-ColoredDeer.png",
         "spirits": [
             "采药人",
             "领主",
@@ -512,7 +512,7 @@
     },
     {
         "name": "筑巢",
-        "seasonIcon": "Necklaces/Season-of-Nesting-icon.png",
+        "seasonIcon": "Necklaces/Nesting/Nesting.png",
         "spirits": [
             "日光浴室",
             "小屋一隅",
@@ -522,7 +522,7 @@
     },
     {
         "name": "二重奏",
-        "seasonIcon": "Necklaces/Season-of-Duets-icon.png",
+        "seasonIcon": "Necklaces/Duets/Duets.png",
         "spirits": [
             "钢琴家的开始",
             "大提琴家的开始",
