@@ -180,37 +180,52 @@
             {
                 "name": "迎宾侍者",
                 "icon": [
-                    "Expressions/Emotes/Rhythm/Welcome.png"
+                    "Expressions/Emotes/Rhythm/Welcome.png",
+                    "Masks/Rhythm/Troupe_Greeter_Mask.png",
+                    "Outfits/Rhythm"
                 ]
             },
             {
                 "name": "旋转舞者",
                 "icon": [
-                    "Expressions/Emotes/Rhythm/Spin_Dance.png"
+                    "Expressions/Emotes/Rhythm/Spin_Dance.png",
+                    "Hair/Rhythm",
+                    "Outfits/Rhythm"
                 ]
             },
             {
                 "name": "献情演员",
                 "icon": [
-                    "Expressions/Emotes/Rhythm/Blow_Kiss.png"
+                    "Expressions/Emotes/Rhythm/Blow_Kiss.png",
+                    "Outfits/Rhythm",
+                    "Masks/Rhythm/Admiring_Actor_Mask.png"
                 ]
             },
             {
                 "name": "抛球杂耍",
                 "icon": [
-                    "Expressions/Emotes/Rhythm/Juggle.png"
+                    "Expressions/Emotes/Rhythm/Juggle.png",
+                    "Hair/Rhythm",
+                    "Capes/Rhythm",
+                    "Outfits/Rhythm"
                 ]
             },
             {
                 "name": "致敬钢琴家",
                 "icon": [
-                    "Expressions/Emotes/Rhythm/Respect.png"
+                    "Expressions/Emotes/Rhythm/Respect.png",
+                    "Hair/Rhythm",
+                    "Props/Instruments/Rhythm/.png",
+                    "Masks/Rhythm/Respectful_Pianist_Mask.png"
                 ]
             },
             {
                 "name": "沉思编导",
                 "icon": [
-                    "Expressions/Emotes/Rhythm/Thinking.png"
+                    "Expressions/Emotes/Rhythm/Thinking.png",
+                    "Masks/Rhythm/Thoughtful_Director_Mask.png",
+                    "Props/Instruments/Rhythm/.png",
+                    "Capes/Rhythm/.png"
                 ]
             }
         ]
