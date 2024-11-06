@@ -430,12 +430,40 @@
         "name": "集结",
         "seasonIcon": "Necklaces/Assembly/Assembly.png",
         "spirits": [
-            "管事小队长",
-            "白日梦森林人",
-            "茫然植物学生",
-            "胆小鬼学员",
-            "正步冒险家",
-            "傻笑童子军"
+            {
+                "name": "茫然植物学生",
+                "name_en": "Baffled Botanist",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Facepalm.png"
+                ]
+            },
+            {
+                "name": "管事小队长",
+                "name_en": "Scolding Student",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Scold.png"
+                ]
+            },
+            {
+                "name": "胆小鬼学员",
+                "name_en": "Scaredy Cadet",
+                "icon": ["Expressions/Emotes/Assembly/Eww.png"]
+            },
+            {
+                "name": "正步冒险家",
+                "name_en": "Marching Adventurer",
+                "icon": ["Expressions/Emotes/Assembly/Marching.png"]
+            },
+            {
+                "name": "傻笑童子军",
+                "name_en": "Chuckling Scout",
+                "icon": ["Expressions/Emotes/Assembly/Chuckle.png"]
+            },
+            {
+                "name": "白日梦森林人",
+                "name_en": "Daydream Forester",
+                "icon": ["Expressions/Emotes/Assembly/Bubbles.png"]
+            }
         ]
     },
     {
