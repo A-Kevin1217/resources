@@ -628,38 +628,128 @@
         "name": "破晓",
         "seasonIcon": "Necklaces/Shattering/Shattering.png",
         "spirits": [
-            "远古光辉",
-            "远古冥暗"
+            {
+                "name": "远古光辉 (水母)",
+                "name_en": "Ancient Light (Jellyfish)",
+                "icon": []
+            },
+            {
+                "name": "远古光辉 (魔鬼鱼)",
+                "name_en": "Ancient Light (Manta)",
+                "icon": []
+            },
+            {
+                "name": "远古冥暗 (龙)",
+                "name_en": "Ancient Darkness (Dragon)",
+                "icon": []
+            },
+            {
+                "name": "远古冥暗 (植物)",
+                "name_en": "Ancient Darkness (Plants)",
+                "icon": []
+            }
         ]
     },
     {
         "name": "欧若拉",
         "seasonIcon": "Necklaces/AURORA/AURORA.png",
         "spirits": [
-            "爱之战士",
-            "希望种子",
-            "奔跑旅人",
-            "警觉矿工"
+            {
+                "name": "奔跑旅人",
+                "name_en": "Running Wayfarer",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Waving_Light.png"
+                ]
+            },
+            {
+                "name": "警觉矿工",
+                "name_en": "Mindful Miner",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Raise_the_Roof.png"
+                ]
+            },
+            {
+                "name": "爱之战士",
+                "name_en": "Warrior of Love",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Twir.png"
+                ]
+            },
+            {
+                "name": "希望种子",
+                "name_en": "Seed of Hope",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Rhythmic_Clap.png"
+                ]
+            }
         ]
     },
     {
         "name": "追忆",
         "seasonIcon": "Necklaces/Remembrance/Remembrance.png",
         "spirits": [
-            "蹑足沏茶师",
-            "负伤战士",
-            "乞求孩童",
-            "丧子老兵"
+            {
+                "name": "丧子老兵",
+                "name_en": "Bereft Veteran",
+                "icon": [
+                    "Expressions/Emotes/Remembrance/Grieving.png"
+                ]
+            },
+            {
+                "name": "乞求孩童",
+                "name_en": "Pleading Child",
+                "icon": [
+                    "Expressions/Emotes/Remembrance/Pleading.png"
+                ]
+            },
+            {
+                "name": "蹑足沏茶师",
+                "name_en": "Tiptoeing Tea-Brewer",
+                "icon": [
+                    "Expressions/Emotes/Remembrance/Tiptoeing.png"
+                ]
+            },
+            {
+                "name": "负伤战士",
+                "name_en": "Wounded Warrior",
+                "icon": [
+                    "Expressions/Stances/Remembrance/Injured_Stance.png"
+                ]
+            }
         ]
     },
     {
         "name": "夜行",
         "seasonIcon": "Necklaces/Passage/Passage.png",
         "spirits": [
-            "翻滚捣蛋鬼",
-            "古怪边缘人",
-            "活跃优等生",
-            "忧郁自艾者"
+            {
+                "name": "古怪边缘人",
+                "name_en": "Oddball Outcast",
+                "icon": [
+                    "Expressions/Emotes/Passage/Hacky_sack.png"
+                ]
+            },
+            {
+                "name": "翻滚捣蛋鬼",
+                "name_en": "Tumbling Troublemaker",
+                "icon": [
+                    "Expressions/Emotes/Passage/Somersault.png"
+                ]
+            },
+            {
+                "name": "忧郁自艾者",
+                "name_en": "Melancholy Mope",
+                "icon": [
+                    "Expressions/Emotes/Passage/Moping.png"
+                ]
+            },
+            {
+                "name": "活跃优等生",
+                "name_en": "Overactive Overachiever",
+                "icon": [
+                    "Expressions/Emotes/Passage/Pull-up.png"
+                ]
+            }
         ]
     },
     {
