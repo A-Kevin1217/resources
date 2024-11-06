@@ -790,20 +790,60 @@
         "name": "归巢",
         "seasonIcon": "Necklaces/Revival/Revival.png",
         "spirits": [
-            "沙漠绿洲的余痕",
-            "失落小镇的记忆",
-            "被遗弃之处的回响",
-            "被遗弃的天堂一隅"
+            {
+                "name": "沙漠绿洲的余痕",
+                "name_en": "Vestige of a Deserted Oasis",
+                "icon": []
+            },
+            {
+                "name": "失落小镇的记忆",
+                "name_en": "Memory of a Lost Village",
+                "icon": []
+            },
+            {
+                "name": "被遗弃之处的回响",
+                "name_en": "Echo of an Abandoned Refuge",
+                "icon": []
+            },
+            {
+                "name": "被遗弃的天堂一隅",
+                "name_en": "Remnant of a Forgotten Haven",
+                "icon": []
+            }
         ]
     },
     {
         "name": "九色鹿",
         "seasonIcon": "Necklaces/TheNine-ColoredDeer/TheNine-ColoredDeer.png",
         "spirits": [
-            "采药人",
-            "领主",
-            "猎手",
-            "公主"
+            {
+                "name": "采药人",
+                "name_en": "Herb Gatherer",
+                "icon": [
+                    "Expressions/Emotes/TheNine-ColoredDeer/Whistle.png"
+                ]
+            },
+            {
+                "name": "猎手",
+                "name_en": "Hunter",
+                "icon": [
+                    "Expressions/Emotes/TheNine-ColoredDeer/Flex.png"
+                ]
+            },
+            {
+                "name": "领主",
+                "name_en": "Feudal Lord",
+                "icon": [
+                    "Expressions/FriendActions/TheNine-ColoredDeer/Cradle_Carry.png"
+                ]
+            },
+            {
+                "name": "公主",
+                "name_en": "Princess",
+                "icon": [
+                    "Expressions/Emotes/TheNine-ColoredDeer/Float_Spin.png"
+                ]
+            }
         ]
     },
     {
