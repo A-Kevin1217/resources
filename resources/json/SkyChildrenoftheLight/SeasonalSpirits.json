@@ -238,7 +238,7 @@
                 "name": "赞许壁画家",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Nod.png",
-                    "",
+                    "Masks/Enchantment/Nodding_Muralist_Mask.png",
                     ""
                 ]
             },
@@ -246,7 +246,7 @@
                 "name": "冷漠术士",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Shrug.png",
-                    "",
+                    "Masks/Enchantment/Indifferent_Alchemist_Mask.png",
                     "",
                     ""
                 ]
@@ -263,7 +263,7 @@
                 "name": "稻草人农夫",
                 "icon": [
                     "Expressions/Emotes/Enchantment/Boo.png",
-                    "",
+                    "Masks/Enchantment/Scarecrow_Farmer_Mask.png",
                     ""
                 ]
             },
@@ -278,8 +278,8 @@
             {
                 "name": "情绪草药师",
                 "icon": [
-                    "Expressions/FriendActions/EnchantmentPlay_Fight.png",
-                    "",
+                    "Expressions/FriendActions/Enchantment/Play_Fight.png",
+                    "Masks/Enchantment/Playfighting_Herbalist_Mask.png",
                     "",
                     ""
                 ]
