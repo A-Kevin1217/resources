@@ -594,10 +594,34 @@
         "name": "表演",
         "seasonIcon": "Necklaces/Performance/Performance.png",
         "spirits": [
-            "健忘叙事者",
-            "谦虚舞者",
-            "老练音乐家",
-            "忙碌舞台管理员"
+            {
+                "name": "忙碌舞台管理员",
+                "name_en": "Frantic Stagehand",
+                "icon": [
+                    "Expressions/FriendActions/Performance/Handshake.png"
+                ]
+            },
+            {
+                "name": "健忘叙事者",
+                "name_en": "Forgetful Storyteller",
+                "icon": [
+                    "Expressions/Emotes/Performance/Awww.png"
+                ]
+            },
+            {
+                "name": "老练音乐家",
+                "name_en": "Mellow Musician",
+                "icon": [
+                    "Expressions/Emotes/Performance/.png"
+                ]
+            },
+            {
+                "name": "谦虚舞者",
+                "name_en": "Modest Dancer",
+                "icon": [
+                    "Expressions/FriendActions/Performance/Duet_Dance.png"
+                ]
+            }
         ]
     },
     {
