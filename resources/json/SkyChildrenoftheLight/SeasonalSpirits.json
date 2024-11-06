@@ -288,14 +288,44 @@
     },
     {
         "name": "圣岛",
-        "seasonIcon": "Necklaces/6_Sanctuary.png",
+        "seasonIcon": "Necklaces/Sanctuary/Sanctuary.png",
         "spirits": [
-            "母语者",
-            "内秀书虫",
-            "热血运动员",
-            "鸣谢收藏家",
-            "固执登山者",
-            "放松日浴者"
+            {
+                "name": "母语者",
+                "icon": [
+                    "Expressions/Calls/Sanctuary/Jellyfish_Call.png"
+                ]
+            },
+            {
+                "name": "内秀书虫",
+                "icon": [
+                    "Expressions/Stances/Sanctuary/Timid_Stance.png"
+                ]
+            },
+            {
+                "name": "热血运动员",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Rally_Cheer.png"
+                ]
+            },
+            {
+                "name": "固执登山者",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Grumpy.png"
+                ]
+            },
+            {
+                "name": "鸣谢收藏家",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Grateful.png"
+                ]
+            },
+            {
+                "name": "放松日浴者",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Belly_Scratch.png"
+                ]
+            }
         ]
     },
     {
