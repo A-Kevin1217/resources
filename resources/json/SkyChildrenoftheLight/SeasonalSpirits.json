@@ -560,10 +560,34 @@
         "name": "潜海",
         "seasonIcon": "Necklaces/Abyss/Abyss.png",
         "spirits": [
-            "焦虑渔夫",
-            "笨拙水手",
-            "威严舰长",
-            "嬉笑炮手"
+            {
+                "name": "焦虑渔夫",
+                "name_en": "Anxious Angler",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Anxious.png"
+                ]
+            },
+            {
+                "name": "威严舰长",
+                "name_en": "Ceasing Commodore",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Calm_Down.png"
+                ]
+            },
+            {
+                "name": "笨拙水手",
+                "name_en": "Bumbling Boatswain",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Oush.png"
+                ]
+            },
+            {
+                "name": "嬉笑炮手",
+                "name_en": "Cackling Cannoneer",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Evil_Laugh.png"
+                ]
+            }
         ]
     },
     {
