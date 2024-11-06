@@ -526,10 +526,34 @@
         "name": "风行",
         "seasonIcon": "Necklaces/Flight/Flight.png",
         "spirits": [
-            "风铃修补匠",
-            "天才建筑师",
-            "风行领航员",
-            "光之低语者"
+            {
+                "name": "风行领航员",
+                "name_en": "Lively Navigator",
+                "icon": [
+                    "Expressions/Emotes/Flight/Navigate.png"
+                ]
+            },
+            {
+                "name": "光之低语者",
+                "name_en": "Light Whisperer",
+                "icon": [
+                    "Expressions/Calls/Flight/Baby_Manta_Call.png"
+                ]
+            },
+            {
+                "name": "风铃修补匠",
+                "name_en": "Tinkering Chimesmith",
+                "icon": [
+                    "Expressions/Stances/Flight/Tinker_Stance.png"
+                ]
+            },
+            {
+                "name": "天才建筑师",
+                "name_en": "Talented Builder",
+                "icon": [
+                    "Expressions/Emotes/Flight/Voilà.png"
+                ]
+            }
         ]
     },
     {
