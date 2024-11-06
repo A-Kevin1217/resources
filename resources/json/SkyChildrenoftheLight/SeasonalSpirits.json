@@ -126,7 +126,8 @@
                 "name": "彩纸表亲",
                 "icon": [
                     "Expressions/Emotes/Belonging/Confetti.png",
-                    "Capes/Belonging/Confetti_Cousin_Cape.png"
+                    "Capes/Belonging/Confetti_Cousin_Cape.png",
+                    "Hair/Belonging/Confetti_Cousin_Hair.png"
                 ]
             },
             {
@@ -138,7 +139,9 @@
             {
                 "name": "火花家长",
                 "icon": [
-                    "Expressions/Emotes/Belonging/Sparkler.png"
+                    "Expressions/Emotes/Belonging/Sparkler.png",
+                    "",
+                    "Hair/Belonging/Sparkler_Parent_Hair.png"
                 ]
             },
             {
