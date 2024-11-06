@@ -447,22 +447,30 @@
             {
                 "name": "胆小鬼学员",
                 "name_en": "Scaredy Cadet",
-                "icon": ["Expressions/Emotes/Assembly/Eww.png"]
+                "icon": [
+                    "Expressions/Emotes/Assembly/Eww.png"
+                ]
             },
             {
                 "name": "正步冒险家",
                 "name_en": "Marching Adventurer",
-                "icon": ["Expressions/Emotes/Assembly/Marching.png"]
+                "icon": [
+                    "Expressions/Emotes/Assembly/Marching.png"
+                ]
             },
             {
                 "name": "傻笑童子军",
                 "name_en": "Chuckling Scout",
-                "icon": ["Expressions/Emotes/Assembly/Chuckle.png"]
+                "icon": [
+                    "Expressions/Emotes/Assembly/Chuckle.png"
+                ]
             },
             {
                 "name": "白日梦森林人",
                 "name_en": "Daydream Forester",
-                "icon": ["Expressions/Emotes/Assembly/Bubbles.png"]
+                "icon": [
+                    "Expressions/Emotes/Assembly/Bubbles.png"
+                ]
             }
         ]
     },
@@ -470,12 +478,48 @@
         "name": "小王子",
         "seasonIcon": "Necklaces/TheLittePrince/The_Litte_Prince.png",
         "spirits": [
-            "发号施令的统治者",
-            "沾沾自喜的自恋狂",
-            "萎靡不振的士兵",
-            "星光收藏家",
-            "被逼无奈的掌灯人",
-            "打喷嚏的地理学家"
+            {
+                "name": "发号施令的统治者",
+                "name_en": "Beckoning Ruler",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Beckon.png"
+                ]
+            },
+            {
+                "name": "沾沾自喜的自恋狂",
+                "name_en": "Gloating Narcissist",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Gloat.png"
+                ]
+            },
+            {
+                "name": "被逼无奈的掌灯人",
+                "name_en": "Stretching Lamplighter",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Stretch.png"
+                ]
+            },
+            {
+                "name": "萎靡不振的士兵",
+                "name_en": "Slouching Soldier",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Slouch.png"
+                ]
+            },
+            {
+                "name": "打喷嚏的地理学家",
+                "name_en": "Sneezing Geographer",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Sneeze.png"
+                ]
+            },
+            {
+                "name": "星光收藏家",
+                "name_en": "Star Collector",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Hand-Rub.png"
+                ]
+            }
         ]
     },
     {
