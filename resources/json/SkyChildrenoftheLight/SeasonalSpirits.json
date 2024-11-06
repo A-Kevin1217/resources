@@ -360,12 +360,32 @@
     },
     {
         "name": "梦想",
-        "seasonIcon": "Necklaces/8_Dreams.png",
+        "seasonIcon": "Necklaces/Dreams/Dreams.png",
         "spirits": [
-            "跳舞艺人",
-            "回旋大师",
-            "熊抱雪人",
-            "偷窥邮差"
+            {
+                "name": "熊抱雪人",
+                "icon": [
+                    "Expressions/FriendActions/Dreams/Bearhug.png"
+                ]
+            },
+            {
+                "name": "跳舞艺人",
+                "icon": [
+                    "Expressions/Emotes/Dreams/Show_Dance.png"
+                ]
+            },
+            {
+                "name": "偷窥邮差",
+                "icon": [
+                    "Expressions/Emotes/Dreams/Peek.png"
+                ]
+            },
+            {
+                "name": "回旋大师",
+                "icon": [
+                    "Expressions/Emotes/Dreams/Spin_Trick.png"
+                ]
+            }
         ]
     },
     {
