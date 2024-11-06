@@ -248,7 +248,7 @@
                     "Expressions/Emotes/Enchantment/Shrug.png",
                     "Masks/Enchantment/Indifferent_Alchemist_Mask.png",
                     "Hair/Enchantment/Indifferent_Alchemist_Hair.png",
-                    ""
+                    "Capes/Enchantment/Indifferent_Alchemist_Cape.png"
                 ]
             },
             {
@@ -256,7 +256,7 @@
                 "icon": [
                     "Expressions/Emotes/Enchantment/Crab_Walk.png",
                     "Hair/Enchantment/Crab_Walker_Hair.png",
-                    ""
+                    "Capes/Enchantment/Crab_Walker_Cape.png"
                 ]
             },
             {
@@ -272,7 +272,7 @@
                 "icon": [
                     "Expressions/Emotes/Enchantment/Doze.png",
                     "Hair/Enchantment/Snoozing_Carpenter_Hair.png",
-                    ""
+                    "Capes/Enchantment/Snoozing_Carpenter_Cape.png"
                 ]
             },
             {
@@ -281,7 +281,7 @@
                     "Expressions/FriendActions/Enchantment/Play_Fight.png",
                     "Masks/Enchantment/Playfighting_Herbalist_Mask.png",
                     "Hair/Enchantment/Playfighting_Herbalist_Hair.png",
-                    ""
+                    "Capes/Enchantment/Playfighting_Herbalist_Cape.png"
                 ]
             }
         ]
