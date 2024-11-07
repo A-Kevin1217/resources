@@ -1,6 +1,7 @@
 [
     {
         "name": "感恩",
+        "name_en": "Gratitude",
         "seasonIcon": "Necklaces/Gratitude/Gratitude.png",
         "spirits": [
             {
@@ -61,6 +62,7 @@
     },
     {
         "name": "追光",
+        "name_en": "Lightseekers",
         "seasonIcon": "Necklaces/Lightseekers/Lightseekers.png",
         "spirits": [
             {
@@ -126,6 +128,7 @@
     },
     {
         "name": "归属",
+        "name_en": "Belonging",
         "seasonIcon": "Necklaces/Belonging/Belonging.png",
         "spirits": [
             {
@@ -187,6 +190,7 @@
     },
     {
         "name": "音韵",
+        "name_en": "Rhythm",
         "seasonIcon": "Necklaces/Rhythm/Rhythm.png",
         "spirits": [
             {
@@ -250,6 +254,7 @@
     },
     {
         "name": "魔法",
+        "name_en": "Enchantment",
         "seasonIcon": "Necklaces/Enchantment/Enchantment.png",
         "spirits": [
             {
@@ -312,48 +317,63 @@
     },
     {
         "name": "圣岛",
+        "name_en": "Sanctuary",
         "seasonIcon": "Necklaces/Sanctuary/Sanctuary.png",
         "spirits": [
             {
                 "name": "母语者",
                 "name_en": "Jelly Whisperer",
                 "icon": [
-                    "Expressions/Calls/Sanctuary/Jellyfish_Call.png"
+                    "Expressions/Calls/Sanctuary/Jellyfish_Call.png",
+                    "Hair/Sanctuary/Jelly_Whisperer_Hair.png",
+                    "Outfits/Sanctuary/Jelly_Whisperer_Qutfit.png"
                 ]
             },
             {
                 "name": "内秀书虫",
                 "name_en": "Timid Bookworm",
                 "icon": [
-                    "Expressions/Stances/Sanctuary/Timid_Stance.png"
+                    "Expressions/Stances/Sanctuary/Timid_Stance.png",
+                    "Hair/Sanctuary/Timid_Bookworm_Hair.png",
+                    "Capes/Sanctuary/Timid_Bookworm_Cape.png"
                 ]
             },
             {
                 "name": "热血运动员",
                 "name_en": "Rallying Thrillseeker",
                 "icon": [
-                    "Expressions/Emotes/Sanctuary/Rally_Cheer.png"
+                    "Expressions/Emotes/Sanctuary/Rally_Cheer.png",
+                    "Hair/Sanctuary/Rallying_Thrillseeker_Hair.png",
+                    "Outfits/Sanctuary/Rallying_Thrillseeker_Outfit.png"
                 ]
             },
             {
                 "name": "固执登山者",
                 "name_en": "Hiking Grouch",
                 "icon": [
-                    "Expressions/Emotes/Sanctuary/Grumpy.png"
+                    "Expressions/Emotes/Sanctuary/Grumpy.png",
+                    "Masks/Sanctuary/Hiking_Grouch_Mask.png",
+                    "Hair/Sanctuary/Hiking_Grouch_Hair.png",
+                    "Necklaces/Sanctuary/Hiking_Grouch_Bowtie.png"
                 ]
             },
             {
                 "name": "鸣谢收藏家",
                 "name_en": "Grateful Shell Collector",
                 "icon": [
-                    "Expressions/Emotes/Sanctuary/Grateful.png"
+                    "Expressions/Emotes/Sanctuary/Grateful.png",
+                    "Hair/Sanctuary/Grateful_Shell_Collector_Hair.png",
+                    "Capes/Sanctuary/Grateful_Shell_Collector_Cape.png"
                 ]
             },
             {
                 "name": "放松日浴者",
                 "name_en": "Chill Sunbather",
                 "icon": [
-                    "Expressions/Emotes/Sanctuary/Belly_Scratch.png"
+                    "Expressions/Emotes/Sanctuary/Belly_Scratch.png",
+                    "FaceAccessories/Sanctuary/Chill_Sunbather_Sunglasses.png",
+                    "HairAccessories/Sanctuary/Chill_Sunbather_Hat.png",
+                    "Capes/Sanctuary/Chill_Sunbather_Cape.png"
                 ]
             }
         ]
