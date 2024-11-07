@@ -850,21 +850,57 @@
         "name": "筑巢",
         "seasonIcon": "Necklaces/Nesting/Nesting.png",
         "spirits": [
-            "日光浴室",
-            "小屋一隅",
-            "云中楼阁",
-            "小屋庭院"
+            {
+                "name": "小屋一隅",
+                "name_en": "Nesting Nook",
+                "icon": []
+            },
+            {
+                "name": "日光浴室",
+                "name_en": "Nesting Solarium",
+                "icon": []
+            },
+            {
+                "name": "小屋庭院",
+                "name_en": "Nesting Atrium",
+                "icon": []
+            },
+            {
+                "name": "云中楼阁",
+                "name_en": "Nesting Loft",
+                "icon": []
+            }
         ]
     },
     {
         "name": "二重奏",
         "seasonIcon": "Necklaces/Duets/Duets.png",
         "spirits": [
-            "钢琴家的开始",
-            "大提琴家的开始",
-            "音乐家的遗产",
-            "大提琴家的辉煌",
-            "钢琴家的辉煌"
+            {
+                "name": "钢琴家的开始",
+                "name_en": "The Pianist's Beginnings",
+                "icon": []
+            },
+            {
+                "name": "大提琴家的开始",
+                "name_en": "The Cellist's Beginnings",
+                "icon": []
+            },
+            {
+                "name": "音乐家的遗产",
+                "name_en": "The Musician's Legacy",
+                "icon": []
+            },
+            {
+                "name": "大提琴家的辉煌",
+                "name_en": "The Pianist's Flourishing",
+                "icon": []
+            },
+            {
+                "name": "钢琴家的辉煌",
+                "name_en": "The Cellist's Flourishing",
+                "icon": []
+            }
         ]
     },
     {
