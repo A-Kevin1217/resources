@@ -380,7 +380,7 @@
     },
     {
         "name": "预言",
-        "name_en":"Prophecy",
+        "name_en": "Prophecy",
         "seasonIcon": "Necklaces/Prophecy/Prophecy.png",
         "spirits": [
             {
@@ -427,6 +427,7 @@
     },
     {
         "name": "梦想",
+        "name_en": "Dreams",
         "seasonIcon": "Necklaces/Dreams/Dreams.png",
         "spirits": [
             {
