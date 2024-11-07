@@ -380,34 +380,47 @@
     },
     {
         "name": "预言",
+        "name_en":"Prophecy",
         "seasonIcon": "Necklaces/Prophecy/Prophecy.png",
         "spirits": [
             {
                 "name": "水先知",
                 "name_en": "Prophet of Water",
                 "icon": [
-                    "Expressions/Emotes/Prophecy/Deep_Breath.png"
+                    "Expressions/Emotes/Prophecy/Deep_Breath.png",
+                    "Hair/Prophecy/Prophet_of_Water_Hair.png",
+                    "Capes/Prophecy/Prophet_of_Water_Cape.png",
+                    "Masks/Prophecy/Prophet_of_Water_Mask.png"
                 ]
             },
             {
                 "name": "土先知",
                 "name_en": "Prophet of Earth",
                 "icon": [
-                    "Expressions/Emotes/Prophecy/Dust_Off.png"
+                    "Expressions/Emotes/Prophecy/Dust_Off.png",
+                    "Hair/Prophecy/Prophet_of_Earth_Hair.png",
+                    "Capes/Prophecy/Prophet_of_Earth_Cape.png",
+                    "Masks/Prophecy/Prophet_of_Earth_Mask.png"
                 ]
             },
             {
                 "name": "风先知",
                 "name_en": "Prophet of Air",
                 "icon": [
-                    "Expressions/Emotes/Prophecy/Balance.png"
+                    "Expressions/Emotes/Prophecy/Balance.png",
+                    "Hair/Prophecy/Prophet_of_Air_Hair.png",
+                    "Masks/Prophecy/Prophet_of_Air_Mask.png",
+                    "Capes/Prophecy/Prophet_of_Air_Cape.png"
                 ]
             },
             {
                 "name": "火先知",
                 "name_en": "Prophet of Fire",
                 "icon": [
-                    "Expressions/Emotes/Prophecy/Chest_Pound.png"
+                    "Expressions/Emotes/Prophecy/Chest_Pound.png",
+                    "Hair/Prophecy/Prophet_of_Fire_Hair.png",
+                    "Masks/Prophecy/Prophet_of_Fire_Mask.png",
+                    "Outfits/Prophecy/Prophet_of_Fire_Qutfit.png"
                 ]
             }
         ]
