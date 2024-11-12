@@ -612,7 +612,8 @@
                 "icon": [
                     "Expressions/Emotes/Flight/Navigate.png",
                     "Hair/Flight/Lively_Navigator_Hair.png",
-                    "HairAccessories/Flight/Lively_Navigator_Hat.png"
+                    "HairAccessories/Flight/Lively_Navigator_Hat.png",
+                    "Capes/Flight/Lively_Navigator_Cape.png"
                 ]
             },
             {
@@ -621,7 +622,8 @@
                 "icon": [
                     "Expressions/Calls/Flight/Baby_Manta_Call.png",
                     "HairAccessories/Flight/Light_Whisperer_Hat.png",
-                    "Hair/Flight/Light_Whisperer_Hair.png"
+                    "Hair/Flight/Light_Whisperer_Hair.png",
+                    "Capes/Flight/Light_Whisperer_Cape.png"
                 ]
             },
             {
