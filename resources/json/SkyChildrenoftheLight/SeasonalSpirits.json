@@ -475,48 +475,64 @@
     },
     {
         "name": "集结",
+        "name_en": "Assembly",
         "seasonIcon": "Necklaces/Assembly/Assembly.png",
         "spirits": [
             {
                 "name": "茫然植物学生",
                 "name_en": "Baffled Botanist",
                 "icon": [
-                    "Expressions/Emotes/Assembly/Facepalm.png"
+                    "Expressions/Emotes/Assembly/Facepalm.png",
+                    "Hair/Assembly/Baffled_Botanist_Hair.png",
+                    "Masks/Assembly/Baffled_Botanist_Mask.png",
+                    "Props/LargeProps/Assembly/Baffled_Botanist_Prop.png"
                 ]
             },
             {
                 "name": "管事小队长",
                 "name_en": "Scolding Student",
                 "icon": [
-                    "Expressions/Emotes/Assembly/Scold.png"
+                    "Expressions/Emotes/Assembly/Scold.png",
+                    "Masks/Assembly/Scolding_Student_Mask.png",
+                    "Hair/Assembly/Scolding_Student_Hair.png"
                 ]
             },
             {
                 "name": "胆小鬼学员",
                 "name_en": "Scaredy Cadet",
                 "icon": [
-                    "Expressions/Emotes/Assembly/Eww.png"
+                    "Expressions/Emotes/Assembly/Eww.png",
+                    "Masks/Assembly/Scaredy_Cadet_Mask.png",
+                    "Hair/Assembly/Scaredy_Cadet_Hair.png",
+                    "Props/LargeProps/Assembly/Scaredy_Cadet_Hammock.png"
                 ]
             },
             {
                 "name": "正步冒险家",
                 "name_en": "Marching Adventurer",
                 "icon": [
-                    "Expressions/Emotes/Assembly/Marching.png"
+                    "Expressions/Emotes/Assembly/Marching.png",
+                    "Hair/Assembly/Marching_Adventurer_Hair.png",
+                    "Masks/Assembly/Marching_Adventurer_Mask.png",
+                    "Props/LargeProps/Assembly/Marching_Adventurer_Tiki_Torch.png"
                 ]
             },
             {
                 "name": "傻笑童子军",
                 "name_en": "Chuckling Scout",
                 "icon": [
-                    "Expressions/Emotes/Assembly/Chuckle.png"
+                    "Expressions/Emotes/Assembly/Chuckle.png",
+                    "Masks/Assembly/Chuckling_Scout_Mask.png",
+                    "Props/LargeProps/Assembly/Chuckling_Scout_Prop.png"
                 ]
             },
             {
                 "name": "白日梦森林人",
                 "name_en": "Daydream Forester",
                 "icon": [
-                    "Expressions/Emotes/Assembly/Bubbles.png"
+                    "Expressions/Emotes/Assembly/Bubbles.png",
+                    "Masks/Assembly/Daydream_Forester_Mask.png",
+                    "Hair/Assembly/Daydream_Forester_Hair.png"
                 ]
             }
         ]
