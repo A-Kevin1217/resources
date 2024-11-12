@@ -434,28 +434,41 @@
                 "name": "熊抱雪人",
                 "name_en": "Bearhug Hermit",
                 "icon": [
-                    "Expressions/FriendActions/Dreams/Bearhug.png"
+                    "Expressions/FriendActions/Dreams/Bearhug.png",
+                    "HeadAccessories/Dreams/Bearhug_Hermit_Horns.png",
+                    "Hair/Dreams/Bearhug_Hermit_Hair.png",
+                    "Outfits/Dreams/Bearhug_Hermit_Outfit.png"
                 ]
             },
             {
                 "name": "跳舞艺人",
                 "name_en": "Dancing Performer",
                 "icon": [
-                    "Expressions/Emotes/Dreams/Show_Dance.png"
+                    "Expressions/Emotes/Dreams/Show_Dance.png",
+                    "Hair/Dreams/Dancing_Performer_Hair.png",
+                    "Masks/Dreams/Dancing_Performer_Mask.png",
+                    "Capes/Dreams/Dancing_Performer_Cape.png",
+                    "Props/Instruments/Dreams/Lute.png"
                 ]
             },
             {
                 "name": "偷窥邮差",
                 "name_en": "Peeking Postman",
                 "icon": [
-                    "Expressions/Emotes/Dreams/Peek.png"
+                    "Expressions/Emotes/Dreams/Peek.png",
+                    "Outfits/Dreams/Peeking_Postman_Outfit.png",
+                    "Masks/Dreams/Peeking_Postman_Mask.png",
+                    "Capes/Dreams/Peeking_Postman_Cape.png"
                 ]
             },
             {
                 "name": "回旋大师",
                 "name_en": "Spinning Mentor",
                 "icon": [
-                    "Expressions/Emotes/Dreams/Spin_Trick.png"
+                    "Expressions/Emotes/Dreams/Spin_Trick.png",
+                    "Hair/Dreams/Spinning_Mentor_Hair.png",
+                    "Masks/Dreams/Spinning_Mentor_Mask.png",
+                    "Capes/Dreams/Spinning_Mentor_Cape.png"
                 ]
             }
         ]
