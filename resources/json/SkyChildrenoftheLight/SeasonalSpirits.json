@@ -594,7 +594,9 @@
                 "name_en": "Star Collector",
                 "icon": [
                     "Expressions/Emotes/TheLittePrince/Hand-Rub.png",
-                    "Capes/TheLittePrince/Star_Collector_Cape.png"
+                    "Necklaces/TheLittePrince/Star_Collector_Necklace.png",
+                    "Capes/TheLittePrince/Star_Collector_Cape.png",
+                    "Props/LargeProps/TheLittePrince/Star_Collector_Prop.png"
                 ]
             }
         ]
