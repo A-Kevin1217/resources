@@ -558,6 +558,7 @@
                 "name_en": "Gloating Narcissist",
                 "icon": [
                     "Expressions/Emotes/TheLittePrince/Gloat.png",
+                    "Outfits/TheLittePrince/Gloating_Narcissist_Outfit.png",
                     "Hair/TheLittePrince/Gloating_Narcissist_Hair.png"
                 ]
             },
@@ -566,7 +567,8 @@
                 "name_en": "Stretching Lamplighter",
                 "icon": [
                     "Expressions/Emotes/TheLittePrince/Stretch.png",
-                    "Hair/TheLittePrince/Stretching_Lamplighter_Hair.png"
+                    "Hair/TheLittePrince/Stretching_Lamplighter_Hair.png",
+                    "Capes/TheLittePrince/Stretching_Lamplighter_Cape.png"
                 ]
             },
             {
@@ -574,7 +576,8 @@
                 "name_en": "Slouching Soldier",
                 "icon": [
                     "Expressions/Emotes/TheLittePrince/Slouch.png",
-                    "Hair/TheLittePrince/Slouching_Soldier_Hair.png"
+                    "Hair/TheLittePrince/Slouching_Soldier_Hair.png",
+                    "Capes/TheLittePrince/Slouching_Soldier_Cape.png"
                 ]
             },
             {
@@ -582,14 +585,16 @@
                 "name_en": "Sneezing Geographer",
                 "icon": [
                     "Expressions/Emotes/TheLittePrince/Sneeze.png",
-                    "Hair/TheLittePrince/Sneezing_Geographer_Hair.png"
+                    "Hair/TheLittePrince/Sneezing_Geographer_Hair.png",
+                    "Capes/TheLittePrince/Sneezing_Geographer_Cape.png"
                 ]
             },
             {
                 "name": "星光收藏家",
                 "name_en": "Star Collector",
                 "icon": [
-                    "Expressions/Emotes/TheLittePrince/Hand-Rub.png"
+                    "Expressions/Emotes/TheLittePrince/Hand-Rub.png",
+                    "Capes/TheLittePrince/Star_Collector_Cape.png"
                 ]
             }
         ]
