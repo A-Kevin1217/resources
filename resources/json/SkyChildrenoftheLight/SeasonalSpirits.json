@@ -652,34 +652,48 @@
     },
     {
         "name": "潜海",
+        "name_en": "Abyss",
         "seasonIcon": "Necklaces/Abyss/Abyss.png",
         "spirits": [
             {
                 "name": "焦虑渔夫",
                 "name_en": "Anxious Angler",
                 "icon": [
-                    "Expressions/Emotes/Abyss/Anxious.png"
+                    "Expressions/Emotes/Abyss/Anxious.png",
+                    "Masks/Abyss/Anxious_Angler_Mask.png",
+                    "Hair/Abyss/Anxious_Angler_Hair.png",
+                    "Capes/Abyss/Anxious_Angler_Cape.png",
+                    "Outfits/Abyss/Anxious_Angler_Outfit.png"
                 ]
             },
             {
                 "name": "威严舰长",
                 "name_en": "Ceasing Commodore",
                 "icon": [
-                    "Expressions/Emotes/Abyss/Calm_Down.png"
+                    "Expressions/Emotes/Abyss/Calm_Down.png",
+                    "Hair/Abyss/Ceasing_Commodore_Hair.png",
+                    "Masks/Abyss/Ceasing_Commodore_Mask.png",
+                    "Capes/Abyss/Ceasing_Commodore_Cape.png"
                 ]
             },
             {
                 "name": "笨拙水手",
                 "name_en": "Bumbling Boatswain",
                 "icon": [
-                    "Expressions/Emotes/Abyss/Oush.png"
+                    "Expressions/Emotes/Abyss/Oush.png",
+                    "Masks/Abyss/Bumbling_Boatswain_Mask.png",
+                    "Capes/Abyss/Bumbling_Boatswain_Cape.png",
+                    "HairAccessories/Abyss/Bumbling_Boatswain_Hat.png"
                 ]
             },
             {
                 "name": "嬉笑炮手",
                 "name_en": "Cackling Cannoneer",
                 "icon": [
-                    "Expressions/Emotes/Abyss/Evil_Laugh.png"
+                    "Expressions/Emotes/Abyss/Evil_Laugh.png",
+                    "Masks/Abyss/Cackling_Cannoneer_Mask.png",
+                    "Capes/Abyss/Cackling_Cannoneer_Cape.png",
+                    "Hair/Abyss/Cackling_Cannoneer_Hair.png"
                 ]
             }
         ]
