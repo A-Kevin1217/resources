@@ -494,7 +494,8 @@
                 "icon": [
                     "Expressions/Emotes/Assembly/Scold.png",
                     "Masks/Assembly/Scolding_Student_Mask.png",
-                    "Hair/Assembly/Scolding_Student_Hair.png"
+                    "Hair/Assembly/Scolding_Student_Hair.png",
+                    "Capes/Assembly/Scolding_Student_Cape.png"
                 ]
             },
             {
@@ -523,6 +524,7 @@
                 "icon": [
                     "Expressions/Emotes/Assembly/Chuckle.png",
                     "Masks/Assembly/Chuckling_Scout_Mask.png",
+                    "Outfits/Assembly/Chuckling_Scout_Outfit.png",
                     "Props/LargeProps/Assembly/Chuckling_Scout_Prop.png"
                 ]
             },
