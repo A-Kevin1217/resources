@@ -603,34 +603,46 @@
     },
     {
         "name": "风行",
+        "name_en": "Flight",
         "seasonIcon": "Necklaces/Flight/Flight.png",
         "spirits": [
             {
                 "name": "风行领航员",
                 "name_en": "Lively Navigator",
                 "icon": [
-                    "Expressions/Emotes/Flight/Navigate.png"
+                    "Expressions/Emotes/Flight/Navigate.png",
+                    "Hair/Flight/Lively_Navigator_Hair.png",
+                    "HairAccessories/Flight/Lively_Navigator_Hat.png"
                 ]
             },
             {
                 "name": "光之低语者",
                 "name_en": "Light Whisperer",
                 "icon": [
-                    "Expressions/Calls/Flight/Baby_Manta_Call.png"
+                    "Expressions/Calls/Flight/Baby_Manta_Call.png",
+                    "HairAccessories/Flight/Light_Whisperer_Hat.png",
+                    "Hair/Flight/Light_Whisperer_Hair.png"
                 ]
             },
             {
                 "name": "风铃修补匠",
                 "name_en": "Tinkering Chimesmith",
                 "icon": [
-                    "Expressions/Stances/Flight/Tinker_Stance.png"
+                    "Expressions/Stances/Flight/Tinker_Stance.png",
+                    "",
+                    "HairAccessories/Flight/Tinkering_Chimesmith_Hat.png",
+                    "",
+                    "Hair/Flight/Tinkering_Chimesmith_Hair.png"
                 ]
             },
             {
                 "name": "天才建筑师",
                 "name_en": "Talented Builder",
                 "icon": [
-                    "Expressions/Emotes/Flight/Voilà.png"
+                    "Expressions/Emotes/Flight/Voilà.png",
+                    "",
+                    "",
+                    "Hair/Flight/Talented_Builder_Hair.png"
                 ]
             }
         ]
