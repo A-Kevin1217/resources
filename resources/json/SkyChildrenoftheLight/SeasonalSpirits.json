@@ -623,7 +623,8 @@
                     "Expressions/Calls/Flight/Baby_Manta_Call.png",
                     "HairAccessories/Flight/Light_Whisperer_Hat.png",
                     "Hair/Flight/Light_Whisperer_Hair.png",
-                    "Capes/Flight/Light_Whisperer_Cape.png"
+                    "Capes/Flight/Light_Whisperer_Cape.png",
+                    "Outfits/Flight/Light_Whisperer_Outfit.png"
                 ]
             },
             {
@@ -631,9 +632,9 @@
                 "name_en": "Tinkering Chimesmith",
                 "icon": [
                     "Expressions/Stances/Flight/Tinker_Stance.png",
-                    "",
+                    "Outfits/Flight/Tinkering_Chimesmith_Outfit.png",
                     "HairAccessories/Flight/Tinkering_Chimesmith_Hat.png",
-                    "",
+                    "Props/Instruments/Flight/Kalimba.png",
                     "Hair/Flight/Tinkering_Chimesmith_Hair.png"
                 ]
             },
@@ -642,8 +643,8 @@
                 "name_en": "Talented Builder",
                 "icon": [
                     "Expressions/Emotes/Flight/Voilà.png",
-                    "",
-                    "",
+                    "Necklaces/Flight/Talented_Builder_Necklace.png",
+                    "Outfits/Flight/Talented_Builder_Outfit.png",
                     "Hair/Flight/Talented_Builder_Hair.png"
                 ]
             }
