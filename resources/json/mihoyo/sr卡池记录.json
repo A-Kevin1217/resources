@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "乱破",
-        "丹恒•饮月"
+        "黄泉",
+        "砂金"
     ],
     "OtherRoles": [
         {
@@ -296,6 +296,12 @@
                     "EndTime": "2024-04-17",
                     "Version": 2.1,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-11-13",
+                    "EndTime": "2024-12-03",
+                    "Version": 2.6,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -306,6 +312,12 @@
                     "StartTime": "2024-04-17",
                     "EndTime": "2024-05-07",
                     "Version": 2.1,
+                    "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-11-13",
+                    "EndTime": "2024-12-03",
+                    "Version": 2.6,
                     "UpOrDown": "下"
                 }
             ]
