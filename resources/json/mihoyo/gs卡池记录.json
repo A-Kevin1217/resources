@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "纳西妲",
-        "胡桃"
+        "恰斯卡",
+        "林尼"
     ],
     "OtherRoles": [
         {
@@ -764,6 +764,12 @@
                     "EndTime": "2024-05-14",
                     "Version": 4.6,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-11-20",
+                    "EndTime": "2024-12-10",
+                    "Version": 5.2,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -930,6 +936,17 @@
                     "StartTime": "2024-10-09",
                     "EndTime": "2024-10-29",
                     "Version": 5.1,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "恰斯卡",
+            "Record": [
+                {
+                    "StartTime": "2024-11-20",
+                    "EndTime": "2024-12-10",
+                    "Version": 5.2,
                     "UpOrDown": "上"
                 }
             ]
