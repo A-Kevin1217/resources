@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "黄泉",
-        "砂金"
+        "星期日",
+        "景元"
     ],
     "OtherRoles": [
         {
@@ -35,6 +35,12 @@
                     "EndTime": "2024-03-26",
                     "Version": 2.0,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-12-04",
+                    "EndTime": "2024-12-25",
+                    "Version": 2.7,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -426,6 +432,18 @@
                     "UpOrDown": "上"
                 }
             ]
+        },
+        {
+            "name": "星期日",
+            "Record": [
+                {
+                    "StartTime": "2024-12-04",
+                    "EndTime": "2024-12-25",
+                    "Version": 2.7,
+                    "UpOrDown": "上"
+                }
+            ]
         }
+
     ]
 }

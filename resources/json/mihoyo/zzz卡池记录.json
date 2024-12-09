@@ -1,6 +1,6 @@
 {
     "CurrentRole": [
-        "柳"
+        "莱特"
     ],
     "OtherRoles": [
         {
@@ -77,6 +77,17 @@
                     "EndTime": "2024-11-27",
                     "Version": 1.3,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name":"莱特",
+            "Record": [
+                {
+                    "StartTime": "2024-11-27",
+                    "EndTime": "2024-12-17",
+                    "Version": 1.3,
+                    "UpOrDown": "下"
                 }
             ]
         }
