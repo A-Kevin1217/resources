@@ -54,5 +54,31 @@
         "秋宵节",
         "时装节",
         "恶作剧之日"
+    ],
+    "家具": [
+        {
+            "name": "Stone Kitchen Drawers",
+            "type": "LargeProps",
+            "price": 25,
+            "currencyType": 1
+        },
+        {
+            "name": "Stone Coffee Table",
+            "type": "LargeProps",
+            "price": 28,
+            "currencyType": 3
+        },
+        {
+            "name": "",
+            "type": "LargeProps",
+            "price": 16,
+            "currencyType": 3
+        },
+        {
+            "name": "Medium Striped Rug",
+            "type": "SmallProps",
+            "price": 50,
+            "currencyType": 1
+        }
     ]
 }
