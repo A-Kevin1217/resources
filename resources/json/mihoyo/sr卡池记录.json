@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "星期日",
-        "景元"
+        "忘归人",
+        "流萤"
     ],
     "OtherRoles": [
         {
@@ -364,6 +364,12 @@
                     "EndTime": "2024-07-10",
                     "Version": 2.3,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-12-25",
+                    "EndTime": "2025-01-14",
+                    "Version": 2.7,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -443,7 +449,17 @@
                     "UpOrDown": "上"
                 }
             ]
+        },
+        {
+            "name": "忘归人",
+            "Record": [
+                {
+                    "StartTime": "2024-12-25",
+                    "EndTime": "2025-01-14",
+                    "Version": 2.7,
+                    "UpOrDown": "下"
+                }
+            ]
         }
-
     ]
 }
