@@ -2,6 +2,16 @@
     {
         "name": "感恩",
         "name_en": "Gratitude",
+        "time": [
+            {
+                "S": "2019-06-21",
+                "E": "2019-08-19"
+            },
+            {
+                "S": "2019-07-19",
+                "E": "2019-09-02"
+            }
+        ],
         "seasonIcon": "Necklaces/Gratitude/Gratitude.png",
         "spirits": [
             {
@@ -63,6 +73,16 @@
     {
         "name": "追光",
         "name_en": "Lightseekers",
+        "time": [
+            {
+                "S": "2019-10-10",
+                "E": "2019-12-04"
+            },
+            {
+                "S": "2019-09-23",
+                "E": "2019-11-10"
+            }
+        ],
         "seasonIcon": "Necklaces/Lightseekers/Lightseekers.png",
         "spirits": [
             {
@@ -129,6 +149,16 @@
     {
         "name": "归属",
         "name_en": "Belonging",
+        "time": [
+            {
+                "S": "2019-12-19",
+                "E": "2020-02-07"
+            },
+            {
+                "S": "2019-11-18",
+                "E": "2020-01-12"
+            }
+        ],
         "seasonIcon": "Necklaces/Belonging/Belonging.png",
         "spirits": [
             {
@@ -191,6 +221,16 @@
     {
         "name": "音韵",
         "name_en": "Rhythm",
+        "time": [
+            {
+                "S": "2020-03-12",
+                "E": "2020-05-21"
+            },
+            {
+                "S": "2020-01-24",
+                "E": "2020-04-05"
+            }
+        ],
         "seasonIcon": "Necklaces/Rhythm/Rhythm.png",
         "spirits": [
             {
@@ -255,6 +295,16 @@
     {
         "name": "魔法",
         "name_en": "Enchantment",
+        "time": [
+            {
+                "S": "2020-05-28",
+                "E": "2020-08-05"
+            },
+            {
+                "S": "2020-04-20",
+                "E": "2020-06-21"
+            }
+        ],
         "seasonIcon": "Necklaces/Enchantment/Enchantment.png",
         "spirits": [
             {
@@ -318,6 +368,16 @@
     {
         "name": "圣岛",
         "name_en": "Sanctuary",
+        "time": [
+            {
+                "S": "2020-09-03",
+                "E": "2020-11-12"
+            },
+            {
+                "S": "2020-07-13",
+                "E": "2020-09-21"
+            }
+        ],
         "seasonIcon": "Necklaces/Sanctuary/Sanctuary.png",
         "spirits": [
             {
@@ -381,6 +441,16 @@
     {
         "name": "预言",
         "name_en": "Prophecy",
+        "time": [
+            {
+                "S": "2020-11-26",
+                "E": "2021-02-03"
+            },
+            {
+                "S": "2020-10-05",
+                "E": "2020-12-13"
+            }
+        ],
         "seasonIcon": "Necklaces/Prophecy/Prophecy.png",
         "spirits": [
             {
@@ -428,6 +498,16 @@
     {
         "name": "梦想",
         "name_en": "Dreams",
+        "time": [
+            {
+                "S": "2021-02-06",
+                "E": "2021-04-16"
+            },
+            {
+                "S": "2021-01-04",
+                "E": "2021-03-15"
+            }
+        ],
         "seasonIcon": "Necklaces/Dreams/Dreams.png",
         "spirits": [
             {
@@ -476,6 +556,16 @@
     {
         "name": "集结",
         "name_en": "Assembly",
+        "time": [
+            {
+                "S": "2021-04-28",
+                "E": "2021-07-13"
+            },
+            {
+                "S": "2021-04-05",
+                "E": "2021-06-13"
+            }
+        ],
         "seasonIcon": "Necklaces/Assembly/Assembly.png",
         "spirits": [
             {
@@ -542,6 +632,16 @@
     {
         "name": "小王子",
         "name_en": "TheLittePrince",
+        "time": [
+            {
+                "S": "2021-07-20",
+                "E": "2021-10-13"
+            },
+            {
+                "S": "2021-07-06",
+                "E": "2021-09-19"
+            }
+        ],
         "seasonIcon": "Necklaces/TheLittePrince/The_Litte_Prince.png",
         "spirits": [
             {
@@ -604,6 +704,16 @@
     {
         "name": "风行",
         "name_en": "Flight",
+        "time": [
+            {
+                "S": "2021-10-14",
+                "E": "2022-01-05"
+            },
+            {
+                "S": "2021-10-04",
+                "E": "2021-12-19"
+            }
+        ],
         "seasonIcon": "Necklaces/Flight/Flight.png",
         "spirits": [
             {
@@ -653,6 +763,16 @@
     {
         "name": "潜海",
         "name_en": "Abyss",
+        "time": [
+            {
+                "S": "2022-01-20",
+                "E": "2022-04-13"
+            },
+            {
+                "S": "2022-01-17",
+                "E": "2022-03-27"
+            }
+        ],
         "seasonIcon": "Necklaces/Abyss/Abyss.png",
         "spirits": [
             {
@@ -700,6 +820,17 @@
     },
     {
         "name": "表演",
+        "name_en": "Performance",
+        "time": [
+            {
+                "S": "2022-04-28",
+                "E": "2022-07-20"
+            },
+            {
+                "S": "2022-04-11",
+                "E": "2022-06-26"
+            }
+        ],
         "seasonIcon": "Necklaces/Performance/Performance.png",
         "spirits": [
             {
@@ -734,6 +865,17 @@
     },
     {
         "name": "破晓",
+        "name_en": "Shattering",
+        "time": [
+            {
+                "S": "2022-08-05",
+                "E": "2022-10-30"
+            },
+            {
+                "S": "2022-07-11",
+                "E": "2022-09-26"
+            }
+        ],
         "seasonIcon": "Necklaces/Shattering/Shattering.png",
         "spirits": [
             {
@@ -760,6 +902,17 @@
     },
     {
         "name": "欧若拉",
+        "name_en": "AURORA",
+        "time": [
+            {
+                "S": "2022-11-03",
+                "E": "2023-01-15"
+            },
+            {
+                "S": "2022-10-17",
+                "E": "2023-01-02"
+            }
+        ],
         "seasonIcon": "Necklaces/AURORA/AURORA.png",
         "spirits": [
             {
@@ -794,6 +947,17 @@
     },
     {
         "name": "追忆",
+        "name_en": "Remembrance",
+        "time": [
+            {
+                "S": "2023-01-19",
+                "E": "2023-04-19"
+            },
+            {
+                "S": "2023-01-16",
+                "E": "2023-04-02"
+            }
+        ],
         "seasonIcon": "Necklaces/Remembrance/Remembrance.png",
         "spirits": [
             {
@@ -828,6 +992,17 @@
     },
     {
         "name": "夜行",
+        "name_en": "Passage",
+        "time": [
+            {
+                "S": "2023-04-27",
+                "E": "2023-07-19"
+            },
+            {
+                "S": "2023-04-17",
+                "E": "2023-07-02"
+            }
+        ],
         "seasonIcon": "Necklaces/Passage/Passage.png",
         "spirits": [
             {
@@ -862,6 +1037,17 @@
     },
     {
         "name": "拾光",
+        "name_en": "Moments",
+        "time": [
+            {
+                "S": "2023-07-27",
+                "E": "2023-10-11"
+            },
+            {
+                "S": "2023-07-17",
+                "E": "2023-10-01"
+            }
+        ],
         "seasonIcon": "Necklaces/Moments/Moments.png",
         "spirits": [
             {
@@ -896,6 +1082,17 @@
     },
     {
         "name": "归巢",
+        "name_en": "Revival",
+        "time": [
+            {
+                "S": "2023-10-19",
+                "E": "2024-01-10"
+            },
+            {
+                "S": "2023-10-16",
+                "E": "2023-12-31"
+            }
+        ],
         "seasonIcon": "Necklaces/Revival/Revival.png",
         "spirits": [
             {
@@ -922,6 +1119,17 @@
     },
     {
         "name": "九色鹿",
+        "name_en": "TheNine-ColoredDeer",
+        "time": [
+            {
+                "S": "2024-01-15",
+                "E": "2024-04-07"
+            },
+            {
+                "S": "2024-01-15",
+                "E": "2024-03-31"
+            }
+        ],
         "seasonIcon": "Necklaces/TheNine-ColoredDeer/TheNine-ColoredDeer.png",
         "spirits": [
             {
@@ -956,6 +1164,17 @@
     },
     {
         "name": "筑巢",
+        "name_en": "Nesting",
+        "time": [
+            {
+                "S": "2024-04-25",
+                "E": "2024-07-17"
+            },
+            {
+                "S": "2024-04-15",
+                "E": "2024-06-30"
+            }
+        ],
         "seasonIcon": "Necklaces/Nesting/Nesting.png",
         "spirits": [
             {
@@ -982,6 +1201,17 @@
     },
     {
         "name": "二重奏",
+        "name_en": "Duets",
+        "time": [
+            {
+                "S": "2024-07-23",
+                "E": "2024-10-07"
+            },
+            {
+                "S": "2024-07-15",
+                "E": "2024-09-29"
+            }
+        ],
         "seasonIcon": "Necklaces/Duets/Duets.png",
         "spirits": [
             {
@@ -1013,6 +1243,17 @@
     },
     {
         "name": "姆明",
+        "name_en": "Moomin",
+        "time": [
+            {
+                "S": "2024-10-18",
+                "E": "2025-01-06"
+            },
+            {
+                "S": "2024-10-14",
+                "E": "2024-12-29"
+            }
+        ],
         "seasonIcon": "Necklaces/Moomin/Moomin.png",
         "spirits": [
             {
@@ -1035,6 +1276,26 @@
                 "name_en": "Inspiration of Inclusion",
                 "icon": []
             }
+        ]
+    },
+    {
+        "name": "彩染",
+        "name_en": "",
+        "time": [
+            {
+                "S": "2025-01-21",
+                "E": false
+            },
+            {
+                "S": false,
+                "E": false
+            }
+        ],
+        "seasonIcon": "Necklaces//.png",
+        "spirits": [
+            {},
+            {},
+            {}
         ]
     }
 ]
