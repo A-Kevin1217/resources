@@ -1297,21 +1297,34 @@
                 "name": "",
                 "name_en": "Rediance Leaping Dancet",
                 "icon": [
-                    "Expressions/Emotes/Radiance/Cartwheel.png"
+                    "Expressions/Emotes/Radiance/Cartwheel.png",
+                    "Hair/Radiance/Radiance_Leaping Dancer_Hair.png",
+                    "Props/Instruments/Radiance/Cymbals.png",
+                    "Outfits/Radiance/Radiance_Leaping_Dancer_Outfit.png",
+                    "Capes/Radiance/Radiance_Leaping_Dancer_Cape.png",
+                    "Shoes/Radiance/Radiance_Leaping_Dancer_Shoes.png"
                 ]
             },
             {
                 "name": "",
                 "name_en": "Rediance Provoking Performer",
                 "icon": [
-                    "Expressions/Emotes/Radiance/Hype_Dance.png"
+                    "Expressions/Emotes/Radiance/Hype_Dance.png",
+                    "HeadAccessories/Radiance/Radiance_Provoking_Performer_Head_Accessory.png",
+                    "Props/SmallProps/Radiance/Radiance_Leaping_Dancer_Prop.png",
+                    "Outfits/Radiance/Radiance_Provoking_Performer_Qutfit.png",
+                    "Capes/Radiance/Radiance_Provoking_Performer_Cape.png",
+                    "Shoes/Radiance/Radiance_Provoking_Performer_Shoes.png"
                 ]
             },
             {
                 "name": "",
                 "name_en": "Rediance Greeting Shaman",
                 "icon": [
-                    "Expressions/Emotes/Radiance/Heart_Gesture.png"
+                    "Expressions/Emotes/Radiance/Heart_Gesture.png",
+                    "HairAccessories/Radiance/Radiance_Greeting Shaman_Hair_Accessory.png",
+                    "Hair/Radiance/Radiance_Greeting Shaman_Hair.png",
+                    "Outfits/Radiance/Radiance_Greeting_Shaman_Outfit.png"
                 ]
             }
         ]
