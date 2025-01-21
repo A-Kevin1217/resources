@@ -1280,7 +1280,7 @@
     },
     {
         "name": "彩染",
-        "name_en": "",
+        "name_en": "Radiance",
         "time": [
             {
                 "S": "2025-01-21",
@@ -1291,22 +1291,28 @@
                 "E": "2025-04-07"
             }
         ],
-        "seasonIcon": "Necklaces//.png",
+        "seasonIcon": "Necklaces/Radiance/Radiance.png",
         "spirits": [
             {
                 "name": "",
-                "name_en": "",
-                "icon": []
+                "name_en": "Rediance Leaping Dancet",
+                "icon": [
+                    "Expressions/Emotes/Radiance/Cartwheel.png"
+                ]
             },
             {
                 "name": "",
-                "name_en": "",
-                "icon": []
+                "name_en": "Rediance Provoking Performer",
+                "icon": [
+                    "Expressions/Emotes/Radiance/Hype_Dance.png"
+                ]
             },
             {
                 "name": "",
-                "name_en": "",
-                "icon": []
+                "name_en": "Rediance Greeting Shaman",
+                "icon": [
+                    "Expressions/Emotes/Radiance/Heart_Gesture.png"
+                ]
             }
         ]
     }
