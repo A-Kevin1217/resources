@@ -1294,7 +1294,7 @@
         "seasonIcon": "Necklaces/Radiance/Radiance.png",
         "spirits": [
             {
-                "name": "",
+                "name": "跃动舞者",
                 "name_en": "Rediance Leaping Dancet",
                 "icon": [
                     "Expressions/Emotes/Radiance/Cartwheel.png",
@@ -1306,7 +1306,7 @@
                 ]
             },
             {
-                "name": "",
+                "name": "热情舞者",
                 "name_en": "Rediance Provoking Performer",
                 "icon": [
                     "Expressions/Emotes/Radiance/Hype_Dance.png",
@@ -1318,7 +1318,7 @@
                 ]
             },
             {
-                "name": "",
+                "name": "问候舞者",
                 "name_en": "Rediance Greeting Shaman",
                 "icon": [
                     "Expressions/Emotes/Radiance/Heart_Gesture.png",
