@@ -837,28 +837,42 @@
                 "name": "忙碌舞台管理员",
                 "name_en": "Frantic Stagehand",
                 "icon": [
-                    "Expressions/FriendActions/Performance/Handshake.png"
+                    "Expressions/FriendActions/Performance/Handshake.png",
+                    "Hair/Performance/Frantic_Stagehand_Hair.png",
+                    "Masks/Performance/Frantic_Stagehand_Mask.png",
+                    "Outfits/Performance/Frantic_Stagehand_Outfit.png"
                 ]
             },
             {
                 "name": "健忘叙事者",
                 "name_en": "Forgetful Storyteller",
                 "icon": [
-                    "Expressions/Emotes/Performance/Awww.png"
+                    "Expressions/Emotes/Performance/Awww.png",
+                    "Masks/Performance/Forgetful_Storyteller_Mask.png",
+                    "Hair/Performance/Forgetful_Storyteller_Hair.png",
+                    "Outfits/Performance/Forgetful_Storyteller_Outfit.png",
+                    "Capes/Performance/Forgetful_Storyteller_Cape.png"
                 ]
             },
             {
                 "name": "老练音乐家",
                 "name_en": "Mellow Musician",
                 "icon": [
-                    "Expressions/Emotes/Performance/.png"
+                    "Expressions/Emotes/Performance/Headbob.png",
+                    "Masks/Performance/Mellow_Musician_Mask.png",
+                    "Capes/Performance/Mellow_Musician_Cape.png",
+                    "Props/Instruments/Performance/Electric_Guitar.png",
+                    "Hair/Performance/Mellow_Musician_Hair.png"
                 ]
             },
             {
                 "name": "谦虚舞者",
                 "name_en": "Modest Dancer",
                 "icon": [
-                    "Expressions/FriendActions/Performance/Duet_Dance.png"
+                    "Expressions/FriendActions/Performance/Duet_Dance.png",
+                    "Masks/Performance/Modest_Dancer_Mask.png",
+                    "Outfits/Performance/Modest_Dancer_Outfit.png",
+                    "Hair/Performance/Modest_Dancer_Hair.png"
                 ]
             }
         ]
