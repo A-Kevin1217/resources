@@ -1,7 +1,6 @@
 {
     "CurrentRole": [
-        "星见雅",
-        "浅羽悠真"
+        "伊芙琳"
     ],
     "OtherRoles": [
         {
@@ -99,7 +98,7 @@
                     "StartTime": "2024-12-18",
                     "EndTime": "2025-01-21",
                     "Version": 1.4,
-                    "UpOrDown": "上"
+                    "UpOrDown": "上下"
                 }
             ]
         },
@@ -110,7 +109,51 @@
                     "StartTime": "2024-12-18",
                     "EndTime": "2025-01-21",
                     "Version": 1.4,
+                    "UpOrDown": "上下"
+                }
+            ]
+        },
+        {
+            "name": "耀嘉音",
+            "Record": [
+                {
+                    "StartTime": "2024-01-22",
+                    "EndTime": "2025-02-12",
+                    "Version": 1.5,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "艾莲",
+            "Record": [
+                {
+                    "StartTime": "2024-01-22",
+                    "EndTime": "2025-02-12",
+                    "Version": 1.5,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name":"伊芙琳",
+            "Record": [
+                {
+                    "StartTime": "2024-02-12",
+                    "EndTime": "2024-03-11",
+                    "Version": 1.5,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name":"青衣",
+            "Record": [
+                {
+                    "StartTime": "2024-02-12",
+                    "EndTime": "2024-03-11",
+                    "Version": 1.5,
+                    "UpOrDown": "下"
                 }
             ]
         }
