@@ -1,6 +1,7 @@
 {
     "CurrentRole": [
-        "伊芙琳"
+        "伊芙琳",
+        "青衣"
     ],
     "OtherRoles": [
         {
@@ -10,6 +11,12 @@
                     "StartTime": "2024-07-04",
                     "EndTime": "2024-07-24",
                     "Version": 1.0,
+                    "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-01-22",
+                    "EndTime": "2025-02-12",
+                    "Version": 1.5,
                     "UpOrDown": "上"
                 }
             ]
@@ -33,6 +40,12 @@
                     "EndTime": "2024-09-04",
                     "Version": 1.1,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2024-02-12",
+                    "EndTime": "2024-03-11",
+                    "Version": 1.5,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -125,29 +138,7 @@
             ]
         },
         {
-            "name": "艾莲",
-            "Record": [
-                {
-                    "StartTime": "2024-01-22",
-                    "EndTime": "2025-02-12",
-                    "Version": 1.5,
-                    "UpOrDown": "上"
-                }
-            ]
-        },
-        {
             "name":"伊芙琳",
-            "Record": [
-                {
-                    "StartTime": "2024-02-12",
-                    "EndTime": "2024-03-11",
-                    "Version": 1.5,
-                    "UpOrDown": "下"
-                }
-            ]
-        },
-        {
-            "name":"青衣",
             "Record": [
                 {
                     "StartTime": "2024-02-12",
