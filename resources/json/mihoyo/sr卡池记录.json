@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "忘归人",
-        "流萤"
+        "阿格莱雅",
+        "波提欧"
     ],
     "OtherRoles": [
         {
@@ -353,6 +353,12 @@
                     "EndTime": "2024-06-18",
                     "Version": 2.2,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-02-05",
+                    "EndTime": "2025-02-25",
+                    "Version": 3.0,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -425,6 +431,12 @@
                     "EndTime": "2024-10-22",
                     "Version": 2.5,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-01-15",
+                    "EndTime": "2025-02-05",
+                    "Version": 3.0,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -457,6 +469,28 @@
                     "StartTime": "2024-12-25",
                     "EndTime": "2025-01-14",
                     "Version": 2.7,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "大黑塔",
+            "Record": [
+                {
+                    "StartTime": "2025-01-15",
+                    "EndTime": "2025-02-05",
+                    "Version": 3.0,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "阿格莱雅",
+            "Record": [
+                {
+                    "StartTime": "2025-02-05",
+                    "EndTime": "2025-02-25",
+                    "Version": 3.0,
                     "UpOrDown": "下"
                 }
             ]

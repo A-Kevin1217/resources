@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "那维莱特",
-        "钟离"
+        "梦见月瑞希",
+        "希格雯"
     ],
     "OtherRoles": [
         {
@@ -883,6 +883,12 @@
                     "EndTime": "2024-05-14",
                     "Version": 4.6,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2025-01-21",
+                    "EndTime": "2025-02-11",
+                    "Version": 5.3,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -894,6 +900,12 @@
                     "EndTime": "2024-06-25",
                     "Version": 4.7,
                     "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2025-01-21",
+                    "EndTime": "2025-02-11",
+                    "Version": 5.3,
+                    "UpOrDown": "下"
                 }
             ]
         },
@@ -905,6 +917,12 @@
                     "EndTime": "2024-07-16",
                     "Version": 4.7,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-02-12",
+                    "EndTime": "2025-03-04",
+                    "Version": 5.4,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -959,6 +977,39 @@
                     "StartTime": "2024-11-20",
                     "EndTime": "2024-12-10",
                     "Version": 5.2,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "玛薇卡",
+            "Record": [
+                {
+                    "StartTime": "2025-01-01",
+                    "EndTime": "2025-01-21",
+                    "Version": 5.3,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "茜特菈莉",
+            "Record": [
+                {
+                    "StartTime": "2025-01-01",
+                    "EndTime": "2025-01-21",
+                    "Version": 5.3,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "梦见月瑞希",
+            "Record": [
+                {
+                    "StartTime": "2025-02-12",
+                    "EndTime": "2025-03-04",
+                    "Version": 5.4,
                     "UpOrDown": "上"
                 }
             ]
