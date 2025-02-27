@@ -1,9 +1,9 @@
 {
     "season": {
-        "name": "染色季",
+        "name": "彩染季 (Radiance)",
         "icon": "https://gitee.com/Tloml-Starry/resources/raw/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/Necklaces/Radiance/Radiance.png",
         "requiredCandlesTrue": 397,
-        "requiredCandlesFalse": 397,
+        "requiredCandlesFalse": 328,
         "startDate": "2025-01-21 12:00:00",
         "endDate": "2025-04-14 23:59:59"
     },
