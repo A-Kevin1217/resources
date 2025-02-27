@@ -1,0 +1,95 @@
+{
+    "season": {
+        "name": "染色季",
+        "icon": "https://gitee.com/Tloml-Starry/resources/raw/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/Necklaces/Radiance/Radiance.png",
+        "requiredCandlesTrue": 397,
+        "requiredCandlesFalse": 397,
+        "startDate": "2025-01-21 12:00:00",
+        "endDate": "2025-04-14 23:59:59"
+    },
+    "activity": [
+        {
+            "name": "缤纷飞行日",
+            "number": 50,
+            "DailyGetNumber": 5,
+            "startDate": "2024-08-14 00:00:00",
+            "endDate": "2024-08-27 23:59:59",
+            "other": "无"
+        },
+        {
+            "name": "夏之日",
+            "number": 50,
+            "DailyGetNumber": 6,
+            "startDate": "2024-08-29 00:00:00",
+            "endDate": "2024-09-11 23:59:59",
+            "other": "无"
+        },
+        {
+            "name": "秋宵节",
+            "number": 49,
+            "DailyGetNumber": 5,
+            "startDate": "2024-09-15 00:00:00",
+            "endDate": "2024-09-28 23:59:59",
+            "other": "无"
+        },
+        {
+            "name": "时装节",
+            "number": 49,
+            "DailyGetNumber": 5,
+            "startDate": "2024-10-01 00:00:00",
+            "endDate": "2024-10-14 23:59:59",
+            "other": "无"
+        },
+        {
+            "name": "恶作剧之日",
+            "number": 74,
+            "DailyGetNumber": 5,
+            "startDate": "2024-10-26 00:00:00",
+            "endDate": "2024-11-15 23:59:59",
+            "other": "无"
+        },
+        {
+            "name": "音乐节",
+            "number": 50,
+            "DailyGetNumber": 5,
+            "startDate": "2024-12-06 00:00:00",
+            "endDate": "2024-12-19 23:59:59",
+            "other": "地图固定15个，前两天每天4个，第三天开始每天可获取5个，故以此计算(50-15-8)/5=5.4+2，取整，需要8天换完"
+        },
+        {
+            "name": "宴会节",
+            "number": 84,
+            "DailyGetNumber": 5,
+            "startDate": "2024-12-24 00:00:00",
+            "endDate": "2025-01-13 23:59:59",
+            "other": "地图固定15个，每日可拿5个，正常速度(84-15)/5=13.8，取整，需要14天换完"
+        },
+        {
+            "name": "春节",
+            "number": 50,
+            "DailyGetNumber": 5,
+            "startDate": "2025-01-23 00:00:00",
+            "endDate": "2025-02-10 23:59:59",
+            "other": "地图固定15个，每日可拿5个，正常速度(50-15)/5=7，取整，需要7天换完"
+        },
+        {
+            "name": "同心节",
+            "number": 59,
+            "DailyGetNumber": 4,
+            "startDate": "2025-02-12 00:00:00",
+            "endDate": "2025-02-25 23:59:59",
+            "other": "除去染料只需要49个代币即可换完，正常速度(49-15)/4=8.5，取整，正常进度9天即可换完，包含染料需要11天"
+        }
+    ],
+    "activityList": [
+        "缤纷飞行日",
+        "夏之日",
+        "秋宵节",
+        "时装节",
+        "恶作剧之日",
+        "音乐节",
+        "宴会节",
+        "春节",
+        "同心节"
+    ]
+}
