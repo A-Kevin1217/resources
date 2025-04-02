@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "伊芙琳",
-        "青衣"
+        "扳机",
+        "柏妮思"
     ],
     "OtherRoles": [
         {
@@ -79,6 +79,12 @@
                     "EndTime": "2024-11-05",
                     "Version": 1.2,
                     "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2024-03-12",
+                    "EndTime": "2024-04-02",
+                    "Version": 1.6,
+                    "UpOrDown": "上"
                 }
             ]
         },
@@ -145,6 +151,17 @@
                     "EndTime": "2024-03-11",
                     "Version": 1.5,
                     "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "大安比",
+            "Record": [
+                {
+                    "StartTime": "2024-03-12",
+                    "EndTime": "2025-04-02",
+                    "Version": 1.6,
+                    "UpOrDown": "上"
                 }
             ]
         }
