@@ -1,7 +1,7 @@
 {
     "CurrentRole": [
-        "扳机",
-        "朱鸢"
+        "薇薇安",
+        "简"
     ],
     "OtherRoles": [
         {
@@ -28,6 +28,12 @@
                     "StartTime": "2024-07-24",
                     "EndTime": "2024-08-13",
                     "Version": 1.0,
+                    "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-04-02",
+                    "EndTime": "2025-04-22",
+                    "Version": 1.6,
                     "UpOrDown": "下"
                 }
             ]
@@ -56,6 +62,12 @@
                     "StartTime": "2024-09-04",
                     "EndTime": "2024-09-24",
                     "Version": 1.1,
+                    "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-04-23",
+                    "EndTime": "2025-05-14",
+                    "Version": 1.7,
                     "UpOrDown": "下"
                 }
             ]
@@ -162,6 +174,28 @@
                     "EndTime": "2025-04-02",
                     "Version": 1.6,
                     "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "扳机",
+            "Record": [
+                {
+                    "StartTime": "2025-04-02",
+                    "EndTime": "2025-04-22",
+                    "Version": 1.6,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "简",
+            "Record": [
+                {
+                    "StartTime": "2025-04-23",
+                    "EndTime": "2025-05-14",
+                    "Version": 1.7,
+                    "UpOrDown": "下"
                 }
             ]
         }
