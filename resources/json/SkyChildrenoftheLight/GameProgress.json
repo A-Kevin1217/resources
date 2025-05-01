@@ -1,7 +1,7 @@
 {
     "season": {
         "name": "青鸟季 (The Blue Bird)",
-        "icon": "https://gitee.com/Tloml-Starry/resources/raw/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/Necklaces/TheBlueBird/The_Blue_Bird.png",
+        "icon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/Necklaces/TheBlueBird/The_Blue_Bird.png",
         "requiredCandlesTrue": 384,
         "requiredCandlesFalse": 369,
         "startDate": "2025-04-24 12:00:00",
