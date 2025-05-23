@@ -1298,7 +1298,7 @@
         "time": [
             {
                 "S": "2025-01-21",
-                "E": false
+                "E": "2025-04-14"
             },
             {
                 "S": "2025-01-20",
@@ -1339,6 +1339,66 @@
                     "HairAccessories/Radiance/Radiance_Greeting Shaman_Hair_Accessory.png",
                     "Hair/Radiance/Radiance_Greeting Shaman_Hair.png",
                     "Outfits/Radiance/Radiance_Greeting_Shaman_Outfit.png"
+                ]
+            }
+        ]
+    },{
+        "name": "青鸟",
+        "name_en": "TheBluebird",
+        "time": [
+            {
+                "S": "2025-04-24",
+                "E": "2025-07-09"
+            },
+            {
+                "S": "2025-04-21",
+                "E": "2025-07-07"
+            }
+        ],
+        "seasonIcon": "Necklaces/TheBlueBird/The_Blue_Bird.png",
+        "spirits": [
+            {
+                "name": "怀旧火花家长",
+                "name_en": "Rediance Leaping Dancet",
+                "icon": [
+                    "Capes/TheBlueBird/Nostalgic-Sparkler-Parent-Cape-icon.png",
+                    "HairAccessories/TheBlueBird/TheBlueBird_Hair_Accessory.png"
+                ]
+            },
+            {
+                "name": "伐木不舍家长",
+                "name_en": "Rediance Provoking Performer",
+                "icon": [
+                    "Shoes/TheBlueBird/Woodcutting-Parent-Shoes-icon.png",
+                    "Outfits/TheBlueBird/Woodcutting-Parent-Outfit-icon.png",
+                    "乐谱/TheBlueBird/MusicSheet.png"
+                ]
+            },
+            {
+                "name": "皇家蓬头青年",
+                "name_en": "Rediance Greeting Shaman",
+                "icon": [
+                    "HeadAccessories/TheBlueBird/Royal-Ponytail-Child-Head-Accessory-icon.png",
+                    "Outfits/TheBlueBird/Royal-Ponytail-Child-Outfit-icon.png",
+                    "Capes/TheBlueBird/Royal-Ponytail-Child-Cape-icon.png"
+                ]
+            },
+            {
+                "name": "盛装材质表亲",
+                "name_en": "Rediance Greeting Shaman",
+                "icon": [
+                    "HairAccessories/TheBlueBird/Costumed-Confetti-Cousin-Hairpiece-icon",
+                    "Hair/Costumed-Confetti-Cousin-hair-icon.png",
+                    "Outfits/TheBlueBird/Costumed-Confetti-Cousin-Outfit-icon.png",
+                    "Masks/TheBlueBird/Costumed-Confetti-Cousin-Mask-icon.png"
+                ]
+            },
+            {
+                "name": "占卜智慧长者",
+                "name_en": "Rediance Greeting Shaman",
+                "icon": [
+                    "FaceAccessories/TheBlueBird/Fortune-Telling-Elder-Face-Accessory-icon.png",
+                    "Capes/TheBlueBird/Divining-Wise-Grandparent-Cape-icon"
                 ]
             }
         ]
