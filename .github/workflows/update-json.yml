@@ -1,0 +1,41 @@
+name: 每日更新季蜡信息
+
+on:
+  schedule:
+    # 每天北京时间0点运行（UTC时间16点）
+    - cron: '0 16 * * *'
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+      
+      - name: 设置 Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: 安装依赖
+        run: pip install requests
+      
+      - name: 更新 JSON 文件
+        id: update_json
+        run: |
+          python .github/scripts/update_json.py | tee update_log.txt
+          echo "MAP_NAME=$(grep '今日地图' update_log.txt | cut -d ':' -f 2 | xargs)" >> $GITHUB_OUTPUT
+      
+      - name: 提交更改
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add resources/json/XPSky/2.每日单独季蜡.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "自动提交季蜡: ${{ steps.update_json.outputs.MAP_NAME }} $(date +'%Y-%m-%d')"
+      
+      - name: 推送更改
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }} 
