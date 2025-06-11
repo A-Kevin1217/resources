@@ -2,7 +2,7 @@
     "season": {
         "name": "青鸟季 (The Blue Bird)",
         "icon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/Necklaces/TheBlueBird/The_Blue_Bird.png",
-        "candel-icon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/ExchangeTreeIcon/SystemUI_SeasonCandle26128_Normal@3x.png",
+        "candelIcon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/ExchangeTreeIcon/SystemUI_SeasonCandle26128_Normal@3x.png",
         
         "requiredCandlesTrue": 384,
         "requiredCandlesFalse": 369,
