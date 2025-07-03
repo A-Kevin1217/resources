@@ -895,22 +895,38 @@
             {
                 "name": "远古光辉 (水母)",
                 "name_en": "Ancient Light (Jellyfish)",
-                "icon": []
+                "icon": [
+                    "Hair/Shattering/Jellyfish_Hair.png",
+                    "HairAccessories/Shattering/Jellyfish_Hat.png",
+                    "Capes/Shattering/Jellyfish_Cape.png"
+                ]
             },
             {
                 "name": "远古光辉 (魔鬼鱼)",
                 "name_en": "Ancient Light (Manta)",
-                "icon": []
+                "icon": [
+                    "Hair/Shattering/Manta_Hair.png",
+                    "Capes/Shattering/Manta_Cape.png",
+                    "Outfits/Shattering/Manta_Outfit.png"
+                ]
             },
             {
                 "name": "远古冥暗 (龙)",
                 "name_en": "Ancient Darkness (Dragon)",
-                "icon": []
+                "icon": [
+                    "Necklaces/Shattering/Dragon_Neck_Accessory (Crab).png",
+                    "Props/Instruments/Shattering/Dark_Horn.png",
+                    "Hair/Shattering/Dragon_Hair.png"
+                ]
             },
             {
                 "name": "远古冥暗 (植物)",
                 "name_en": "Ancient Darkness (Plants)",
-                "icon": []
+                "icon": [
+                    "HairAccessories/Shattering/Darkness_Plant_Hat.png",
+                    "Masks/Shattering/Darkness_Plant_Mask.png",
+                    "Capes/Shattering/Darkness_Plant_Cape.png"
+                ]
             }
         ]
     },
@@ -1342,7 +1358,8 @@
                 ]
             }
         ]
-    },{
+    },
+    {
         "name": "青鸟",
         "name_en": "TheBluebird",
         "time": [
