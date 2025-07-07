@@ -1007,28 +1007,40 @@
                 "name": "丧子老兵",
                 "name_en": "Bereft Veteran",
                 "icon": [
-                    "Expressions/Emotes/Remembrance/Grieving.png"
+                    "Expressions/Emotes/Remembrance/Grieving.png",
+                    "Masks/Remembrance/Bereft_Veteran_Mask.png",
+                    "Hair/Remembrance/Bereft_Veteran_Hair.png",
+                    "Capes/Remembrance/Bereft_Veteran_Cape.png"
                 ]
             },
             {
                 "name": "乞求孩童",
                 "name_en": "Pleading Child",
                 "icon": [
-                    "Expressions/Emotes/Remembrance/Pleading.png"
+                    "Expressions/Emotes/Remembrance/Pleading.png",
+                    "Necklaces/Remembrance/Pleading_Child_Scarf.png",
+                    "Hair/Remembrance/Pleading_Child_Hair.png",
+                    "Outfits/Remembrance/Pleading_Child_Outfit.png"
                 ]
             },
             {
                 "name": "蹑足沏茶师",
                 "name_en": "Tiptoeing Tea-Brewer",
                 "icon": [
-                    "Expressions/Emotes/Remembrance/Tiptoeing.png"
+                    "Expressions/Emotes/Remembrance/Tiptoeing.png",
+                    "Hair/Remembrance/Tiptoeing_Tea-Brewer_Hair.png",
+                    "Outfits/Remembrance/Tiptoeing_Tea-Brewer_Outfit.png",
+                    "Capes/Remembrance/Tiptoeing_Tea-Brewer_Cape.png"
                 ]
             },
             {
                 "name": "负伤战士",
                 "name_en": "Wounded Warrior",
                 "icon": [
-                    "Expressions/Stances/Remembrance/Injured_Stance.png"
+                    "Expressions/Stances/Remembrance/Injured_Stance.png",
+                    "Masks/Remembrance/Wounded_Warrior_Mask.png",
+                    "Outfits/Remembrance/Wounded_Warrior_Outfit.png",
+                    "Capes/Remembrance/Wounded_Warrior_Cape.png"
                 ]
             }
         ]
