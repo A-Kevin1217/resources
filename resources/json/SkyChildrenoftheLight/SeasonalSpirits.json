@@ -951,8 +951,8 @@
                 "icon": [
                     "Expressions/Emotes/AURORA/Waving_Light.png",
                     "Masks/AURORA/Running_Wayfarer_Mask.png",
-                    "/AURORA/Running_Wayfarer_Hair.png",
-                    "/AURORA/Running_Wayfarer_Cape.png"
+                    "Hair/AURORA/Running_Wayfarer_Hair.png",
+                    "Capes/AURORA/Running_Wayfarer_Cape.png"
                 ]
             },
             {
@@ -961,9 +961,9 @@
                 "icon": [
                     "Expressions/Emotes/AURORA/Raise_the_Roof.png",
                     "Masks/AURORA/Mindful_Miner_Mask.png",
-                    "/AURORA/Mindful_Miner_Hair.png",
-                    "/AURORA/Mindful_Miner_Outfit.png",
-                    "/AURORA/Mindful_Miner_Cape.png"
+                    "Hair/AURORA/Mindful_Miner_Hair.png",
+                    "Outfits/AURORA/Mindful_Miner_Outfit.png",
+                    "Capes/AURORA/Mindful_Miner_Cape.png"
                 ]
             },
             {
@@ -972,8 +972,8 @@
                 "icon": [
                     "Expressions/Emotes/AURORA/Twir.png",
                     "Masks/AURORA/Warrior_of_Love_Mask.png",
-                    "/AURORA/Warrior_of_Love_Hair.png",
-                    "/AURORA/Warrior_of_Love_Cape.png"
+                    "Hair/AURORA/Warrior_of_Love_Hair.png",
+                    "Capes/AURORA/Warrior_of_Love_Cape.png"
                 ]
             },
             {
@@ -982,8 +982,8 @@
                 "icon": [
                     "Expressions/Emotes/AURORA/Rhythmic_Clap.png",
                     "Masks/AURORA/Seed_of_Hope_Mask.png",
-                    "/AURORA/Seed_of_Hope_Hair.png",
-                    "/AURORA/Seed_of_Hope_Cape.png"
+                    "Hair/AURORA/Seed_of_Hope_Hair.png",
+                    "Capes/AURORA/Seed_of_Hope_Cape.png"
                 ]
             }
         ]
