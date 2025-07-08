@@ -1064,28 +1064,40 @@
                 "name": "古怪边缘人",
                 "name_en": "Oddball Outcast",
                 "icon": [
-                    "Expressions/Emotes/Passage/Hacky_sack.png"
+                    "Expressions/Emotes/Passage/Hacky_sack.png",
+                    "Hair/Passage/Oddball_Outcast_Hair.png",
+                    "Necklaces/Passage/Oddball_Outcast_Neckpiece.png",
+                    "Outfits/Passage/Oddball_Outcast_Outfit.png"
                 ]
             },
             {
                 "name": "翻滚捣蛋鬼",
                 "name_en": "Tumbling Troublemaker",
                 "icon": [
-                    "Expressions/Emotes/Passage/Somersault.png"
+                    "Expressions/Emotes/Passage/Somersault.png",
+                    "Hair/Passage/Tumbling_Troublemaker_Hair.png",
+                    "Capes/Passage/Tumbling_Troublemaker_Cape.png",
+                    "HeadAccessories/Passage/Tumbling_Troublemaker_Face_Accessory.png"
                 ]
             },
             {
                 "name": "忧郁自艾者",
                 "name_en": "Melancholy Mope",
                 "icon": [
-                    "Expressions/Emotes/Passage/Moping.png"
+                    "Expressions/Emotes/Passage/Moping.png",
+                    "HeadAccessories/Passage/Melancholy_Mope_Face_Accessory.png",
+                    "Hair/Passage/Melancholy_Mope_Hair.png",
+                    "Outfits/Passage/Melancholy_Mope_Outfit.png"
                 ]
             },
             {
                 "name": "活跃优等生",
                 "name_en": "Overactive Overachiever",
                 "icon": [
-                    "Expressions/Emotes/Passage/Pull-up.png"
+                    "Expressions/Emotes/Passage/Pull-up.png",
+                    "Props/Instruments/Passage/Manta_Flute.png",
+                    "Capes/Passage/Overactive_Overachiever_Cape.png",
+                    "Hair/Passage/Overactive_Overachiever_Hair.png"
                 ]
             }
         ]
