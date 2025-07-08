@@ -1412,47 +1412,47 @@
         "seasonIcon": "Necklaces/TheBlueBird/The_Blue_Bird.png",
         "spirits": [
             {
-                "name": "怀旧火花家长",
-                "name_en": "Rediance Leaping Dancet",
+                "name": "占卜智慧长者",
+                "name_en": "Divining Wise Grandparent",
                 "icon": [
-                    "Capes/TheBlueBird/Nostalgic-Sparkler-Parent-Cape-icon.png",
-                    "HairAccessories/TheBlueBird/TheBlueBird_Hair_Accessory.png"
+                    "FaceAccessories/TheBlueBird/Divining_Wise_Grandparent_Face_Accessory.png",
+                    "Capes/TheBlueBird/Divining_Wise_Grandparent_Cape.png"
                 ]
             },
             {
-                "name": "伐木不舍家长",
-                "name_en": "Rediance Provoking Performer",
+                "name": "戏服礼花表亲",
+                "name_en": "Customed Confetti Cousin",
                 "icon": [
-                    "Shoes/TheBlueBird/Woodcutting-Parent-Shoes-icon.png",
-                    "Outfits/TheBlueBird/Woodcutting-Parent-Outfit-icon.png",
-                    "乐谱/TheBlueBird/MusicSheet.png"
+                    "HairAccessories/TheBlueBird/Customed_Confetti_Cousin_Hair_Accessory.png",
+                    "Masks/TheBlueBird/Customed_Confetti_Cousin_Mask.png",
+                    "Outfits/TheBlueBird/Customed_Confetti_Cousin_Outfit.png",
+                    "Hair/TheBlueBird/Customed_Confetti_Cousin_Hair.png"
                 ]
             },
             {
                 "name": "皇家蓬头青年",
-                "name_en": "Rediance Greeting Shaman",
+                "name_en": "Royal Hairtousle Teen",
                 "icon": [
-                    "HeadAccessories/TheBlueBird/Royal-Ponytail-Child-Head-Accessory-icon.png",
-                    "Outfits/TheBlueBird/Royal-Ponytail-Child-Outfit-icon.png",
-                    "Capes/TheBlueBird/Royal-Ponytail-Child-Cape-icon.png"
+                    "Expressions/Emotes/TheBlueBird/Surprised.png",
+                    "HeadAccessories/TheBlueBird/Royal_Hairtousle_Teen_Head_Accessory.png",
+                    "Outfits/TheBlueBird/Royal_Hairtousle_Teen_Outfit.png",
+                    "Capes/TheBlueBird/Royal_Hairtousle_Teen_Cape.png"
                 ]
             },
             {
-                "name": "盛装材质表亲",
-                "name_en": "Rediance Greeting Shaman",
+                "name": "怀旧火花家长",
+                "name_en": "Nostalgic Sparkler Parent",
                 "icon": [
-                    "HairAccessories/TheBlueBird/Costumed-Confetti-Cousin-Hairpiece-icon",
-                    "Hair/Costumed-Confetti-Cousin-hair-icon.png",
-                    "Outfits/TheBlueBird/Costumed-Confetti-Cousin-Outfit-icon.png",
-                    "Masks/TheBlueBird/Costumed-Confetti-Cousin-Mask-icon.png"
+                    "HairAccessories/TheBlueBird/Nostalgic_Sparkler_Parent_Hair_Accessory.png",
+                    "Capes/TheBlueBird/Nostalgic_Sparkler_Parent_Cape.png"
                 ]
             },
             {
-                "name": "占卜智慧长者",
-                "name_en": "Rediance Greeting Shaman",
+                "name": "伐木不舍家长",
+                "name_en": "Woodcutting Pleaful Parent",
                 "icon": [
-                    "FaceAccessories/TheBlueBird/Fortune-Telling-Elder-Face-Accessory-icon.png",
-                    "Capes/TheBlueBird/Divining-Wise-Grandparent-Cape-icon"
+                    "Shoes/TheBlueBird/Woodcutting_Pleaful_Parent_Shoes.png",
+                    "Outfits/TheBlueBird/Woodcutting_Pleaful_Parent_Outfit.png"
                 ]
             }
         ]
