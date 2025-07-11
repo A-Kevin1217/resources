@@ -1121,28 +1121,42 @@
                 "name": "可靠护林员",
                 "name_en": "Reassuring Ranger",
                 "icon": [
-                    "Expressions/FriendActions/Moments/Side_Hug.png"
+                    "Expressions/FriendActions/Moments/Side_Hug.png",
+                    "FaceAccessories/Moments/Reassuring_Ranger_Wheat_Stalk.png",
+                    "Masks/Moments/Reassuring_Ranger_Mask.png",
+                    "Capes/Moments/Reassuring_Ranger_Cape.png",
+                    "Hair/Moments/Reassuring_Ranger_Hat.png"
                 ]
             },
             {
                 "name": "雀跃地质学家",
                 "name_en": "Jolly Geologist",
                 "icon": [
-                    "Expressions/Emotes/Moments/Jolly_Dance.png"
+                    "Expressions/Emotes/Moments/Jolly_Dance.png",
+                    "FaceAccessories/Moments/Jolly_Geologist_Face_Accessory.png",
+                    "Hair/Moments/Jolly_Geologist_Hair.png",
+                    "Props/SmallProps/Moments/Jolly_Geologist_Prop.png"
                 ]
             },
             {
                 "name": "苦行僧侣",
                 "name_en": "Ascetic Monk",
                 "icon": [
-                    "Expressions/Emotes/Moments/Blindfold_Balance_Pose.png"
+                    "Expressions/Emotes/Moments/Blindfold_Balance_Pose.png",
+                    "Masks/Moments/Ascetic_Monk_Mask.png",
+                    "Hair/Moments/Ascetic_Monk_Tattoo.png",
+                    "Outfits/Moments/Ascetic_Monk_Outfit.png"
                 ]
             },
             {
                 "name": "夜鸟语者",
                 "name_en": "Nightbird Whisperer",
                 "icon": [
-                    "Expressions/Calls/Moments/Nightbird_Call.png"
+                    "Expressions/Calls/Moments/Nightbird_Call.png",
+                    "Hair/Moments/Nightbird_Whisperer_Hair.png",
+                    "HairAccessories/Moments/Nightbird_Whisperer_Hat.png",
+                    "Outfits/Moments/Nightbird_Whisperer_Outfit.png",
+                    "Shoes/Moments/Nightbird_Whisperer_Shoes.png"
                 ]
             }
         ]
