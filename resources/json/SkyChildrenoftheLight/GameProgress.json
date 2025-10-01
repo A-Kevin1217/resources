@@ -1,13 +1,13 @@
 {
     "season": {
-        "name": "青鸟季 (The Blue Bird)",
+        "name": "双星季 (The Two Embers - Part 1)",
         "icon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/Necklaces/TheBlueBird/The_Blue_Bird.png",
         "candelIcon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/ExchangeTreeIcon/SystemUI_SeasonCandle26128_Normal@3x.png",
         
-        "requiredCandlesTrue": 384,
-        "requiredCandlesFalse": 369,
-        "startDate": "2025-04-24 12:00:00",
-        "endDate": "2025-07-09 23:59:59"
+        "requiredCandlesTrue": 362,
+        "requiredCandlesFalse": 350,
+        "startDate": "2025-07-30 12:00:00",
+        "endDate": "2025-10-14 23:59:59"
     },
     "activity": [
         {
@@ -18,5 +18,5 @@
             "remark": "活动备注: 固定代币15个，只可拾取一次，每日代币5个，计算得出全部换完需要15天"
         }
     ],
-    "activityList": ["缤纷飞行日", "夏之日", "秋宵节", "时装节", "恶作剧之日", "音乐节", "宴会节", "春节", "同心节", "寻宝节", "花憩节"]
+    "activityList": ["缤纷飞行日", "夏之日", "秋宵节", "时装节", "恶作剧之日", "音乐节", "宴会节", "春节", "同心节", "寻宝节", "花憩节","海洋节"]
 }
