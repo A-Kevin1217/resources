@@ -1470,5 +1470,42 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "双星季",
+        "name_en": "TheTwoEmbers-Part1",
+        "time": [
+            {
+                "S": "2025-07-30",
+                "E": "2025-10-14"
+            },
+            {
+                "S": "2025-07-21",
+                "E": "2025-10-05"
+            }
+        ],
+        "seasonIcon": "Necklaces/TheTwoEmbers-Part1/TheTwoEmbers-Part1.png",
+        "spirits": [
+            {
+                "name": "",
+                "name_en": "Tender Toymaker",
+                "icon": []
+            },
+            {
+                "name": "",
+                "name_en": "Resourceful Recluse",
+                "icon": []
+            },
+            {
+                "name": "",
+                "name_en": "Scarred Sentry",
+                "icon": []
+            },
+            {
+                "name": "",
+                "name_en": "Stern Shepherd",
+                "icon": []
+            }
+        ]
     }
 ]
