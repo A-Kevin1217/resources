@@ -1503,24 +1503,49 @@
         "seasonIcon": "Necklaces/TheTwoEmbers-Part1/TheTwoEmbers-Part1.png",
         "spirits": [
             {
-                "name": "",
+                "name": "温柔的玩具匠",
                 "name_en": "Tender Toymaker",
-                "icon": []
+                "icon": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
             },
             {
-                "name": "",
+                "name": "巧手隐士",
                 "name_en": "Resourceful Recluse",
-                "icon": []
+                "icon": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
             },
             {
-                "name": "",
+                "name": "刀疤士兵",
                 "name_en": "Scarred Sentry",
-                "icon": []
+                "icon": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
             },
             {
-                "name": "",
+                "name": "严厉的牧牛人",
                 "name_en": "Stern Shepherd",
-                "icon": []
+                "icon": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
             }
         ]
     }
