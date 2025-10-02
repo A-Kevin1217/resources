@@ -1179,22 +1179,38 @@
             {
                 "name": "沙漠绿洲的余痕",
                 "name_en": "Vestige of a Deserted Oasis",
-                "icon": []
+                "icon": [
+                    "Hair/Revival/Vestig_of_a_Deserted_Oasis_Hair.png",
+                    "Capes/Revival/Vestig_of_a_Deserted_Oasis_Cape.png",
+                    "Shoes/Revival/Vestig_of_a_Deserted_Oasis_Shoes.png"
+                ]
             },
             {
                 "name": "失落小镇的记忆",
                 "name_en": "Memory of a Lost Village",
-                "icon": []
+                "icon": [
+                    "Capes/Revival/Memory_of_a_Lost_Village_Cape.png",
+                    "Outfits/Revival/Memory_of_a_Lost_Village_Outfit.png",
+                    "Hair/Revival/Memory_of_a_Lost_Village.png"
+                ]
             },
             {
                 "name": "被遗弃之处的回响",
                 "name_en": "Echo of an Abandoned Refuge",
-                "icon": []
+                "icon": [
+                    "Shoes/Revival/Echo_of_an_Abandoned_Refuge_Shoes.png",
+                    "Capes/Revival/Echo_of_an_Abandoned_Refuge_Cape.png",
+                    "HairAccessories/Revival/Echo_of_an_Abandoned_Refuge_Hat.png"
+                ]
             },
             {
                 "name": "被遗弃的天堂一隅",
                 "name_en": "Remnant of a Forgotten Haven",
-                "icon": []
+                "icon": [
+                    "Shoes/Revival/Remnant_of_a_Forgotten_Haven_Shoes.png",
+                    "Capes/Revival/Remnant_of_a_Forgotten_Haven_Cape.png",
+                    "HairAccessories/Revival/Remnant_of_a_Forgotten_Haven_Hair_Ribbon.png"
+                ]
             }
         ]
     },
