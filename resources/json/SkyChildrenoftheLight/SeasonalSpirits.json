@@ -1233,28 +1233,41 @@
                 "name": "采药人",
                 "name_en": "Herb Gatherer",
                 "icon": [
-                    "Expressions/Emotes/TheNine-ColoredDeer/Whistle.png"
+                    "Expressions/Emotes/TheNine-ColoredDeer/Whistle.png",
+                    "Outfits/TheNine-ColoredDeer/Herb_Gatherer_Outfit.png",
+                    "Hair/TheNine-ColoredDeer/Herb_Gatherer_Hair.png",
+                    "Props/SmallProps/TheNine-ColoredDeer/Herb_Gatherer_Prop.png"
                 ]
             },
             {
                 "name": "猎手",
                 "name_en": "Hunter",
                 "icon": [
-                    "Expressions/Emotes/TheNine-ColoredDeer/Flex.png"
+                    "Expressions/Emotes/TheNine-ColoredDeer/Flex.png",
+                    "Outfits/TheNine-ColoredDeer/Hunter_Outfit.png",
+                    "Hair/TheNine-ColoredDeer/Hunter_Hair.png",
+                    "Capes/TheNine-ColoredDeer/Hunter_Cape.png"
                 ]
             },
             {
                 "name": "领主",
                 "name_en": "Feudal Lord",
                 "icon": [
-                    "Expressions/FriendActions/TheNine-ColoredDeer/Cradle_Carry.png"
+                    "Expressions/FriendActions/TheNine-ColoredDeer/Cradle_Carry.png",
+                    "HairAccessories/TheNine-ColoredDeer/Feudal_Lord_Hat.png",
+                    "Masks/TheNine-ColoredDeer/Feudal_Lord_Mask.png",
+                    "Capes/TheNine-ColoredDeer/Feudal_Lord_Cape.png"
                 ]
             },
             {
                 "name": "公主",
                 "name_en": "Princess",
                 "icon": [
-                    "Expressions/Emotes/TheNine-ColoredDeer/Float_Spin.png"
+                    "Expressions/Emotes/TheNine-ColoredDeer/Float_Spin.png",
+                    "Masks/TheNine-ColoredDeer/Princess_Mask.png",
+                    "Hair/TheNine-ColoredDeer/Princess_Hair.png",
+                    "Outfits/TheNine-ColoredDeer/Princess_Outfit.png",
+                    "Capes/TheNine-ColoredDeer/Princess_Cape.png"
                 ]
             }
         ]
