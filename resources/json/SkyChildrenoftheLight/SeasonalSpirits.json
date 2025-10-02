@@ -1506,45 +1506,45 @@
                 "name": "温柔的玩具匠",
                 "name_en": "Tender Toymaker",
                 "icon": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Props/SmallProps/TheTwoEmbers-Part1/Crab_Figurine.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Manatee_Toy.png",
+                    "Outfits/TheTwoEmbers-Part1/Tender_Toymaker_Outfit.png",
+                    "Hair/TheTwoEmbers-Part1/Tender_Toymaker_Hair.png"
                 ]
             },
             {
                 "name": "巧手隐士",
                 "name_en": "Resourceful Recluse",
                 "icon": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Masks/TheTwoEmbers-Part1/Resourceful_Recluse_Mask.png",
+                    "Outfits/TheTwoEmbers-Part1/Resourceful_Recluse_Outfit.png",
+                    "Props/LargeProps/TheTwoEmbers-Part1/Resourceful_Recluse_Tea_Table.png",
+                    "Props/LargeProps/TheTwoEmbers-Part1/Resourceful_Recluse_Tree_Prop.png"
                 ]
             },
             {
                 "name": "刀疤士兵",
                 "name_en": "Scarred Sentry",
                 "icon": [
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Expressions/Stances/TheTwoEmbers-Part1/Scarred_Stance.png",
+                    "Hair/TheTwoEmbers-Part1/Scarred_Sentry_Cracked_Helmet.png",
+                    "Hair/TheTwoEmbers-Part1/Scarred_Sentry_Helmet.png",
+                    "Capes/TheTwoEmbers-Part1/Scarred_Sentry_Cape.png",
+                    "Outfits/TheTwoEmbers-Part1/Scarred_Sentry_Outfit.png",
+                    "Shoes/TheTwoEmbers-Part1/Scarred_Sentry_Shoes.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Scarred_Sentry_Shield.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Scarred_Sentry_Spear.png"
                 ]
             },
             {
                 "name": "严厉的牧牛人",
                 "name_en": "Stern Shepherd",
                 "icon": [
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Expressions/Calls/TheTwoEmbers-Part1/Manatee_Call.png",
+                    "Hair/TheTwoEmbers-Part1/Stern_Shepherd_Hair.png",
+                    "Outfits/TheTwoEmbers-Part1/Stern_Shepherd_Outfit.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Stern_Shepherd_Cane.png",
+                    "Masks/TheTwoEmbers-Part1/Stern_Shepherd_Mask.png"
                 ]
             }
         ]
