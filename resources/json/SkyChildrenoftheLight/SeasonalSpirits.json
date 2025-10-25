@@ -1561,5 +1561,47 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "迁徒季",
+        "name_en": "Migration",
+        "time": [
+            {
+                "S": "2025-10-24",
+                "E": "2026-1-8"
+            },
+            {
+                "S": "2025-10-20",
+                "E": "2026-1-4"
+            }
+        ],
+        "seasonIcon": "Necklaces/Migration/Migration.png",
+        "spirits": [
+            {
+                "name": "迁徒钟匠",
+                "name_en": "Migrating Bellmaker",
+                "icon": []
+            },
+            {
+                "name": "迁徒水母语者",
+                "name_en": "Migrating Jelly Whisperer",
+                "icon": []
+            },
+            {
+                "name": "迁徒引蝶人",
+                "name_en": "Migrating Butterfly Charmer",
+                "icon": []
+            },
+            {
+                "name": "迁徒鳐语者",
+                "name_en": "Migrating Manta Whisperer",
+                "icon": []
+            },
+            {
+                "name": "迁徒鸟语者",
+                "name_en": "Migrating Bird Whisperer",
+                "icon": []
+            }
+        ]
     }
 ]
