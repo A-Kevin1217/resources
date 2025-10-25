@@ -1501,7 +1501,7 @@
         ]
     },
     {
-        "name": "双星季",
+        "name": "双星",
         "name_en": "TheTwoEmbers-Part1",
         "time": [
             {
@@ -1563,7 +1563,7 @@
         ]
     },
     {
-        "name": "迁徒季",
+        "name": "迁徒",
         "name_en": "Migration",
         "time": [
             {
@@ -1580,27 +1580,49 @@
             {
                 "name": "迁徒钟匠",
                 "name_en": "Migrating Bellmaker",
-                "icon": []
+                "icon": [
+                    "Expressions/Calls/Migration/Lighthom_Call.png",
+                    "Hair/Migrating/Migrating_Bellmaker_Hair.png",
+                    "FaceAccessories/Migration/Migrating_Bellmaker_Face_Accessory.png",
+                    "Capes/Migration/Migrating_Bellmaker_Cape.png"
+                ]
             },
             {
                 "name": "迁徒水母语者",
                 "name_en": "Migrating Jelly Whisperer",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Migration/Jellyfish_Dance.png",
+                    "Outfits/Migration/Migrating_Jelly_Whisperer_Outfit.png",
+                    "HairAccessories/Migration/Migrating_Jelly_Whisperer_Hair_Accessory.png"
+                ]
             },
             {
                 "name": "迁徒引蝶人",
                 "name_en": "Migrating Butterfly Charmer",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Migration/Dizzy.png",
+                    "Capes/Migration/Migrating_Butterfly_Charmer_Cape.png",
+                    "HairAccessories/Migration/Migrating_Butterfly_Charmer_Hair_Accessory.png"
+                ]
             },
             {
                 "name": "迁徒鳐语者",
                 "name_en": "Migrating Manta Whisperer",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Migration/Flag_Signal.png",
+                    "Hair/Migrating/Migrating_Manta_Whisperer_Hair.png",
+                    "Capes/Migration/Migrating_Manta_Whisperer_Cape.png",
+                    "Outfits/Migration/Migrating_Manta_Whisperer_Outfit.png"
+                ]
             },
             {
                 "name": "迁徒鸟语者",
                 "name_en": "Migrating Bird Whisperer",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Migration/Flight_Run.png",
+                    "Outfits/Migration/Migrating_Bird_Whisperer_Outfit.png",
+                    "Capes/Migration/Migrating_Bird_Whisperer_Cape.png"
+                ]
             }
         ]
     }
