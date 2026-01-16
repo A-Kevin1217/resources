@@ -2672,6 +2672,60 @@
                         }
                     }
                 ]
+            },
+            {
+                "month": 12,
+                "monthRecord": [
+                    {
+                        "day": 11,
+                        "name": "瞌睡木匠",
+                        "platform": "All",
+                        "count": {
+                            "i": 4,
+                            "a": 4
+                        },
+                        "price": {
+                            "🕯": 112,
+                            "❤️": 13
+                        }
+                    },
+                    {
+                        "day": 25,
+                        "name": "迎宾侍者",
+                        "platform": "All",
+                        "count": {
+                            "i": 3,
+                            "a": 3
+                        },
+                        "price": {
+                            "🕯": 146,
+                            "❤️": 13
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": 2026,
+        "yearRecord": [
+            {
+                "month": 1,
+                "monthRecord": [
+                    {
+                        "day": 8,
+                        "name": "火花家长",
+                        "platform": "All",
+                        "count": {
+                            "i": 4,
+                            "a": 4
+                        },
+                        "price": {
+                            "🕯": 118,
+                            "❤️": 13
+                        }
+                    }
+                ]
             }
         ]
     }
