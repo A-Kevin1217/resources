@@ -1,21 +1,11 @@
 {
     "season": {
-        "name": "迁徒季 (Migration)",
+        "name": "织光季 (Lightmending)",
         "icon": "https://ghfast.top/https://raw.githubusercontent.com/A-Kevin1217/resources/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/Necklaces/Migration/Migration.png",
         "candelIcon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/ExchangeTreeIcon/SystemUI_SeasonCandle26128_Normal@3x.png",
         "requiredCandlesTrue": 398,
-        "requiredCandlesFalse": 274,
-        "startDate": "2025-10-24 12:00:00",
-        "endDate": "2026-1-8 23:59:59"
-    },
-    "activity": [
-        {
-            "name": "海洋节",
-            "startDate": "2025-05-01 00:00:00",
-            "endDate": "2025-05-21 23:59:59",
-            "price": "231蜡烛86代币34爱心",
-            "remark": "活动备注: 固定代币15个，只可拾取一次，每日代币5个，计算得出全部换完需要15天"
-        }
-    ],
-    "activityList": ["缤纷飞行日", "夏之日", "秋宵节", "时装节", "恶作剧之日", "音乐节", "宴会节", "春节", "同心节", "寻宝节", "花憩节","海洋节"]
+        "requiredCandlesFalse": 240,
+        "startDate": "2026-1-23 12:00:00",
+        "endDate": "2026-4-9 23:59:59"
+    }
 }
