@@ -1625,5 +1625,63 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "织光",
+        "name_en": "Lightmending",
+        "time": [
+            {
+                "S": "2026-1-23",
+                "E": "2026-4-9"
+            },
+            {
+                "S": "2026-1-16",
+                "E": "2026-4-2"
+            }
+        ],
+        "seasonIcon": "Necklaces/Lightmending/Lightmending.png",
+        "spirits": [
+            {
+                "name": "织光开荒者",
+                "name_en": "Lightmending Pioneer",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Pioneer_Emote.png",
+                    "Hair/Lightmending/Lightmending_Pioneer_Hair.png",
+                    "Outfits/Lightmending/Lightmending_Pioneer_Outfit.png",
+                    "Masks/Lightmending/Lightmending_Pioneer_Mask.png"
+                ]
+            },
+            {
+                "name": "织光学者",
+                "name_en": "Lightmending Light Scholar",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Light_Scholar_Emote.png",
+                    "Hair/Lightmending/Lightmending_Light_Scholar_Hair.png",
+                    "Masks/Lightmending/Lightmending_Light_Scholar_Mask.png",
+                    "Outfits/Lightmending/Lightmending_Light_Scholar_Outfit.png"
+                ]
+            },
+            {
+                "name": "织光光衣",
+                "name_en": "Lightmending Light Catcher",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Light_Catcher_Emote.png",
+                    "Capes/Lightmending/Lightmending_Light_Catcher_Cape.png",
+                    "Hair/Lightmending/Lightmending_Light_Catcher_Hair.png",
+                    "Props/Instruments/Lightmending/Lightmending_Light_Catcher_Instrument.png",
+                    "Masks/Lightmending/Lightmending_Light_Catcher_Mask.png"
+                ]
+            },
+            {
+                "name": "织光冠军",
+                "name_en": "Lightmending Champion",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Champion_Emote.png",
+                    "FaceAccessories/Lightmending/Lightmending_Champion_Face_Accessory.png",
+                    "Masks/Lightmending/Lightmending_Champion_Mask.png",
+                    "Outfits/Lightmending/Lightmending_Champion_Outfit.png"
+                ]
+            }
+        ]
     }
 ]
