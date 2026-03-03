@@ -35,10 +35,12 @@ http://ott.mobaibox.com/PLTV/3/224/3221228324/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227693/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV15 
 http://ott.mobaibox.com/PLTV/3/224/3221227723/index.m3u8
-#EXTINF:-1 group-title="未分类",CCTV16-4K 
+#EXTINF:-1 group-title="未分类",CCTV16
 http://ott.mobaibox.com/PLTV/3/224/3221228112/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV17 
 http://ott.mobaibox.com/PLTV/3/224/3221227726/index.m3u8
+#EXTINF:-1 group-title="未分类",湖南卫视 
+http://ott.mobaibox.com/PLTV/3/224/3221227482/index.m3u8
 #EXTINF:-1 group-title="未分类",东方卫视 
 http://ott.mobaibox.com/PLTV/3/224/3221227511/index.m3u8
 #EXTINF:-1 group-title="未分类",内蒙古卫视 
@@ -79,8 +81,6 @@ http://ott.mobaibox.com/PLTV/3/224/3221228101/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227555/index.m3u8
 #EXTINF:-1 group-title="未分类",湖北卫视 
 http://ott.mobaibox.com/PLTV/3/224/3221227479/index.m3u8
-#EXTINF:-1 group-title="未分类",湖南卫视 
-http://ott.mobaibox.com/PLTV/3/224/3221227482/index.m3u8
 #EXTINF:-1 group-title="未分类",甘肃卫视 
 http://ott.mobaibox.com/PLTV/3/224/3221227568/index.m3u8
 #EXTINF:-1 group-title="未分类",贵州卫视 
