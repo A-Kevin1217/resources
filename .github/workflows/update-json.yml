@@ -42,8 +42,8 @@ jobs:
       
       - name: 提交更改
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "jiyucheng2001@foxmail.com"
+          git config --local user.name "A-Kevin1217"
           git add resources/json/XPSky/2.每日单独季蜡.json
           git diff --quiet && git diff --staged --quiet && echo "没有变更需要提交" || git commit -m "自动提交季蜡: ${{ steps.update_json.outputs.MAP_NAME }} $(TZ='Asia/Shanghai' date +'%Y-%m-%d')"
       
