@@ -2724,6 +2724,138 @@
                             "🕯": 118,
                             "❤️": 13
                         }
+                    },
+                    {
+                        "day": 22,
+                        "name": "踏舞孩童",
+                        "platform": "All",
+                        "count": {
+                            "i": 5,
+                            "a": 5
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "month": 2,
+                "monthRecord": [
+                    {
+                        "day": 5,
+                        "name": "跳舞艺人",
+                        "platform": "All",
+                        "count": {
+                            "i": 2,
+                            "a": 2
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    },
+                    {
+                        "day": 14,
+                        "name": "夜行鸟语者",
+                        "platform": "All",
+                        "count": {
+                            "i": 1,
+                            "a": 1
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    },
+                    {
+                        "day": 19,
+                        "name": "彩纸表亲",
+                        "platform": "All",
+                        "count": {
+                            "i": 5,
+                            "a": 4
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "month": 3,
+                "monthRecord": [
+                    {
+                        "day": 5,
+                        "name": "赞许壁画家",
+                        "platform": "All",
+                        "count": {
+                            "i": 3,
+                            "a": 3
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    },
+                    {
+                        "day": 19,
+                        "name": "细心矿工",
+                        "platform": "All",
+                        "count": {
+                            "i": 1,
+                            "a": 1
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "month": 4,
+                "monthRecord": [
+                    {
+                        "day": 2,
+                        "name": "威严舰长",
+                        "platform": "All",
+                        "count": {
+                            "i": 1,
+                            "a": 1
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    },
+                    {
+                        "day": 16,
+                        "name": "母语者",
+                        "platform": "All",
+                        "count": {
+                            "i": 4,
+                            "a": 4
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
+                    },
+                    {
+                        "day": 30,
+                        "name": "火先知",
+                        "platform": "All",
+                        "count": {
+                            "i": 4,
+                            "a": 4
+                        },
+                        "price": {
+                            "🕯": 0,
+                            "❤️": 0
+                        }
                     }
                 ]
             }
