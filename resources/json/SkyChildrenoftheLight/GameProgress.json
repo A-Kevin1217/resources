@@ -1,11 +1,11 @@
 {
     "season": {
-        "name": "织光季 (Lightmending)",
-        "icon": "https://ghfast.top/https://raw.githubusercontent.com/A-Kevin1217/resources/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/Necklaces/Lightmending/Lightmending.png",
-        "candelIcon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/ExchangeTreeIcon/SystemUI_SeasonCandle26128_Normal@3x.png",
-        "requiredCandlesTrue": 398,
-        "requiredCandlesFalse": 240,
-        "startDate": "2026-1-23 12:00:00",
-        "endDate": "2026-4-9 23:59:59"
+        "name": "狂欢季 (Carnival)",
+        "icon": "https://ghfast.top/https://raw.githubusercontent.com/A-Kevin1217/resources/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/Necklaces/Carnival/Carnival.png",
+        "candelIcon": "https://raw.gitcode.com/Kevin1217/resources/files/master/resources/img/光遇/AncestorDressUp/ExchangeTreeIcon/UiMenuSeasonCandleAP30.png",
+        "requiredCandlesTrue": 382,
+        "requiredCandlesFalse": 284,
+        "startDate": "2026-4-23 12:00:00",
+        "endDate": "2026-7-8 23:59:59"
     }
 }
