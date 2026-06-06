@@ -1683,5 +1683,79 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "狂欢",
+        "name_en": "Carnival",
+        "time": [
+            {
+                "S": "2026-04-23",
+                "E": "2026-07-08"
+            },
+            {
+                "S": "2026-05-04",
+                "E": "2026-07-20"
+            }
+        ],
+        "seasonIcon": "Necklaces/Carnival/Carnival.png",
+        "spirits": [
+            {
+                "name": "狂欢健美舞者",
+                "name_en": "Carnival Athletic Dancer",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Break_Dance.png",
+                    "Outfits/Carnival/Carnival_Athletic_Dancer_Outfit.png",
+                    "Masks/Carnival/Carnival_Athletic_Dancer_Mask.png",
+                    "Capes/Carnival/Carnival_Athletic_Dancer_Cape.png"
+                ]
+            },
+            {
+                "name": "狂欢杂耍师",
+                "name_en": "Carnival Juggler",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Ball_Spin_Trick.png",
+                    "Outfits/Carnival/Carnival_Juggler_Outfit.png",
+                    "Masks/Carnival/Carnival_Juggler_Mask.png",
+                    "Necklaces/Carnival/Carnival_Juggler_Neck_Accessory.png"
+                ]
+            },
+            {
+                "name": "狂欢解谜导演",
+                "name_en": "Carnival Puzzle Director",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Take_Notes.png",
+                    "Outfits/Carnival/Carnival_Puzzle_Director_Outfit.png",
+                    "Hair/Carnival/Carnival_Puzzle_Director_Hair.png",
+                    "HairAccessories/Carnival/Carnival_Puzzle_Director_Hair_Accessory.png"
+                ]
+            },
+            {
+                "name": "狂欢特技演员",
+                "name_en": "Carnival Stunt Actor",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Approve.png",
+                    "Outfits/Carnival/Carnival_Stunt_Actor_Outfit.png",
+                    "Hair/Carnival/Carnival_Stunt_Actor_Hair.png",
+                    "HairAccessories/Carnival/Carnival_Stunt_Actor_Hair_Accessory.png",
+                    "Capes/Carnival/Carnival_Stunt_Actor_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "梵高",
+        "name_en": "DearVanGogh",
+        "time": [
+            {
+                "S": "",
+                "E": ""
+            },
+            {
+                "S": "",
+                "E": ""
+            }
+        ],
+        "seasonIcon": "ExchangeTreeIcon/UiPlaceholder.png",
+        "spirits": []
     }
 ]
