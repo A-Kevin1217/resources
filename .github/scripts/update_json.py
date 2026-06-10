@@ -5,6 +5,7 @@ import json
 import os
 import datetime
 from datetime import timedelta
+from zoneinfo import ZoneInfo
 
 # 文件路径
 json_file_path = 'resources/json/XPSky/2.每日单独季蜡.json'
@@ -38,7 +39,7 @@ maps = [
 
 # 计算今天是第几个地图
 start_date = datetime.datetime.strptime('2024-01-04', '%Y-%m-%d')
-today = datetime.datetime.now()
+today = datetime.datetime.now(tz=ZoneInfo('Asia/Shanghai'))
 days = (today - start_date).days
 map_index = days % len(maps)
 today_map = maps[map_index]

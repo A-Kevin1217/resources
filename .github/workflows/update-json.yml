@@ -4,6 +4,9 @@ on:
   schedule:
     # 每天北京时间0点运行（UTC时间16点）
     - cron: '0 16 * * *'
+    # 备用触发，减少 GitHub 计划任务排队延迟导致的推迟风险
+    - cron: '5 16 * * *'
+    - cron: '10 16 * * *'
   # 添加手动触发选项
   workflow_dispatch:
 
