@@ -38,7 +38,7 @@ maps = [
 ]
 
 # 计算今天是第几个地图
-start_date = datetime.datetime.strptime('2024-01-04', '%Y-%m-%d')
+start_date = datetime.datetime.strptime('2024-01-04', '%Y-%m-%d').replace(tzinfo=ZoneInfo('Asia/Shanghai'))
 today = datetime.datetime.now(tz=ZoneInfo('Asia/Shanghai'))
 days = (today - start_date).days
 map_index = days % len(maps)
