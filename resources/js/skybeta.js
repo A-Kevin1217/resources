@@ -1,4 +1,4 @@
-let body = {
+const patchedBody = {
     "event_schedule": {
         "server_time": 1782949269,
         "valid_until": 1782951069,
@@ -4331,7 +4331,19 @@ let body = {
 };
 
 const now = Math.floor(Date.now() / 1000);
-body.event_schedule.server_time = now;
-body.event_schedule.valid_until = now + 1800;
+patchedBody.event_schedule.server_time = now;
+patchedBody.event_schedule.valid_until = now + 1800;
+
+let body;
+try {
+    body = JSON.parse($response.body || "{}");
+    body.event_schedule = Object.assign(
+        {},
+        body.event_schedule || {},
+        patchedBody.event_schedule
+    );
+} catch (e) {
+    body = patchedBody;
+}
 
 $done({body: JSON.stringify(body)});
