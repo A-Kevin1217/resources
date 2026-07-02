@@ -4330,4 +4330,8 @@ let body = {
     }
 };
 
+const now = Math.floor(Date.now() / 1000);
+body.event_schedule.server_time = now;
+body.event_schedule.valid_until = now + 1800;
+
 $done({body: JSON.stringify(body)});
