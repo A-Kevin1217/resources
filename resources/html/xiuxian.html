@@ -400,10 +400,13 @@
             realms.forEach((realm, index) => {
                 const tag = document.createElement('div');
                 tag.className = 'realm-tag';
-                tag.innerHTML = `
-            <span>${realm}</span>
-            <span class="delete-btn" onclick="deleteRealm(${index})">×</span>
-        `;
+                const name = document.createElement('span');
+                name.textContent = String(realm);
+                const deleteButton = document.createElement('span');
+                deleteButton.className = 'delete-btn';
+                deleteButton.textContent = '×';
+                deleteButton.addEventListener('click', () => deleteRealm(index));
+                tag.append(name, deleteButton);
                 realmTags.appendChild(tag);
             });
         }
@@ -437,10 +440,13 @@
             monsters.forEach((monster, index) => {
                 const div = document.createElement('div');
                 div.className = 'monster-tag';
-                div.innerHTML = `
-            <span>${monster.name} (${monster.level})</span>
-            <span class="delete-btn" onclick="deleteMonster(${index})">×</span>
-        `;
+                const name = document.createElement('span');
+                name.textContent = `${String(monster.name)} (${String(monster.level)})`;
+                const deleteButton = document.createElement('span');
+                deleteButton.className = 'delete-btn';
+                deleteButton.textContent = '×';
+                deleteButton.addEventListener('click', () => deleteMonster(index));
+                div.append(name, deleteButton);
                 monsterList.appendChild(div);
             });
         }

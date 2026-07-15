@@ -198,6 +198,7 @@
         .message-content p {
             margin: 0;
             word-wrap: break-word;
+            white-space: pre-wrap;
             color: var(--text-color);
             line-height: 1.6;
         }
@@ -297,7 +298,7 @@
 
         function addMessage() {
             const name = document.getElementById('name').value;
-            const content = document.getElementById('content').value.replace(/\n/g, '<p></p>');
+            const content = document.getElementById('content').value;
             const avatar = document.getElementById('avatar').value || 'https://via.placeholder.com/50';
 
             if (name && content) {
@@ -318,32 +319,70 @@
             }
         }
 
-        function renderMessages() {
+        function safeAvatarUrl(value) {
+            try {
+                const url = new URL(String(value), window.location.href);
+                return ['http:', 'https:'].includes(url.protocol)
+                    ? url.href
+                    : 'https://via.placeholder.com/50';
+            } catch {
+                return 'https://via.placeholder.com/50';
+            }
+        }
+
+        function createMessageElement(message) {
+            const messageElement = document.createElement('div');
+            messageElement.className = 'message';
+
+            const header = document.createElement('div');
+            header.className = 'message-header';
+
+            const avatar = document.createElement('img');
+            avatar.src = safeAvatarUrl(message.avatar);
+            avatar.alt = `${String(message.name)}的头像`;
+
+            const info = document.createElement('div');
+            info.className = 'message-info';
+            const name = document.createElement('strong');
+            name.textContent = String(message.name);
+            const timestamp = document.createElement('span');
+            timestamp.textContent = String(message.timestamp);
+            const id = document.createElement('span');
+            id.textContent = `ID: ${String(message.id)}`;
+            info.append(name, timestamp, id);
+            header.append(avatar, info);
+
+            const content = document.createElement('div');
+            content.className = 'message-content';
+            const paragraph = document.createElement('p');
+            // 兼容旧数据曾用 <p></p> 表示换行，但始终只作为纯文本显示。
+            paragraph.textContent = String(message.content).replace(/<p><\/p>/gi, '\n');
+            content.appendChild(paragraph);
+
+            const footer = document.createElement('div');
+            footer.className = 'message-footer';
+            const likeButton = document.createElement('button');
+            likeButton.className = 'like-button';
+            likeButton.type = 'button';
+            likeButton.setAttribute('aria-label', '点赞');
+            likeButton.append('👍 ');
+            const likes = document.createElement('span');
+            likes.textContent = String(message.likes);
+            likeButton.appendChild(likes);
+            likeButton.addEventListener('click', () => likeMessage(message.id));
+            footer.appendChild(likeButton);
+
+            messageElement.append(header, content, footer);
+            return messageElement;
+        }
+
+        function renderMessageList(messageList) {
             const messageBoard = document.getElementById('messageBoard');
-            messageBoard.innerHTML = '';
-            messages.forEach(message => {
-                const messageElement = document.createElement('div');
-                messageElement.className = 'message';
-                messageElement.innerHTML = `
-                    <div class="message-header">
-                        <img src="${message.avatar}" alt="${message.name}的头像">
-                        <div class="message-info">
-                            <strong>${message.name}</strong>
-                            <span>${message.timestamp}</span>
-                            <span>ID: ${message.id}</span>
-                        </div>
-                    </div>
-                    <div class="message-content">
-                        <p>${message.content}</p>
-                    </div>
-                    <div class="message-footer">
-                        <button class="like-button" onclick="likeMessage(${message.id})" aria-label="点赞">
-                            👍 <span>${message.likes}</span>
-                        </button>
-                    </div>
-                `;
-                messageBoard.appendChild(messageElement);
-            });
+            messageBoard.replaceChildren(...messageList.map(createMessageElement));
+        }
+
+        function renderMessages() {
+            renderMessageList(messages);
         }
 
         function likeMessage(id) {
@@ -364,31 +403,7 @@
         }
 
         function renderFilteredMessages(filteredMessages) {
-            const messageBoard = document.getElementById('messageBoard');
-            messageBoard.innerHTML = '';
-            filteredMessages.forEach(message => {
-                const messageElement = document.createElement('div');
-                messageElement.className = 'message';
-                messageElement.innerHTML = `
-                    <div class="message-header">
-                        <img src="${message.avatar}" alt="${message.name}的头像">
-                        <div class="message-info">
-                            <strong>${message.name}</strong>
-                            <span>${message.timestamp}</span>
-                            <span>ID: ${message.id}</span>
-                        </div>
-                    </div>
-                    <div class="message-content">
-                        <p>${message.content}</p>
-                    </div>
-                    <div class="message-footer">
-                        <button class="like-button" onclick="likeMessage(${message.id})" aria-label="点赞">
-                            👍 <span>${message.likes}</span>
-                        </button>
-                    </div>
-                `;
-                messageBoard.appendChild(messageElement);
-            });
+            renderMessageList(filteredMessages);
         }
 
         function toggleTheme() {
@@ -404,7 +419,7 @@
         messages.unshift({
             "id": "无",
             "name": "Tloml-Starry",
-            "content": "Hi~ 我是作者 欢迎使用此留言板\n点赞数是我的QQ号 欢迎反馈BUG\n查看留言板 即可查看最新的30条留言，输入查看留言板[页码] 即可查看指定页码的留言\n留言 [内容] 即可在此留言板中留言\n点赞留言 [留言ID] 即可为你喜欢的留言点赞\n热门留言 即可查看点赞数最多的留言".replace(/\n/g, '<p></p>'),
+            "content": "Hi~ 我是作者 欢迎使用此留言板\n点赞数是我的QQ号 欢迎反馈BUG\n查看留言板 即可查看最新的30条留言，输入查看留言板[页码] 即可查看指定页码的留言\n留言 [内容] 即可在此留言板中留言\n点赞留言 [留言ID] 即可为你喜欢的留言点赞\n热门留言 即可查看点赞数最多的留言",
             "avatar": "https://q1.qlogo.cn/g?b=qq&s=0&nk=3620060826",
             "timestamp": "2024-11-10 16:05:00",
             "likes": 3620060826
