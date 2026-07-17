@@ -1748,15 +1748,60 @@
         "time": [
             {
                 "S": "2026-07-17",
-                "E": ""
+                "E": "2026-10-02"
             },
             {
                 "S": "2026-07-17",
-                "E": ""
+                "E": "2026-10-02"
             }
         ],
         "seasonIcon": "Necklaces/DearVanGogh/DearVanGogh.png",
-        "spirits": []
+        "spirits": [
+            {
+                "name": "荷兰的回忆",
+                "name_en": "Memory of Holland",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Frustration.png",
+                    "Props/SmallProps/DearVanGogh/Blossom_Tea.png",
+                    "Capes/DearVanGogh/Sheer_Shawl.png",
+                    "Outfits/DearVanGogh/Worker_Dress.png",
+                    "Hair/DearVanGogh/Bonnet_Hair.png"
+                ]
+            },
+            {
+                "name": "乡野的回忆",
+                "name_en": "Memory of the Countryside",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Bask.png",
+                    "Props/SmallProps/DearVanGogh/Windmill_Painting.png",
+                    "Shoes/DearVanGogh/Clogs.png",
+                    "HairAccessories/DearVanGogh/Bandage.png",
+                    "Capes/DearVanGogh/Red_Cape.png"
+                ]
+            },
+            {
+                "name": "艺术的回忆",
+                "name_en": "Memory of Art",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Draw.png",
+                    "Props/SmallProps/DearVanGogh/Sunflower_Vase.png",
+                    "Props/SmallProps/DearVanGogh/Sunflower_Painting.png",
+                    "HairAccessories/DearVanGogh/Blue_Fur_Hat.png",
+                    "Capes/DearVanGogh/Almond_Blossom_Cape.png"
+                ]
+            },
+            {
+                "name": "欢乐的回忆",
+                "name_en": "Memory of Joy",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Slow_Walk.png",
+                    "Props/SmallProps/DearVanGogh/House_Painting.png",
+                    "Hair/DearVanGogh/Almond_Blossom_Hair.png",
+                    "Capes/DearVanGogh/Postman_Cape.png",
+                    "HairAccessories/DearVanGogh/Postman_Hat.png"
+                ]
+            }
+        ]
     },
     {
         "name": "珍珠",
