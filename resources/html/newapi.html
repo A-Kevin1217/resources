@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>橙子AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- 提前应用主题，避免首屏闪烁 -->
+    <script>
+        (function () {
+            try {
+                var m = document.cookie.match(/(?:^|;\s*)vite-ui-theme=([^;]+)/);
+                var dark = m
+                    ? (m[1].trim() === 'dark' || (m[1].trim() === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches))
+                    : window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var root = document.documentElement;
+                root.classList.toggle('dark', !!dark);
+                root.classList.toggle('light', !dark);
+                root.style.colorScheme = dark ? 'dark' : 'light';
+            } catch (e) { /* ignore */ }
+        })();
+    </script>
+
+    <style>
+        /* ===== 颜色令牌（.home 上定义，深浅色切换） ===== */
+        .home {
+            color-scheme: light;
+            --bg: #FFFFFF;
+            --fg: #0B1220;
+            --muted: #344256;
+            --faint: #51617A;
+            --border: #D9E1EC;
+            --surface: #F4F7FB;
+            --surface-hover: #EEF3FA;
+            --btn-bg: #0B1220;
+            --btn-fg: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            min-height: 100dvh;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            transition: background 0.25s, color 0.25s;
+        }
+
+        html.dark .home,
+        .dark .home {
+            color-scheme: dark;
+            --bg: #101418;
+            --fg: #F7F9FC;
+            --muted: #E0E6EF;
+            --faint: #B4C0D1;
+            --border: #3A4350;
+            --surface: #1A212B;
+            --surface-hover: #232C38;
+            --btn-bg: #F0F4F9;
+            --btn-fg: #0B1220;
+        }
+
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; }
+        body { background: #FFFFFF; }
+        html.dark body { background: #101418; }
+
+        .home { position: relative; isolation: isolate; }
+        .home a { color: inherit; }
+        .home ::selection { background: var(--fg); color: var(--bg); }
+        .home :focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; border-radius: 4px; }
+        .home .container { max-width: 1120px; margin: 0 auto; padding: 0 32px; width: 100%; }
+
+        /* ===== 氛围光 ===== */
+        .home .atmosphere {
+            position: absolute; inset: 0; z-index: -1;
+            overflow: hidden; pointer-events: none;
+        }
+        .home .atmosphere::before,
+        .home .atmosphere::after {
+            content: ''; position: absolute; border-radius: 50%;
+            filter: blur(70px); transition: background 0.25s;
+        }
+        .home .atmosphere::before { width: 540px; height: 540px; top: -200px; right: -120px; background: rgba(15, 23, 42, 0.10); }
+        .home .atmosphere::after  { width: 420px; height: 420px; bottom: -120px; left: -140px; background: rgba(15, 23, 42, 0.06); }
+        html.dark .home .atmosphere::before, .dark .home .atmosphere::before { background: rgba(226, 232, 240, 0.07); }
+        html.dark .home .atmosphere::after,  .dark .home .atmosphere::after  { background: rgba(226, 232, 240, 0.05); }
+
+        /* ===== Hero ===== */
+        .home .hero { padding: 120px 0 96px; }
+        .home .hero h1 {
+            margin: 0; font-size: clamp(3rem, 7vw, 4.6rem);
+            font-weight: 600; letter-spacing: -0.035em; line-height: 1.06;
+            color: var(--fg); transition: color 0.25s;
+        }
+        .home .hero h1 .highlight { color: var(--muted); }
+        .home .hero p {
+            margin: 26px 0 0; max-width: 480px;
+            font-size: 1.05rem; font-weight: 500; color: var(--muted);
+            line-height: 1.75; transition: color 0.25s;
+        }
+        .home .hero-actions { margin: 32px 0 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 26px; }
+        .home .btn-primary {
+            display: inline-flex; align-items: center;
+            background: var(--btn-bg); color: var(--btn-fg); border: none;
+            padding: 12px 28px; border-radius: 40px;
+            font-weight: 600; font-size: 0.98rem; text-decoration: none;
+            cursor: pointer; transition: opacity 0.2s, transform 0.15s, background 0.25s, color 0.25s;
+        }
+        .home .btn-primary:hover { opacity: 0.88; }
+        .home .btn-primary:active { transform: scale(0.98); }
+        .home .btn-link {
+            display: inline-flex; align-items: center; gap: 6px;
+            color: var(--fg); text-decoration: none;
+            font-size: 0.98rem; font-weight: 600; padding: 4px 0; transition: color 0.2s;
+        }
+        .home .btn-link:hover { color: var(--muted); }
+        .home .btn-link svg { width: 15px; height: 15px; transition: transform 0.2s; }
+        .home .btn-link:hover svg { transform: translateX(3px); }
+
+        /* ===== API 地址 ===== */
+        .home .api-display {
+            margin: 64px 0 0; display: flex; align-items: center; gap: 14px;
+            border: 1px solid var(--border); border-radius: 12px;
+            padding: 12px 12px 12px 18px; max-width: 680px;
+            background: var(--surface);
+            transition: border-color 0.25s, background 0.25s;
+        }
+        .home .api-display .method {
+            font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.72rem; font-weight: 600; color: var(--faint);
+            letter-spacing: 0.06em; text-transform: uppercase; flex-shrink: 0;
+        }
+        .home .api-display .url {
+            font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.86rem; font-weight: 500; color: var(--fg);
+            flex: 1; min-width: 0; overflow: hidden;
+            text-overflow: ellipsis; white-space: nowrap;
+        }
+        .home .copy-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            background: transparent; border: 1px solid var(--border); border-radius: 8px;
+            color: var(--faint); cursor: pointer; padding: 8px 14px;
+            font-size: 0.82rem; font-family: inherit; font-weight: 600; white-space: nowrap;
+            transition: color 0.2s, background 0.2s, border-color 0.2s;
+        }
+        .home .copy-btn:hover { color: var(--fg); background: var(--surface-hover); }
+        .home .copy-btn:active { transform: scale(0.97); }
+        .home .copy-btn.copied { color: var(--fg); border-color: var(--fg); }
+        .home .copy-btn svg { width: 13px; height: 13px; flex-shrink: 0; }
+
+        /* ===== 供应商 ===== */
+        .home .suppliers { border-top: 1px solid var(--border); padding: 40px 0 60px; transition: border-color 0.25s; }
+        .home .suppliers-label {
+            margin: 0 0 20px; font-size: 0.72rem; font-weight: 700;
+            color: var(--faint); letter-spacing: 0.18em; text-transform: uppercase;
+        }
+        .home .suppliers-list { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px 0; }
+        .home .supplier-item {
+            display: inline-flex; align-items: center; color: var(--muted);
+            font-size: 1rem; font-weight: 600; cursor: default; transition: color 0.2s;
+        }
+        .home .supplier-item + .supplier-item::before { content: '·'; margin: 0 22px; color: var(--border); font-weight: 400; }
+        .home .supplier-item:hover { color: var(--fg); }
+
+        /* ===== 页脚 ===== */
+        .home .footer { margin-top: auto; border-top: 1px solid var(--border); padding: 28px 0 36px; transition: border-color 0.25s; }
+        .home .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px 28px; }
+        .home .footer-copy {
+            margin: 0; font-size: 0.85rem; color: var(--faint);
+            display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
+        }
+        .home .footer-copy a { color: var(--faint); text-decoration: none; font-weight: 600; transition: color 0.2s; }
+        .home .footer-copy a:hover { color: var(--fg); }
+        .home .footer-links { margin: 0; padding: 0; display: flex; align-items: center; gap: 24px; }
+        .home .footer-links a {
+            display: inline-flex; align-items: center; gap: 6px;
+            color: var(--faint); text-decoration: none;
+            font-size: 0.85rem; font-weight: 500; transition: color 0.2s;
+        }
+        .home .footer-links a:hover { color: var(--fg); }
+        .home .footer-links svg { width: 14px; height: 14px; }
+
+        /* ===== 入场动画 ===== */
+        .home .fade-up { opacity: 0; transform: translateY(12px); animation: home-fade-up 0.6s ease-out forwards; }
+        @keyframes home-fade-up { to { opacity: 1; transform: none; } }
+        @media (prefers-reduced-motion: reduce) {
+            .home .fade-up { opacity: 1; transform: none; animation: none; }
+            .home * { transition-duration: 0.01ms !important; }
+        }
+
+        /* ===== 响应式 ===== */
+        @media (max-width: 768px) {
+            .home .container { padding: 0 20px; }
+            .home .hero { padding: 72px 0 60px; }
+            .home .hero h1 { font-size: 2.6rem; }
+            .home .hero p { font-size: 1rem; }
+            .home .api-display { margin-top: 44px; flex-wrap: wrap; gap: 8px; }
+            .home .api-display .url { font-size: 0.76rem; white-space: normal; word-break: break-all; order: 3; flex-basis: 100%; }
+            .home .copy-btn { margin-left: auto; }
+            .home .supplier-item + .supplier-item::before { margin: 0 14px; }
+        }
+        @media (max-width: 480px) {
+            .home .hero h1 { font-size: 2.05rem; }
+            .home .hero-actions { flex-direction: column; align-items: stretch; gap: 14px; }
+            .home .btn-primary, .home .btn-link { justify-content: center; }
+            .home .footer-inner { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="home">
+
+        <!-- 氛围光 -->
+        <div class="atmosphere" aria-hidden="true"></div>
+
+        <main style="width:100%">
+            <div class="container">
+
+                <!-- Hero -->
+                <section class="hero" aria-labelledby="hero-title">
+                    <h1 id="hero-title" class="fade-up">
+                        一个 🍊。<br />
+                        <span class="highlight">所有模型。</span>
+                    </h1>
+                    <p class="fade-up" style="animation-delay: 80ms;">通过统一的单一 API 接入所有主流 AI 模型。</p>
+                    <div class="hero-actions fade-up" style="animation-delay: 160ms;">
+                        <a class="btn-primary" href="/dashboard">前往仪表板</a>
+                        <a class="btn-link" href="/pricing">
+                            查看定价
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- API 地址 -->
+                    <div class="api-display fade-up" style="animation-delay: 240ms;">
+                        <span class="method">POST</span>
+                        <code class="url" aria-label="对话补全接口地址">https://ai.kevcore.cn/v1/chat/completions</code>
+                        <button type="button" class="copy-btn" data-copy="https://ai.kevcore.cn/v1/chat/completions" aria-label="复制到剪贴板">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+                                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+                            </svg>
+                            <span class="copy-label">复制</span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- 已适配 -->
+                <section class="suppliers" aria-labelledby="suppliers-label">
+                    <h2 class="suppliers-label fade-up" id="suppliers-label" style="animation-delay: 320ms;">已适配</h2>
+                    <ul class="suppliers-list fade-up" style="animation-delay: 380ms;">
+                        <li class="supplier-item">🍊OpenAI</li>
+                        <li class="supplier-item">🍊Anthropic</li>
+                        <li class="supplier-item">🍊Google</li>
+                        <li class="supplier-item">🍊Azure</li>
+                        <li class="supplier-item">🍊Bedrock</li>
+                        <li class="supplier-item">🍊DeepSeek</li>
+                    </ul>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <div class="container footer-inner">
+                <div class="footer-copy">
+                    <span>© <span data-year>2026</span> 橙子AI · 版权所有</span>
+                    <span>·</span>
+                    <span>
+                        基于
+                        <a href="https://github.com/QuantumNous/new-api" target="_blank" rel="noopener noreferrer">New API</a>
+                        构建，由项目贡献者设计与开发
+                    </span>
+                </div>
+                <div class="footer-links">
+                    <a href="/dashboard">控制台</a>
+                    <a href="/pricing">模型广场</a>
+                    <a href="https://docs.newapi.ai/" target="_blank" rel="noopener noreferrer">文档</a>
+                    <a href="https://github.com/QuantumNous/new-api" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.97 0 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .3.2.66.8.55A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        (function () {
+            'use strict';
+
+            var THEME_COOKIE = 'vite-ui-theme';
+            var currentIsDark = null;
+
+            function systemDark() {
+                return !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            }
+
+            function applyTheme(isDark) {
+                currentIsDark = !!isDark;
+                var root = document.documentElement;
+                root.classList.toggle('dark', currentIsDark);
+                root.classList.toggle('light', !currentIsDark);
+                root.style.colorScheme = currentIsDark ? 'dark' : 'light';
+                if (currentIsDark) {
+                    document.body.setAttribute('data-theme', 'dark');
+                } else {
+                    document.body.removeAttribute('data-theme');
+                }
+            }
+
+            // 1) 监听宿主（new-api 首页 URL 模式）通过 postMessage 推送的主题
+            window.addEventListener('message', function (e) {
+                var d = e.data;
+                if (d && typeof d === 'object') {
+                    if (d.themeMode === 'dark' || d.themeMode === 'light') {
+                        applyTheme(d.themeMode === 'dark');
+                    }
+                    if (d.lang) {
+                        document.documentElement.lang = d.lang;
+                    }
+                }
+            });
+
+            // 2) 直接访问时的兜底：cookie / 系统偏好
+            function readCookie(name) {
+                var m = document.cookie.match(new RegExp('(?:^;\\s*)' + name + '=([^;]+)'));
+                return m ? m[1].trim() : null;
+            }
+            var c = readCookie(THEME_COOKIE);
+            if (c === 'dark' || c === 'light') {
+                applyTheme(c === 'dark');
+            } else if (c === 'system') {
+                applyTheme(systemDark());
+            } else {
+                applyTheme(systemDark());
+            }
+
+            // 3) 系统偏好变化
+            if (window.matchMedia) {
+                var mq = window.matchMedia('(prefers-color-scheme: dark)');
+                var onSys = function () { applyTheme(systemDark()); };
+                if (mq.addEventListener) mq.addEventListener('change', onSys);
+                else if (mq.addListener) mq.addListener(onSys);
+            }
+
+            // ===== 复制按钮 =====
+            var copyBtn = document.querySelector('.copy-btn');
+            if (copyBtn) {
+                var copyLabel = copyBtn.querySelector('.copy-label');
+                copyBtn.addEventListener('click', function () {
+                    var text = copyBtn.getAttribute('data-copy') || '';
+                    function done() {
+                        copyBtn.classList.add('copied');
+                        if (copyLabel) copyLabel.textContent = '已复制';
+                        setTimeout(function () {
+                            copyBtn.classList.remove('copied');
+                            if (copyLabel) copyLabel.textContent = '复制';
+                        }, 1600);
+                    }
+                    function fallbackCopy(t, cb) {
+                        var ta = document.createElement('textarea');
+                        ta.value = t;
+                        ta.setAttribute('readonly', '');
+                        ta.style.position = 'fixed';
+                        ta.style.opacity = '0';
+                        document.body.appendChild(ta);
+                        ta.select();
+                        try { document.execCommand('copy'); cb(); } catch (err) { /* ignore */ }
+                        document.body.removeChild(ta);
+                    }
+                    if (navigator.clipboard && navigator.clipboard.writeText) {
+                        navigator.clipboard.writeText(text).then(done, function () { fallbackCopy(text, done); });
+                    } else {
+                        fallbackCopy(text, done);
+                    }
+                });
+            }
+
+            // ===== 页脚年份 =====
+            var yearEls = document.querySelectorAll('[data-year]');
+            for (var i = 0; i < yearEls.length; i++) {
+                yearEls[i].textContent = String(new Date().getFullYear());
+            }
+        })();
+    </script>
+
+</body>
+</html>
