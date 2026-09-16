@@ -1,0 +1,11 @@
+{
+    "season": {
+        "name": "致梵高季 (DearVanGogh)",
+        "icon": "https://raw.gitcode.com/Kevin1217/resources/raw/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/Necklaces/DearVanGogh/DearVanGogh.png",
+        "candelIcon": "https://raw.gitcode.com/Kevin1217/resources/raw/master/resources/img/%E5%85%89%E9%81%87/AncestorDressUp/ExchangeTreeIcon/UiMenuSeasonCandleAP31.png",
+        "requiredCandlesTrue": 392,
+        "requiredCandlesFalse": 288,
+        "startDate": "2026-7-17 15:00:00",
+        "endDate": "2026-10-2 23:59:59"
+    }
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>光遇 · 复刻记录编辑器</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
+  .scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+
+<div class="max-w-6xl mx-auto p-4 sm:p-6">
+
+  <header class="flex flex-wrap items-center justify-between gap-3 mb-6">
+    <div>
+      <h1 class="text-2xl sm:text-3xl font-bold text-slate-900">光遇 · 复刻记录编辑器</h1>
+      <p class="text-sm text-slate-500 mt-1">编辑 <code class="bg-slate-200 px-1.5 py-0.5 rounded text-xs">RegressionRecords.json</code>，完成后点击下载保存。</p>
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <label class="px-3 py-2 bg-white border border-slate-300 rounded-lg text-sm cursor-pointer hover:bg-slate-100">
+        载入 JSON
+        <input id="fileInput" type="file" accept="application/json,.json" class="hidden" />
+      </label>
+      <button id="reloadBtn" class="px-3 py-2 bg-white border border-slate-300 rounded-lg text-sm hover:bg-slate-100">重新拉取</button>
+      <button id="addBtn" class="px-3 py-2 bg-indigo-600 text-white rounded-lg text-sm hover:bg-indigo-700">+ 新增记录</button>
+      <button id="downloadBtn" class="px-3 py-2 bg-emerald-600 text-white rounded-lg text-sm hover:bg-emerald-700">下载 JSON</button>
+    </div>
+  </header>
+
+  <div id="stats" class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6"></div>
+
+  <div class="bg-white rounded-xl border border-slate-200 p-3 mb-4 flex flex-wrap items-center gap-2">
+    <input id="search" type="text" placeholder="按先祖名搜索…" class="flex-1 min-w-[180px] px-3 py-2 border border-slate-300 rounded-lg text-sm" />
+    <select id="filterYear" class="px-3 py-2 border border-slate-300 rounded-lg text-sm"><option value="">全部年份</option></select>
+    <select id="filterPlatform" class="px-3 py-2 border border-slate-300 rounded-lg text-sm">
+      <option value="">全部平台</option>
+      <option value="IOS">IOS</option>
+      <option value="Android">Android</option>
+      <option value="All">All</option>
+    </select>
+  </div>
+
+  <main id="list" class="space-y-6"></main>
+
+  <p id="empty" class="hidden text-center text-slate-400 py-12">暂无数据，请先「载入 JSON」或「重新拉取」。</p>
+</div>
+
+<!-- 编辑弹窗 -->
+<div id="modal" class="hidden fixed inset-0 bg-black/40 z-50 flex items-center justify-center p-4">
+  <div class="bg-white rounded-2xl shadow-xl w-full max-w-md">
+    <div class="px-5 py-4 border-b border-slate-200 flex items-center justify-between">
+      <h3 id="modalTitle" class="text-lg font-semibold">新增记录</h3>
+      <button onclick="closeModal()" class="text-slate-400 hover:text-slate-600 text-2xl leading-none">&times;</button>
+    </div>
+    <form id="form" class="p-5 space-y-3">
+      <div class="grid grid-cols-3 gap-3">
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">年</label>
+          <input name="year" type="number" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">月</label>
+          <input name="month" type="number" min="1" max="12" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">日</label>
+          <input name="day" type="number" min="1" max="31" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+        </div>
+      </div>
+      <div>
+        <label class="block text-xs text-slate-500 mb-1">先祖名</label>
+        <input name="name" type="text" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+      </div>
+      <div>
+        <label class="block text-xs text-slate-500 mb-1">平台</label>
+        <select name="platform" class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm">
+          <option value="IOS">IOS</option>
+          <option value="Android">Android</option>
+          <option value="All">All</option>
+        </select>
+      </div>
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">i (本次复刻次数)</label>
+          <input name="i" type="number" min="0" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">a (累计复刻次数)</label>
+          <input name="a" type="number" min="0" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">🕯 蜡烛</label>
+          <input name="candle" type="number" min="0" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">❤️ 爱心</label>
+          <input name="heart" type="number" min="0" required class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-sm" />
+        </div>
+      </div>
+      <div class="flex justify-end gap-2 pt-2">
+        <button type="button" onclick="closeModal()" class="px-3 py-2 border border-slate-300 rounded-lg text-sm hover:bg-slate-100">取消</button>
+        <button type="submit" class="px-3 py-2 bg-indigo-600 text-white rounded-lg text-sm hover:bg-indigo-700">保存</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+// 简易 cn 工具
+const cn = (...c) => c.filter(Boolean).join(' ');
+
+const JSON_URL = '../json/SkyChildrenoftheLight/RegressionRecords.json';
+
+let data = []; // 顶层数组
+let editingRef = null; // {year, month, day} 标记被编辑的记录
+
+const $ = (id) => document.getElementById(id);
+
+// ---- 数据操作 ----
+function ensureYear(year) {
+  let y = data.find(x => x.year === year);
+  if (!y) { y = { year, yearRecord: [] }; data.push(y); }
+  return y;
+}
+function ensureMonth(year, month) {
+  const y = ensureYear(year);
+  let m = y.yearRecord.find(x => x.month === month);
+  if (!m) { m = { month, monthRecord: [] }; y.yearRecord.push(m); }
+  return m;
+}
+function sortAll() {
+  data.sort((a, b) => a.year - b.year);
+  data.forEach(y => {
+    y.yearRecord.sort((a, b) => a.month - b.month);
+    y.yearRecord.forEach(m => m.monthRecord.sort((a, b) => a.day - b.day));
+  });
+}
+function removeRecord(year, month, day, name) {
+  const y = data.find(x => x.year === year); if (!y) return;
+  const m = y.yearRecord.find(x => x.month === month); if (!m) return;
+  m.monthRecord = m.monthRecord.filter(r => !(r.day === day && r.name === name));
+  if (!m.monthRecord.length) y.yearRecord = y.yearRecord.filter(x => x !== m);
+  if (!y.yearRecord.length) data = data.filter(x => x !== y);
+}
+
+// ---- 渲染 ----
+function render() {
+  sortAll();
+  renderStats();
+  renderYearFilter();
+  const list = $('list'); list.innerHTML = '';
+  const q = $('search').value.trim().toLowerCase();
+  const fy = $('filterYear').value;
+  const fp = $('filterPlatform').value;
+
+  let totalShown = 0;
+  data.forEach(y => {
+    if (fy && String(y.year) !== fy) return;
+    const yearBlock = document.createElement('section');
+    yearBlock.className = 'bg-white rounded-xl border border-slate-200 overflow-hidden';
+    const monthsHtml = y.yearRecord.map(m => {
+      const rows = m.monthRecord
+        .filter(r => (!q || r.name.toLowerCase().includes(q)) && (!fp || r.platform === fp))
+        .map(r => {
+          totalShown++;
+          return `
+            <tr class="hover:bg-slate-50">
+              <td class="px-3 py-2 text-sm">${m.month}/${r.day}</td>
+              <td class="px-3 py-2 text-sm font-medium">${escapeHtml(r.name)}</td>
+              <td class="px-3 py-2 text-sm"><span class="px-2 py-0.5 rounded text-xs ${platformColor(r.platform)}">${r.platform}</span></td>
+              <td class="px-3 py-2 text-sm text-slate-600">${r.count.i}/${r.count.a}</td>
+              <td class="px-3 py-2 text-sm text-slate-600">🕯${r.price['🕯']} ❤️${r.price['❤️']}</td>
+              <td class="px-3 py-2 text-right text-sm whitespace-nowrap">
+                <button onclick='editRecord(${y.year},${m.month},${r.day},${JSON.stringify(r.name)})' class="text-indigo-600 hover:underline">编辑</button>
+                <button onclick='delRecord(${y.year},${m.month},${r.day},${JSON.stringify(r.name)})' class="text-rose-600 hover:underline ml-2">删除</button>
+              </td>
+            </tr>`;
+        }).join('');
+      if (!rows) return '';
+      return `
+        <div class="border-t border-slate-100">
+          <div class="px-4 py-2 bg-slate-50 text-sm font-semibold text-slate-600">${m.month} 月</div>
+          <table class="w-full">
+            <thead class="text-xs text-slate-400">
+              <tr><th class="px-3 py-1.5 text-left font-normal">日期</th><th class="px-3 py-1.5 text-left font-normal">先祖</th><th class="px-3 py-1.5 text-left font-normal">平台</th><th class="px-3 py-1.5 text-left font-normal">次数 i/a</th><th class="px-3 py-1.5 text-left font-normal">价格</th><th></th></tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`;
+    }).join('');
+    if (!monthsHtml) return;
+    yearBlock.innerHTML = `
+      <div class="px-4 py-3 bg-gradient-to-r from-indigo-50 to-slate-50 flex items-center justify-between">
+        <h2 class="text-lg font-bold text-slate-800">${y.year} 年</h2>
+        <span class="text-xs text-slate-500">${y.yearRecord.reduce((s,m)=>s+m.monthRecord.length,0)} 条</span>
+      </div>
+      ${monthsHtml}
+    `;
+    list.appendChild(yearBlock);
+  });
+
+  $('empty').classList.toggle('hidden', data.length > 0);
+}
+
+function platformColor(p) {
+  if (p === 'IOS') return 'bg-sky-100 text-sky-700';
+  if (p === 'Android') return 'bg-emerald-100 text-emerald-700';
+  return 'bg-violet-100 text-violet-700';
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderStats() {
+  const all = data.flatMap(y => y.yearRecord.flatMap(m => m.monthRecord));
+  const totalCandle = all.reduce((s, r) => s + (r.price['🕯']||0), 0);
+  const totalHeart = all.reduce((s, r) => s + (r.price['❤️']||0), 0);
+  const stats = [
+    ['记录总数', all.length],
+    ['年份', data.length],
+    ['🕯 合计', totalCandle],
+    ['❤️ 合计', totalHeart],
+  ];
+  $('stats').innerHTML = stats.map(([k,v]) => `
+    <div class="bg-white rounded-xl border border-slate-200 p-4">
+      <div class="text-xs text-slate-500">${k}</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">${v}</div>
+    </div>`).join('');
+}
+
+function renderYearFilter() {
+  const sel = $('filterYear');
+  const prev = sel.value;
+  sel.innerHTML = '<option value="">全部年份</option>' + data.map(y => `<option value="${y.year}">${y.year}</option>`).join('');
+  sel.value = prev;
+}
+
+// ---- 操作 ----
+function openModal(title, prefill) {
+  $('modalTitle').textContent = title;
+  const f = $('form');
+  f.reset();
+  if (prefill) {
+    f.year.value = prefill.year; f.month.value = prefill.month; f.day.value = prefill.day;
+    f.name.value = prefill.name; f.platform.value = prefill.platform;
+    f.i.value = prefill.count.i; f.a.value = prefill.count.a;
+    f.candle.value = prefill.price['🕯']; f.heart.value = prefill.price['❤️'];
+  }
+  $('modal').classList.remove('hidden');
+}
+function closeModal() { $('modal').classList.add('hidden'); editingRef = null; }
+
+function editRecord(year, month, day, name) {
+  const r = data.find(x=>x.year===year).yearRecord.find(x=>x.month===month).monthRecord.find(x=>x.day===day && x.name===name);
+  editingRef = { year, month, day, name };
+  openModal('编辑记录', { year, month, day, ...r });
+}
+function delRecord(year, month, day, name) {
+  if (!confirm(`删除 ${year}/${month}/${day} ${name} ？`)) return;
+  removeRecord(year, month, day, name);
+  render();
+}
+
+$('form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const f = e.target;
+  const year = +f.year.value, month = +f.month.value, day = +f.day.value;
+  const rec = {
+    day,
+    name: f.name.value.trim(),
+    platform: f.platform.value,
+    count: { i: +f.i.value, a: +f.a.value },
+    price: { '🕯': +f.candle.value, '❤️': +f.heart.value },
+  };
+  if (editingRef) {
+    removeRecord(editingRef.year, editingRef.month, editingRef.day, editingRef.name);
+  }
+  const m = ensureMonth(year, month);
+  // 同日同名覆盖
+  m.monthRecord = m.monthRecord.filter(r => !(r.day === day && r.name === rec.name));
+  m.monthRecord.push(rec);
+  closeModal();
+  render();
+});
+
+$('addBtn').onclick = () => {
+  const now = new Date();
+  openModal('新增记录', null);
+  $('form').year.value = now.getFullYear();
+  $('form').month.value = now.getMonth() + 1;
+  $('form').day.value = now.getDate();
+  $('form').platform.value = 'All';
+  $('form').i.value = 1; $('form').a.value = 1;
+  $('form').candle.value = 0; $('form').heart.value = 0;
+};
+
+$('downloadBtn').onclick = () => {
+  sortAll();
+  const text = JSON.stringify(data, null, 4);
+  const blob = new Blob([text], { type: 'application/json;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'RegressionRecords.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+};
+
+$('fileInput').addEventListener('change', (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try { data = JSON.parse(r.result); render(); }
+    catch (err) { alert('JSON 解析失败：' + err.message); }
+  };
+  r.readAsText(f);
+});
+
+$('reloadBtn').onclick = loadRemote;
+['search','filterYear','filterPlatform'].forEach(id => $(id).addEventListener('input', render));
+
+async function loadRemote() {
+  try {
+    const res = await fetch(JSON_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    data = await res.json();
+    render();
+  } catch (e) {
+    console.warn('自动加载失败，请使用「载入 JSON」选择本地文件。', e);
+    render();
+  }
+}
+loadRemote();
+</script>
+</body>
+</html>

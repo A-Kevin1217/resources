@@ -1,0 +1,203 @@
+{
+    "CurrentRole": [
+        "薇薇安",
+        "简"
+    ],
+    "OtherRoles": [
+        {
+            "name": "艾莲",
+            "Record": [
+                {
+                    "StartTime": "2024-07-04",
+                    "EndTime": "2024-07-24",
+                    "Version": 1.0,
+                    "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2025-01-22",
+                    "EndTime": "2025-02-12",
+                    "Version": 1.5,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "朱鸢",
+            "Record": [
+                {
+                    "StartTime": "2024-07-24",
+                    "EndTime": "2024-08-13",
+                    "Version": 1.0,
+                    "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-04-02",
+                    "EndTime": "2025-04-22",
+                    "Version": 1.6,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "青衣",
+            "Record": [
+                {
+                    "StartTime": "2024-08-14",
+                    "EndTime": "2024-09-04",
+                    "Version": 1.1,
+                    "UpOrDown": "上"
+                },
+                {
+                    "StartTime": "2025-02-12",
+                    "EndTime": "2025-03-11",
+                    "Version": 1.5,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "简",
+            "Record": [
+                {
+                    "StartTime": "2024-09-04",
+                    "EndTime": "2024-09-24",
+                    "Version": 1.1,
+                    "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-04-23",
+                    "EndTime": "2025-05-14",
+                    "Version": 1.7,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "凯撒",
+            "Record": [
+                {
+                    "StartTime": "2024-09-25",
+                    "EndTime": "2024-10-16",
+                    "Version": 1.2,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "柏妮思",
+            "Record": [
+                {
+                    "StartTime": "2024-10-16",
+                    "EndTime": "2024-11-05",
+                    "Version": 1.2,
+                    "UpOrDown": "下"
+                },
+                {
+                    "StartTime": "2025-03-12",
+                    "EndTime": "2025-04-02",
+                    "Version": 1.6,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name":"柳",
+            "Record": [
+                {
+                    "StartTime": "2024-11-06",
+                    "EndTime": "2024-11-27",
+                    "Version": 1.3,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name":"莱特",
+            "Record": [
+                {
+                    "StartTime": "2024-11-27",
+                    "EndTime": "2024-12-17",
+                    "Version": 1.3,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "星见雅",
+            "Record": [
+                {
+                    "StartTime": "2024-12-18",
+                    "EndTime": "2025-01-21",
+                    "Version": 1.4,
+                    "UpOrDown": "上下"
+                }
+            ]
+        },
+        {
+            "name": "浅羽悠真",
+            "Record": [
+                {
+                    "StartTime": "2024-12-18",
+                    "EndTime": "2025-01-21",
+                    "Version": 1.4,
+                    "UpOrDown": "上下"
+                }
+            ]
+        },
+        {
+            "name": "耀嘉音",
+            "Record": [
+                {
+                    "StartTime": "2025-01-22",
+                    "EndTime": "2025-02-12",
+                    "Version": 1.5,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name":"伊芙琳",
+            "Record": [
+                {
+                    "StartTime": "2025-02-12",
+                    "EndTime": "2025-03-11",
+                    "Version": 1.5,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "大安比",
+            "Record": [
+                {
+                    "StartTime": "2025-03-12",
+                    "EndTime": "2025-04-02",
+                    "Version": 1.6,
+                    "UpOrDown": "上"
+                }
+            ]
+        },
+        {
+            "name": "扳机",
+            "Record": [
+                {
+                    "StartTime": "2025-04-02",
+                    "EndTime": "2025-04-22",
+                    "Version": 1.6,
+                    "UpOrDown": "下"
+                }
+            ]
+        },
+        {
+            "name": "简",
+            "Record": [
+                {
+                    "StartTime": "2025-04-23",
+                    "EndTime": "2025-05-14",
+                    "Version": 1.7,
+                    "UpOrDown": "下"
+                }
+            ]
+        }
+    ]
+}

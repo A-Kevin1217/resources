@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOSS击杀排行榜</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #444;
+        }
+
+        th {
+            background-color: #1e1e1e;
+        }
+
+        tr:nth-child(even) {
+            background-color: #2a2a2a;
+        }
+
+        img {
+            width: 50px;
+            /* 头像宽度 */
+            height: 50px;
+            /* 头像高度 */
+            border-radius: 5px;
+            /* 圆角效果 */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BOSS击杀排行榜</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>BOSS头像</th>
+                <th>BOSS名称</th>
+                <th>UID</th>
+                <th>击杀次数</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{each data item}}
+            <tr>
+                <td><img src="{{item.icon}}" alt="BOSS1头像"></td>
+                <td>{{item.name}}</td>
+                <td>{{item.uid}}</td>
+                <td>{{item.count}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高级现代化留言板</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --background-color: #f0f3f5;
+            --text-color: #34495e;
+            --card-background: #ffffff;
+            --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .dark-theme {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --background-color: #2c3e50;
+            --text-color: #ecf0f1;
+            --card-background: #34495e;
+            --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        body {
+            width: 1400px;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .add-message {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .add-message:hover {
+            background-color: var(--secondary-color);
+            transform: scale(1.1) rotate(90deg);
+        }
+
+        .message-form {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--card-background);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            z-index: 1000;
+            width: 350px;
+        }
+
+        .message-form h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .message-form input,
+        .message-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            transition: border-color 0.3s ease;
+            background-color: var(--card-background);
+            color: var(--text-color);
+        }
+
+        .message-form input:focus,
+        .message-form textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .message-form button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .message-form button[onclick="addMessage()"] {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .message-form button[onclick="hideMessageForm()"] {
+            background-color: #e74c3c;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .message-form button:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        .message-board {
+            column-count: 3;
+            column-gap: 25px;
+        }
+
+        .message {
+            break-inside: avoid;
+            margin-bottom: 25px;
+            background-color: var(--card-background);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: var(--card-shadow);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .message-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .message-header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+            border: 3px solid var(--primary-color);
+        }
+
+        .message-info {
+            flex-grow: 1;
+        }
+
+        .message-info strong {
+            display: block;
+            color: var(--primary-color);
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .message-info span {
+            font-size: 12px;
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+
+        .message-content p {
+            margin: 0;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .message-footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .like-button {
+            background: none;
+            border: none;
+            color: var(--primary-color);
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .like-button:hover {
+            transform: scale(1.1);
+        }
+
+        .like-button span {
+            margin-left: 5px;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background-color: var(--card-background);
+            color: var(--text-color);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .message-board {
+                column-count: 1;
+            }
+
+            .message-form {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="color: var(--primary-color);">留言板</h1>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">🌓</button>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="搜索留言..." onkeyup="searchMessages()" aria-label="搜索留言">
+        </div>
+        <div id="messageBoard" class="message-board"></div>
+    </div>
+
+    <div id="messageForm" class="message-form" aria-labelledby="formTitle">
+        <h2 id="formTitle">添加新留言</h2>
+        <input type="text" id="name" placeholder="您的名字" required aria-label="您的名字">
+        <textarea id="content" placeholder="留言内容" required aria-label="留言内容"></textarea>
+        <input type="text" id="avatar" placeholder="头像URL（可选）" aria-label="头像URL">
+        <button onclick="addMessage()">发布留言</button>
+        <button onclick="hideMessageForm()">取消</button>
+    </div>
+
+    <script>
+        let messages = [];
+
+        function showMessageForm() {
+            document.getElementById('messageForm').style.display = 'block';
+            setTimeout(() => document.getElementById('messageForm').style.opacity = '1', 50);
+        }
+
+        function hideMessageForm() {
+            document.getElementById('messageForm').style.opacity = '0';
+            setTimeout(() => document.getElementById('messageForm').style.display = 'none', 300);
+        }
+
+        function addMessage() {
+            const name = document.getElementById('name').value;
+            const content = document.getElementById('content').value;
+            const avatar = document.getElementById('avatar').value || 'https://via.placeholder.com/50';
+
+            if (name && content) {
+                const message = {
+                    id: Date.now(),
+                    name: name,
+                    content: content,
+                    avatar: avatar,
+                    timestamp: new Date().toLocaleString(),
+                    likes: 0
+                };
+                messages.unshift(message);
+                renderMessages();
+                hideMessageForm();
+                document.getElementById('name').value = '';
+                document.getElementById('content').value = '';
+                document.getElementById('avatar').value = '';
+            }
+        }
+
+        function safeAvatarUrl(value) {
+            try {
+                const url = new URL(String(value), window.location.href);
+                return ['http:', 'https:'].includes(url.protocol)
+                    ? url.href
+                    : 'https://via.placeholder.com/50';
+            } catch {
+                return 'https://via.placeholder.com/50';
+            }
+        }
+
+        function createMessageElement(message) {
+            const messageElement = document.createElement('div');
+            messageElement.className = 'message';
+
+            const header = document.createElement('div');
+            header.className = 'message-header';
+
+            const avatar = document.createElement('img');
+            avatar.src = safeAvatarUrl(message.avatar);
+            avatar.alt = `${String(message.name)}的头像`;
+
+            const info = document.createElement('div');
+            info.className = 'message-info';
+            const name = document.createElement('strong');
+            name.textContent = String(message.name);
+            const timestamp = document.createElement('span');
+            timestamp.textContent = String(message.timestamp);
+            const id = document.createElement('span');
+            id.textContent = `ID: ${String(message.id)}`;
+            info.append(name, timestamp, id);
+            header.append(avatar, info);
+
+            const content = document.createElement('div');
+            content.className = 'message-content';
+            const paragraph = document.createElement('p');
+            // 兼容旧数据曾用 <p></p> 表示换行，但始终只作为纯文本显示。
+            paragraph.textContent = String(message.content).replace(/<p><\/p>/gi, '\n');
+            content.appendChild(paragraph);
+
+            const footer = document.createElement('div');
+            footer.className = 'message-footer';
+            const likeButton = document.createElement('button');
+            likeButton.className = 'like-button';
+            likeButton.type = 'button';
+            likeButton.setAttribute('aria-label', '点赞');
+            likeButton.append('👍 ');
+            const likes = document.createElement('span');
+            likes.textContent = String(message.likes);
+            likeButton.appendChild(likes);
+            likeButton.addEventListener('click', () => likeMessage(message.id));
+            footer.appendChild(likeButton);
+
+            messageElement.append(header, content, footer);
+            return messageElement;
+        }
+
+        function renderMessageList(messageList) {
+            const messageBoard = document.getElementById('messageBoard');
+            messageBoard.replaceChildren(...messageList.map(createMessageElement));
+        }
+
+        function renderMessages() {
+            renderMessageList(messages);
+        }
+
+        function likeMessage(id) {
+            const message = messages.find(m => m.id === id);
+            if (message) {
+                message.likes++;
+                renderMessages();
+            }
+        }
+
+        function searchMessages() {
+            const searchTerm = document.querySelector('.search-input').value.toLowerCase();
+            const filteredMessages = messages.filter(message =>
+                message.content.toLowerCase().includes(searchTerm) ||
+                message.name.toLowerCase().includes(searchTerm)
+            );
+            renderFilteredMessages(filteredMessages);
+        }
+
+        function renderFilteredMessages(filteredMessages) {
+            renderMessageList(filteredMessages);
+        }
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+        }
+
+        // 默认启用黑夜模式
+        document.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.add('dark-theme');
+        });
+
+        messages = {{@data}};
+        messages.unshift({
+            "id": "无",
+            "name": "Tloml-Starry",
+            "content": "Hi~ 我是作者 欢迎使用此留言板\n点赞数是我的QQ号 欢迎反馈BUG\n查看留言板 即可查看最新的30条留言，输入查看留言板[页码] 即可查看指定页码的留言\n留言 [内容] 即可在此留言板中留言\n点赞留言 [留言ID] 即可为你喜欢的留言点赞\n热门留言 即可查看点赞数最多的留言",
+            "avatar": "https://q1.qlogo.cn/g?b=qq&s=0&nk=3620060826",
+            "timestamp": "2024-11-10 16:05:00",
+            "likes": 3620060826
+        });
+        renderMessages();
+    </script>
+</body>
+
+</html>

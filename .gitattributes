@@ -1,0 +1,2 @@
+# Apply obfuscation filter to game config files
+resources/js/netease_game.js filter=netease-obfuscate

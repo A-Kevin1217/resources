@@ -1,0 +1,83 @@
+[
+    
+    {
+        "name": "ESFJ",
+        "nameChinese": "温暖执伞人",
+        "Description": "慷慨善良\r重视他人情感需求及群体和谐"
+    },
+    {
+        "name": "ISFJ",
+        "nameChinese": "心火守护者",
+        "Description": "忠实可靠，温柔细腻\r常为他人带去情感关怀"
+    },
+    {
+        "name": "ESTJ",
+        "nameChinese": "秩序监督官",
+        "Description": "重视规则和责任感\r热衷落实计划"
+    },
+    {
+        "name": "ISTJ",
+        "nameChinese": "机关校准家",
+        "Description": "注重细节和承诺\r偏好高度有序的生活"
+    },
+    {
+        "name": "ISTP",
+        "nameChinese": "效率手艺匠",
+        "Description": "低调含蓄，冷静客观\r擅长操作工具解决实际问题"
+    },
+    {
+        "name": "ESFP",
+        "nameChinese": "派对表演者",
+        "Description": "亲切友善\r擅长活跃气氛，善于跟人打交道"
+    },
+    {
+        "name": "ISFP",
+        "nameChinese": "生活艺术家",
+        "Description": "为人谦虚，厌恶冲突\r重视审美与品味"
+    },
+    {
+        "name": "ESTP",
+        "nameChinese": "驯龙挑战者",
+        "Description": "务实的行动派\r喜欢刺激和挑战"
+    },
+    {
+        "name": "ENTP",
+        "nameChinese": "逻辑辩论家",
+        "Description": "直言不讳且足智多谋\r喜欢尝试新事物"
+    },
+    {
+        "name": "INTJ",
+        "nameChinese": "战略布局师",
+        "Description": "善于思考及富有远见\r喜欢解决谜题和复杂问题"
+    },
+    {
+        "name": "ENTJ",
+        "nameChinese": "王国指挥官",
+        "Description": "果断的领导者\r关注更宏大的事情，擅长统筹"
+    },
+    {
+        "name": "INTP",
+        "nameChinese": "云端哲学家",
+        "Description": "专注且热爱理论探索\r拥有敏锐的理解力"
+    },
+    {
+        "name": "INFP",
+        "nameChinese": "疗愈小蝴蝶",
+        "Description": "理想主义且情感内敛\r追求真善美，对他人有深刻共情"
+    },
+    {
+        "name": "ENFJ",
+        "nameChinese": "热心引路人",
+        "Description": "善于社交，鼓舞人心的领导者\r乐于帮助他人发挥潜力"
+    },
+    {
+        "name": "ENFP",
+        "nameChinese": "灵感社交达人",
+        "Description": "富有想象力且热情洋溢\r善于鼓舞人心，喜欢即兴发挥"
+    },
+    {
+        "name": "INFJ",
+        "nameChinese": "心灵观察者",
+        "Description": "深邃的观察者\r追求深层价值观，总是致力于造福大众"
+    }
+]

@@ -1,0 +1,1822 @@
+[
+    {
+        "name": "感恩",
+        "name_en": "Gratitude",
+        "time": [
+            {
+                "S": "2019-06-21",
+                "E": "2019-08-19"
+            },
+            {
+                "S": "2019-07-19",
+                "E": "2019-09-02"
+            }
+        ],
+        "seasonIcon": "Necklaces/Gratitude/Gratitude.png",
+        "spirits": [
+            {
+                "name": "刁蛮浪者",
+                "name_en": "Sassy Drifter",
+                "icon": [
+                    "Expressions/Stances/Gratitude/Sassy_Stance.png",
+                    "Hair/Gratitude/Sassy_Drifter_Hair.png",
+                    "Masks/Gratitude/Sassy_Drifter_Mask.png"
+                ]
+            },
+            {
+                "name": "舒展大师",
+                "name_en": "Stretching Guru",
+                "icon": [
+                    "Expressions/Emotes/Gratitude/Yoge.png",
+                    "Hair/Gratitude/Stretching_Guru_Hair.png",
+                    "Capes/Gratitude/Stretching_Guru_Cape.png"
+                ]
+            },
+            {
+                "name": "挑衅艺伎",
+                "name_en": "Provoking Performer",
+                "icon": [
+                    "Expressions/Emotes/Gratitude/Kabuki.png",
+                    "Hair/Gratitude/Provoking_Performer_Hair.png",
+                    "Masks/Gratitude/Provoking_Performer_Mask.png"
+                ]
+            },
+            {
+                "name": "跳跃舞者",
+                "name_en": "Leaping Dancer",
+                "icon": [
+                    "Expressions/Emotes/Gratitude/Leap.png",
+                    "Props/Instruments/Gratitude/Small_Bel.png",
+                    "Masks/Gratitude/Leaping_Dancer_Mask.png"
+                ]
+            },
+            {
+                "name": "敬礼护卫",
+                "name_en": "Saluting Protector",
+                "icon": [
+                    "Expressions/Emotes/Gratitude/Acknowledge.png",
+                    "Capes/Gratitude/Saluting_Protector_Cape.png",
+                    "Masks/Gratitude/Saluting_Protector_Mask.png"
+                ]
+            },
+            {
+                "name": "拳礼武僧",
+                "name_en": "Greeting Shaman",
+                "icon": [
+                    "Expressions/Emotes/Gratitude/Kung_Fu.png",
+                    "Props/Instruments/Gratitude/Large_Bell.png",
+                    "Masks/Gratitude/Greeting_Shaman_Mask.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "追光",
+        "name_en": "Lightseekers",
+        "time": [
+            {
+                "S": "2019-10-10",
+                "E": "2019-12-04"
+            },
+            {
+                "S": "2019-09-23",
+                "E": "2019-11-10"
+            }
+        ],
+        "seasonIcon": "Necklaces/Lightseekers/Lightseekers.png",
+        "spirits": [
+            {
+                "name": "肩背追光",
+                "name_en": "Piggyback Lightseeker",
+                "icon": [
+                    "Expressions/FriendActions/Lightseekers/Piggyback.png",
+                    "Masks/Lightseekers/Piggyback_Lightseeker_Mask.png",
+                    "Hair/Lightseekers/Piggyback_Lightseeker_Hair.png",
+                    "Capes/Lightseekers/Piggyback_Lightseeker_Cape.png"
+                ]
+            },
+            {
+                "name": "击掌光农",
+                "name_en": "Doublefive Light Catcher",
+                "icon": [
+                    "Expressions/FriendActions/Lightseekers/Double-Five.png",
+                    "Hair/Lightseekers/Doublefive_Light_Catcher_Hair.png",
+                    "Masks/Lightseekers/Doublefive_Light_Catcher_Mask.png",
+                    "Props/Instruments/Lightseekers/Flute.png"
+                ]
+            },
+            {
+                "name": "随性拓荒者",
+                "name_en": "Laidback Pioneer",
+                "icon": [
+                    "Expressions/Stances/Lightseekers/Laidback Stance.png",
+                    "Masks/Lightseekers/Laidback_Pioneer_Mask.png",
+                    "Hair/Lightseekers/Laidback_Pioneer_Hair.png",
+                    "Props/Instruments/Lightseekers/Laidback_Pioneer_Umbrella.png"
+                ]
+            },
+            {
+                "name": "螺旋舞冠",
+                "name_en": "Twirling Champion",
+                "icon": [
+                    "Expressions/Emotes/Lightseekers/Triple_Axel.png",
+                    "Masks/Lightseekers/Twirling_Champion_Mask.png",
+                    "Hair/Lightseekers/Twirling_Champion_Hair.png",
+                    "Props/Instruments/Lightseekers/Panflute.png"
+                ]
+            },
+            {
+                "name": "蟹语者",
+                "name_en": "Crab Whisperer",
+                "icon": [
+                    "Expressions/Calls/Lightseekers/Crab_Call.png",
+                    "Masks/Lightseekers/Crab_Whisperer_Mask.png",
+                    "Hair/Lightseekers/Crab_Whisperer_Hair.png",
+                    "Capes/Lightseekers/Crab_Whisperer_Cape.png"
+                ]
+            },
+            {
+                "name": "静光学者",
+                "name_en": "Shushing Light Scholar",
+                "icon": [
+                    "Expressions/Emotes/Lightseekers/Shush.png",
+                    "Masks/Lightseekers/Shushing_Light_Scholar_Mask.png",
+                    "Capes/Lightseekers/Shushing_Light_Scholar_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "归属",
+        "name_en": "Belonging",
+        "time": [
+            {
+                "S": "2019-12-19",
+                "E": "2020-02-07"
+            },
+            {
+                "S": "2019-11-18",
+                "E": "2020-01-12"
+            }
+        ],
+        "seasonIcon": "Necklaces/Belonging/Belonging.png",
+        "spirits": [
+            {
+                "name": "彩纸表亲",
+                "name_en": "Confetti Cousin",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Confetti.png",
+                    "Capes/Belonging/Confetti_Cousin_Cape.png",
+                    "Hair/Belonging/Confetti_Cousin_Hair.png"
+                ]
+            },
+            {
+                "name": "踏舞孩童",
+                "name_en": "Boogie Kid",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Boogie_Dance.png",
+                    "Masks/Belonging/Boogie_Kid_Mask.png",
+                    "Outfits/Belonging/Boogie_Kid_Outfit.png"
+                ]
+            },
+            {
+                "name": "火花家长",
+                "name_en": "Sparkler Parent",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Sparkler.png",
+                    "Masks/Belonging/Sparkler_Parent_Mask.png",
+                    "Hair/Belonging/Sparkler_Parent_Hair.png"
+                ]
+            },
+            {
+                "name": "智慧长者",
+                "name_en": "Wise Grandparent",
+                "icon": [
+                    "Expressions/Stances/Belonging/Wise_Stance.png",
+                    "Masks/Belonging/Wise_Grandparent_Mask.png",
+                    "Capes/Belonging/Wise_Grandparent_Cape.png"
+                ]
+            },
+            {
+                "name": "不舍家长",
+                "name_en": "Pleaful Parent",
+                "icon": [
+                    "Expressions/Emotes/Belonging/Don_t_Go!.png",
+                    "Props/Instruments/Belonging/Guitar.png",
+                    "Masks/Belonging/Pleaful_Parent_Mask.png",
+                    "Capes/Belonging/Pleaful_Parent_Cape.png"
+                ]
+            },
+            {
+                "name": "蓬头青年",
+                "name_en": "Hairtousle Teen",
+                "icon": [
+                    "Expressions/FriendActions/Belonging/Hair_Tousle.png",
+                    "HeadAccessories/Belonging/Hairtousle_Teen_Earmuffs.png",
+                    "Props/Instruments/Belonging/Ukulele.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "音韵",
+        "name_en": "Rhythm",
+        "time": [
+            {
+                "S": "2020-03-12",
+                "E": "2020-05-21"
+            },
+            {
+                "S": "2020-01-24",
+                "E": "2020-04-05"
+            }
+        ],
+        "seasonIcon": "Necklaces/Rhythm/Rhythm.png",
+        "spirits": [
+            {
+                "name": "迎宾侍者",
+                "name_en": "Troupe Greeter",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Welcome.png",
+                    "Masks/Rhythm/Troupe_Greeter_Mask.png",
+                    "Outfits/Rhythm/Troupe_Greeter_Outfit.png"
+                ]
+            },
+            {
+                "name": "旋转舞者",
+                "name_en": "Festival Spin Dancer",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Spin_Dance.png",
+                    "Hair/Rhythm/Festival_Spin_Dancer_Hair.png",
+                    "Outfits/Rhythm/Festival_Spin_Dancer_Outfit.png"
+                ]
+            },
+            {
+                "name": "献情演员",
+                "name_en": "Admiring Actor",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Blow_Kiss.png",
+                    "Outfits/Rhythm/Admiring_Actor_Outfit.png",
+                    "Masks/Rhythm/Admiring_Actor_Mask.png"
+                ]
+            },
+            {
+                "name": "抛球杂耍",
+                "name_en": "Troupe Juggler",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Juggle.png",
+                    "Hair/Rhythm/Troupe_Juggler_Hair.png",
+                    "Capes/Rhythm/Troupe_Juggler_Cape.png",
+                    "Outfits/Rhythm/Troupe_Juggler_Outfit.png"
+                ]
+            },
+            {
+                "name": "致敬钢琴家",
+                "name_en": "Respectful Pianist",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Respect.png",
+                    "Hair/Rhythm/Respectful_Pianist_Hair.png",
+                    "Props/Instruments/Rhythm/Winter_Piano.png",
+                    "Masks/Rhythm/Respectful_Pianist_Mask.png"
+                ]
+            },
+            {
+                "name": "沉思编导",
+                "name_en": "Thoughtful Director",
+                "icon": [
+                    "Expressions/Emotes/Rhythm/Thinking.png",
+                    "Masks/Rhythm/Thoughtful_Director_Mask.png",
+                    "Props/Instruments/Rhythm/Xylophone.png",
+                    "Capes/Rhythm/Thoughtful_Director_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "魔法",
+        "name_en": "Enchantment",
+        "time": [
+            {
+                "S": "2020-05-28",
+                "E": "2020-08-05"
+            },
+            {
+                "S": "2020-04-20",
+                "E": "2020-06-21"
+            }
+        ],
+        "seasonIcon": "Necklaces/Enchantment/Enchantment.png",
+        "spirits": [
+            {
+                "name": "赞许壁画家",
+                "name_en": "Nodding Muralist",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Nod.png",
+                    "Masks/Enchantment/Nodding_Muralist_Mask.png",
+                    "Hair/Enchantment/Nodding_Muralist_Hair.png"
+                ]
+            },
+            {
+                "name": "冷漠术士",
+                "name_en": "Indifferent Alchemist",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Shrug.png",
+                    "Masks/Enchantment/Indifferent_Alchemist_Mask.png",
+                    "Hair/Enchantment/Indifferent_Alchemist_Hair.png",
+                    "Capes/Enchantment/Indifferent_Alchemist_Cape.png"
+                ]
+            },
+            {
+                "name": "蟹舞者",
+                "name_en": "Crab Walker",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Crab_Walk.png",
+                    "Hair/Enchantment/Crab_Walker_Hair.png",
+                    "Capes/Enchantment/Crab_Walker_Cape.png"
+                ]
+            },
+            {
+                "name": "稻草人农夫",
+                "name_en": "Scarecrow Farmer",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Boo.png",
+                    "Masks/Enchantment/Scarecrow_Farmer_Mask.png",
+                    "Hair/Enchantment/Scarecrow_Farmer_Hair.png"
+                ]
+            },
+            {
+                "name": "瞌睡木匠",
+                "name_en": "Snoozing Carpenter",
+                "icon": [
+                    "Expressions/Emotes/Enchantment/Doze.png",
+                    "Hair/Enchantment/Snoozing_Carpenter_Hair.png",
+                    "Capes/Enchantment/Snoozing_Carpenter_Cape.png"
+                ]
+            },
+            {
+                "name": "情绪草药师",
+                "name_en": "Playfighting Herbalist",
+                "icon": [
+                    "Expressions/FriendActions/Enchantment/Play_Fight.png",
+                    "Masks/Enchantment/Playfighting_Herbalist_Mask.png",
+                    "Hair/Enchantment/Playfighting_Herbalist_Hair.png",
+                    "Capes/Enchantment/Playfighting_Herbalist_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "圣岛",
+        "name_en": "Sanctuary",
+        "time": [
+            {
+                "S": "2020-09-03",
+                "E": "2020-11-12"
+            },
+            {
+                "S": "2020-07-13",
+                "E": "2020-09-21"
+            }
+        ],
+        "seasonIcon": "Necklaces/Sanctuary/Sanctuary.png",
+        "spirits": [
+            {
+                "name": "母语者",
+                "name_en": "Jelly Whisperer",
+                "icon": [
+                    "Expressions/Calls/Sanctuary/Jellyfish_Call.png",
+                    "Hair/Sanctuary/Jelly_Whisperer_Hair.png",
+                    "Outfits/Sanctuary/Jelly_Whisperer_Qutfit.png"
+                ]
+            },
+            {
+                "name": "内秀书虫",
+                "name_en": "Timid Bookworm",
+                "icon": [
+                    "Expressions/Stances/Sanctuary/Timid_Stance.png",
+                    "Hair/Sanctuary/Timid_Bookworm_Hair.png",
+                    "Capes/Sanctuary/Timid_Bookworm_Cape.png"
+                ]
+            },
+            {
+                "name": "热血运动员",
+                "name_en": "Rallying Thrillseeker",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Rally_Cheer.png",
+                    "Hair/Sanctuary/Rallying_Thrillseeker_Hair.png",
+                    "Outfits/Sanctuary/Rallying_Thrillseeker_Outfit.png"
+                ]
+            },
+            {
+                "name": "固执登山者",
+                "name_en": "Hiking Grouch",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Grumpy.png",
+                    "Masks/Sanctuary/Hiking_Grouch_Mask.png",
+                    "Hair/Sanctuary/Hiking_Grouch_Hair.png",
+                    "Necklaces/Sanctuary/Hiking_Grouch_Bowtie.png"
+                ]
+            },
+            {
+                "name": "鸣谢收藏家",
+                "name_en": "Grateful Shell Collector",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Grateful.png",
+                    "Hair/Sanctuary/Grateful_Shell_Collector_Hair.png",
+                    "Capes/Sanctuary/Grateful_Shell_Collector_Cape.png"
+                ]
+            },
+            {
+                "name": "放松日浴者",
+                "name_en": "Chill Sunbather",
+                "icon": [
+                    "Expressions/Emotes/Sanctuary/Belly_Scratch.png",
+                    "FaceAccessories/Sanctuary/Chill_Sunbather_Sunglasses.png",
+                    "HairAccessories/Sanctuary/Chill_Sunbather_Hat.png",
+                    "Capes/Sanctuary/Chill_Sunbather_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "预言",
+        "name_en": "Prophecy",
+        "time": [
+            {
+                "S": "2020-11-26",
+                "E": "2021-02-03"
+            },
+            {
+                "S": "2020-10-05",
+                "E": "2020-12-13"
+            }
+        ],
+        "seasonIcon": "Necklaces/Prophecy/Prophecy.png",
+        "spirits": [
+            {
+                "name": "水先知",
+                "name_en": "Prophet of Water",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Deep_Breath.png",
+                    "Hair/Prophecy/Prophet_of_Water_Hair.png",
+                    "Capes/Prophecy/Prophet_of_Water_Cape.png",
+                    "Masks/Prophecy/Prophet_of_Water_Mask.png"
+                ]
+            },
+            {
+                "name": "土先知",
+                "name_en": "Prophet of Earth",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Dust_Off.png",
+                    "Hair/Prophecy/Prophet_of_Earth_Hair.png",
+                    "Capes/Prophecy/Prophet_of_Earth_Cape.png",
+                    "Masks/Prophecy/Prophet_of_Earth_Mask.png"
+                ]
+            },
+            {
+                "name": "风先知",
+                "name_en": "Prophet of Air",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Balance.png",
+                    "Hair/Prophecy/Prophet_of_Air_Hair.png",
+                    "Masks/Prophecy/Prophet_of_Air_Mask.png",
+                    "Capes/Prophecy/Prophet_of_Air_Cape.png"
+                ]
+            },
+            {
+                "name": "火先知",
+                "name_en": "Prophet of Fire",
+                "icon": [
+                    "Expressions/Emotes/Prophecy/Chest_Pound.png",
+                    "Hair/Prophecy/Prophet_of_Fire_Hair.png",
+                    "Masks/Prophecy/Prophet_of_Fire_Mask.png",
+                    "Outfits/Prophecy/Prophet_of_Fire_Qutfit.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "梦想",
+        "name_en": "Dreams",
+        "time": [
+            {
+                "S": "2021-02-06",
+                "E": "2021-04-16"
+            },
+            {
+                "S": "2021-01-04",
+                "E": "2021-03-15"
+            }
+        ],
+        "seasonIcon": "Necklaces/Dreams/Dreams.png",
+        "spirits": [
+            {
+                "name": "熊抱雪人",
+                "name_en": "Bearhug Hermit",
+                "icon": [
+                    "Expressions/FriendActions/Dreams/Bearhug.png",
+                    "HeadAccessories/Dreams/Bearhug_Hermit_Horns.png",
+                    "Hair/Dreams/Bearhug_Hermit_Hair.png",
+                    "Outfits/Dreams/Bearhug_Hermit_Outfit.png"
+                ]
+            },
+            {
+                "name": "跳舞艺人",
+                "name_en": "Dancing Performer",
+                "icon": [
+                    "Expressions/Emotes/Dreams/Show_Dance.png",
+                    "Hair/Dreams/Dancing_Performer_Hair.png",
+                    "Masks/Dreams/Dancing_Performer_Mask.png",
+                    "Capes/Dreams/Dancing_Performer_Cape.png",
+                    "Props/Instruments/Dreams/Lute.png"
+                ]
+            },
+            {
+                "name": "偷窥邮差",
+                "name_en": "Peeking Postman",
+                "icon": [
+                    "Expressions/Emotes/Dreams/Peek.png",
+                    "Outfits/Dreams/Peeking_Postman_Outfit.png",
+                    "Masks/Dreams/Peeking_Postman_Mask.png",
+                    "Capes/Dreams/Peeking_Postman_Cape.png"
+                ]
+            },
+            {
+                "name": "回旋大师",
+                "name_en": "Spinning Mentor",
+                "icon": [
+                    "Expressions/Emotes/Dreams/Spin_Trick.png",
+                    "Hair/Dreams/Spinning_Mentor_Hair.png",
+                    "Masks/Dreams/Spinning_Mentor_Mask.png",
+                    "Capes/Dreams/Spinning_Mentor_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "集结",
+        "name_en": "Assembly",
+        "time": [
+            {
+                "S": "2021-04-28",
+                "E": "2021-07-13"
+            },
+            {
+                "S": "2021-04-05",
+                "E": "2021-06-13"
+            }
+        ],
+        "seasonIcon": "Necklaces/Assembly/Assembly.png",
+        "spirits": [
+            {
+                "name": "茫然植物学生",
+                "name_en": "Baffled Botanist",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Facepalm.png",
+                    "Hair/Assembly/Baffled_Botanist_Hair.png",
+                    "Masks/Assembly/Baffled_Botanist_Mask.png",
+                    "Props/LargeProps/Assembly/Baffled_Botanist_Prop.png"
+                ]
+            },
+            {
+                "name": "管事小队长",
+                "name_en": "Scolding Student",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Scold.png",
+                    "Masks/Assembly/Scolding_Student_Mask.png",
+                    "Hair/Assembly/Scolding_Student_Hair.png",
+                    "Capes/Assembly/Scolding_Student_Cape.png"
+                ]
+            },
+            {
+                "name": "胆小鬼学员",
+                "name_en": "Scaredy Cadet",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Eww.png",
+                    "Masks/Assembly/Scaredy_Cadet_Mask.png",
+                    "Hair/Assembly/Scaredy_Cadet_Hair.png",
+                    "Props/LargeProps/Assembly/Scaredy_Cadet_Hammock.png"
+                ]
+            },
+            {
+                "name": "正步冒险家",
+                "name_en": "Marching Adventurer",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Marching.png",
+                    "Hair/Assembly/Marching_Adventurer_Hair.png",
+                    "Masks/Assembly/Marching_Adventurer_Mask.png",
+                    "Props/LargeProps/Assembly/Marching_Adventurer_Tiki_Torch.png"
+                ]
+            },
+            {
+                "name": "傻笑童子军",
+                "name_en": "Chuckling Scout",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Chuckle.png",
+                    "Masks/Assembly/Chuckling_Scout_Mask.png",
+                    "Outfits/Assembly/Chuckling_Scout_Outfit.png",
+                    "Props/LargeProps/Assembly/Chuckling_Scout_Prop.png"
+                ]
+            },
+            {
+                "name": "白日梦森林人",
+                "name_en": "Daydream Forester",
+                "icon": [
+                    "Expressions/Emotes/Assembly/Bubbles.png",
+                    "Masks/Assembly/Daydream_Forester_Mask.png",
+                    "Hair/Assembly/Daydream_Forester_Hair.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "小王子",
+        "name_en": "TheLittePrince",
+        "time": [
+            {
+                "S": "2021-07-20",
+                "E": "2021-10-13"
+            },
+            {
+                "S": "2021-07-06",
+                "E": "2021-09-19"
+            }
+        ],
+        "seasonIcon": "Necklaces/TheLittePrince/The_Litte_Prince.png",
+        "spirits": [
+            {
+                "name": "发号施令的统治者",
+                "name_en": "Beckoning Ruler",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Beckon.png",
+                    "Hair/TheLittePrince/Beckoning_Ruler_Hair.png",
+                    "Masks/TheLittePrince/Beckoning_Ruler_Mask.png"
+                ]
+            },
+            {
+                "name": "沾沾自喜的自恋狂",
+                "name_en": "Gloating Narcissist",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Gloat.png",
+                    "Outfits/TheLittePrince/Gloating_Narcissist_Outfit.png",
+                    "Hair/TheLittePrince/Gloating_Narcissist_Hair.png"
+                ]
+            },
+            {
+                "name": "被逼无奈的掌灯人",
+                "name_en": "Stretching Lamplighter",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Stretch.png",
+                    "Hair/TheLittePrince/Stretching_Lamplighter_Hair.png",
+                    "Capes/TheLittePrince/Stretching_Lamplighter_Cape.png"
+                ]
+            },
+            {
+                "name": "萎靡不振的士兵",
+                "name_en": "Slouching Soldier",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Slouch.png",
+                    "Hair/TheLittePrince/Slouching_Soldier_Hair.png",
+                    "Capes/TheLittePrince/Slouching_Soldier_Cape.png"
+                ]
+            },
+            {
+                "name": "打喷嚏的地理学家",
+                "name_en": "Sneezing Geographer",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Sneeze.png",
+                    "Hair/TheLittePrince/Sneezing_Geographer_Hair.png",
+                    "Capes/TheLittePrince/Sneezing_Geographer_Cape.png"
+                ]
+            },
+            {
+                "name": "星光收藏家",
+                "name_en": "Star Collector",
+                "icon": [
+                    "Expressions/Emotes/TheLittePrince/Hand-Rub.png",
+                    "Necklaces/TheLittePrince/Star_Collector_Necklace.png",
+                    "Capes/TheLittePrince/Star_Collector_Cape.png",
+                    "Props/LargeProps/TheLittePrince/Star_Collector_Prop.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "风行",
+        "name_en": "Flight",
+        "time": [
+            {
+                "S": "2021-10-14",
+                "E": "2022-01-05"
+            },
+            {
+                "S": "2021-10-04",
+                "E": "2021-12-19"
+            }
+        ],
+        "seasonIcon": "Necklaces/Flight/Flight.png",
+        "spirits": [
+            {
+                "name": "风行领航员",
+                "name_en": "Lively Navigator",
+                "icon": [
+                    "Expressions/Emotes/Flight/Navigate.png",
+                    "Hair/Flight/Lively_Navigator_Hair.png",
+                    "HairAccessories/Flight/Lively_Navigator_Hat.png",
+                    "Capes/Flight/Lively_Navigator_Cape.png"
+                ]
+            },
+            {
+                "name": "光之低语者",
+                "name_en": "Light Whisperer",
+                "icon": [
+                    "Expressions/Calls/Flight/Baby_Manta_Call.png",
+                    "HairAccessories/Flight/Light_Whisperer_Hat.png",
+                    "Hair/Flight/Light_Whisperer_Hair.png",
+                    "Capes/Flight/Light_Whisperer_Cape.png",
+                    "Outfits/Flight/Light_Whisperer_Outfit.png"
+                ]
+            },
+            {
+                "name": "风铃修补匠",
+                "name_en": "Tinkering Chimesmith",
+                "icon": [
+                    "Expressions/Stances/Flight/Tinker_Stance.png",
+                    "Outfits/Flight/Tinkering_Chimesmith_Outfit.png",
+                    "HairAccessories/Flight/Tinkering_Chimesmith_Hat.png",
+                    "Props/Instruments/Flight/Kalimba.png",
+                    "Hair/Flight/Tinkering_Chimesmith_Hair.png"
+                ]
+            },
+            {
+                "name": "天才建筑师",
+                "name_en": "Talented Builder",
+                "icon": [
+                    "Expressions/Emotes/Flight/Voilà.png",
+                    "Necklaces/Flight/Talented_Builder_Necklace.png",
+                    "Outfits/Flight/Talented_Builder_Outfit.png",
+                    "Hair/Flight/Talented_Builder_Hair.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "潜海",
+        "name_en": "Abyss",
+        "time": [
+            {
+                "S": "2022-01-20",
+                "E": "2022-04-13"
+            },
+            {
+                "S": "2022-01-17",
+                "E": "2022-03-27"
+            }
+        ],
+        "seasonIcon": "Necklaces/Abyss/Abyss.png",
+        "spirits": [
+            {
+                "name": "焦虑渔夫",
+                "name_en": "Anxious Angler",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Anxious.png",
+                    "Masks/Abyss/Anxious_Angler_Mask.png",
+                    "Hair/Abyss/Anxious_Angler_Hair.png",
+                    "Capes/Abyss/Anxious_Angler_Cape.png",
+                    "Outfits/Abyss/Anxious_Angler_Outfit.png"
+                ]
+            },
+            {
+                "name": "威严舰长",
+                "name_en": "Ceasing Commodore",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Calm_Down.png",
+                    "Hair/Abyss/Ceasing_Commodore_Hair.png",
+                    "Masks/Abyss/Ceasing_Commodore_Mask.png",
+                    "Capes/Abyss/Ceasing_Commodore_Cape.png"
+                ]
+            },
+            {
+                "name": "笨拙水手",
+                "name_en": "Bumbling Boatswain",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Oush.png",
+                    "Masks/Abyss/Bumbling_Boatswain_Mask.png",
+                    "Capes/Abyss/Bumbling_Boatswain_Cape.png",
+                    "HairAccessories/Abyss/Bumbling_Boatswain_Hat.png"
+                ]
+            },
+            {
+                "name": "嬉笑炮手",
+                "name_en": "Cackling Cannoneer",
+                "icon": [
+                    "Expressions/Emotes/Abyss/Evil_Laugh.png",
+                    "Masks/Abyss/Cackling_Cannoneer_Mask.png",
+                    "Capes/Abyss/Cackling_Cannoneer_Cape.png",
+                    "Hair/Abyss/Cackling_Cannoneer_Hair.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "表演",
+        "name_en": "Performance",
+        "time": [
+            {
+                "S": "2022-04-28",
+                "E": "2022-07-20"
+            },
+            {
+                "S": "2022-04-11",
+                "E": "2022-06-26"
+            }
+        ],
+        "seasonIcon": "Necklaces/Performance/Performance.png",
+        "spirits": [
+            {
+                "name": "忙碌舞台管理员",
+                "name_en": "Frantic Stagehand",
+                "icon": [
+                    "Expressions/FriendActions/Performance/Handshake.png",
+                    "Hair/Performance/Frantic_Stagehand_Hair.png",
+                    "Masks/Performance/Frantic_Stagehand_Mask.png",
+                    "Outfits/Performance/Frantic_Stagehand_Outfit.png"
+                ]
+            },
+            {
+                "name": "健忘叙事者",
+                "name_en": "Forgetful Storyteller",
+                "icon": [
+                    "Expressions/Emotes/Performance/Awww.png",
+                    "Masks/Performance/Forgetful_Storyteller_Mask.png",
+                    "Hair/Performance/Forgetful_Storyteller_Hair.png",
+                    "Outfits/Performance/Forgetful_Storyteller_Outfit.png",
+                    "Capes/Performance/Forgetful_Storyteller_Cape.png"
+                ]
+            },
+            {
+                "name": "老练音乐家",
+                "name_en": "Mellow Musician",
+                "icon": [
+                    "Expressions/Emotes/Performance/Headbob.png",
+                    "Masks/Performance/Mellow_Musician_Mask.png",
+                    "Capes/Performance/Mellow_Musician_Cape.png",
+                    "Props/Instruments/Performance/Electric_Guitar.png",
+                    "Hair/Performance/Mellow_Musician_Hair.png"
+                ]
+            },
+            {
+                "name": "谦虚舞者",
+                "name_en": "Modest Dancer",
+                "icon": [
+                    "Expressions/FriendActions/Performance/Duet_Dance.png",
+                    "Masks/Performance/Modest_Dancer_Mask.png",
+                    "Outfits/Performance/Modest_Dancer_Outfit.png",
+                    "Hair/Performance/Modest_Dancer_Hair.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "破晓",
+        "name_en": "Shattering",
+        "time": [
+            {
+                "S": "2022-08-05",
+                "E": "2022-10-30"
+            },
+            {
+                "S": "2022-07-11",
+                "E": "2022-09-26"
+            }
+        ],
+        "seasonIcon": "Necklaces/Shattering/Shattering.png",
+        "spirits": [
+            {
+                "name": "远古光辉 (水母)",
+                "name_en": "Ancient Light (Jellyfish)",
+                "icon": [
+                    "Hair/Shattering/Jellyfish_Hair.png",
+                    "HairAccessories/Shattering/Jellyfish_Hat.png",
+                    "Capes/Shattering/Jellyfish_Cape.png"
+                ]
+            },
+            {
+                "name": "远古光辉 (魔鬼鱼)",
+                "name_en": "Ancient Light (Manta)",
+                "icon": [
+                    "Hair/Shattering/Manta_Hair.png",
+                    "Capes/Shattering/Manta_Cape.png",
+                    "Outfits/Shattering/Manta_Outfit.png"
+                ]
+            },
+            {
+                "name": "远古冥暗 (龙)",
+                "name_en": "Ancient Darkness (Dragon)",
+                "icon": [
+                    "Necklaces/Shattering/Dragon_Neck_Accessory (Crab).png",
+                    "Props/Instruments/Shattering/Dark_Horn.png",
+                    "Hair/Shattering/Dragon_Hair.png"
+                ]
+            },
+            {
+                "name": "远古冥暗 (植物)",
+                "name_en": "Ancient Darkness (Plants)",
+                "icon": [
+                    "HairAccessories/Shattering/Darkness_Plant_Hat.png",
+                    "Masks/Shattering/Darkness_Plant_Mask.png",
+                    "Capes/Shattering/Darkness_Plant_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "欧若拉",
+        "name_en": "AURORA",
+        "time": [
+            {
+                "S": "2022-11-03",
+                "E": "2023-01-15"
+            },
+            {
+                "S": "2022-10-17",
+                "E": "2023-01-02"
+            }
+        ],
+        "seasonIcon": "Necklaces/AURORA/AURORA.png",
+        "spirits": [
+            {
+                "name": "奔跑旅人",
+                "name_en": "Running Wayfarer",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Waving_Light.png",
+                    "Masks/AURORA/Running_Wayfarer_Mask.png",
+                    "Hair/AURORA/Running_Wayfarer_Hair.png",
+                    "Capes/AURORA/Running_Wayfarer_Cape.png"
+                ]
+            },
+            {
+                "name": "警觉矿工",
+                "name_en": "Mindful Miner",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Raise_the_Roof.png",
+                    "Masks/AURORA/Mindful_Miner_Mask.png",
+                    "Hair/AURORA/Mindful_Miner_Hair.png",
+                    "Outfits/AURORA/Mindful_Miner_Outfit.png",
+                    "Capes/AURORA/Mindful_Miner_Cape.png"
+                ]
+            },
+            {
+                "name": "爱之战士",
+                "name_en": "Warrior of Love",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Twir.png",
+                    "Masks/AURORA/Warrior_of_Love_Mask.png",
+                    "Hair/AURORA/Warrior_of_Love_Hair.png",
+                    "Capes/AURORA/Warrior_of_Love_Cape.png"
+                ]
+            },
+            {
+                "name": "希望种子",
+                "name_en": "Seed of Hope",
+                "icon": [
+                    "Expressions/Emotes/AURORA/Rhythmic_Clap.png",
+                    "Masks/AURORA/Seed_of_Hope_Mask.png",
+                    "Hair/AURORA/Seed_of_Hope_Hair.png",
+                    "Capes/AURORA/Seed_of_Hope_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "追忆",
+        "name_en": "Remembrance",
+        "time": [
+            {
+                "S": "2023-01-19",
+                "E": "2023-04-19"
+            },
+            {
+                "S": "2023-01-16",
+                "E": "2023-04-02"
+            }
+        ],
+        "seasonIcon": "Necklaces/Remembrance/Remembrance.png",
+        "spirits": [
+            {
+                "name": "丧子老兵",
+                "name_en": "Bereft Veteran",
+                "icon": [
+                    "Expressions/Emotes/Remembrance/Grieving.png",
+                    "Masks/Remembrance/Bereft_Veteran_Mask.png",
+                    "Hair/Remembrance/Bereft_Veteran_Hair.png",
+                    "Capes/Remembrance/Bereft_Veteran_Cape.png"
+                ]
+            },
+            {
+                "name": "乞求孩童",
+                "name_en": "Pleading Child",
+                "icon": [
+                    "Expressions/Emotes/Remembrance/Pleading.png",
+                    "Necklaces/Remembrance/Pleading_Child_Scarf.png",
+                    "Hair/Remembrance/Pleading_Child_Hair.png",
+                    "Outfits/Remembrance/Pleading_Child_Outfit.png"
+                ]
+            },
+            {
+                "name": "蹑足沏茶师",
+                "name_en": "Tiptoeing Tea-Brewer",
+                "icon": [
+                    "Expressions/Emotes/Remembrance/Tiptoeing.png",
+                    "Hair/Remembrance/Tiptoeing_Tea-Brewer_Hair.png",
+                    "Outfits/Remembrance/Tiptoeing_Tea-Brewer_Outfit.png",
+                    "Capes/Remembrance/Tiptoeing_Tea-Brewer_Cape.png"
+                ]
+            },
+            {
+                "name": "负伤战士",
+                "name_en": "Wounded Warrior",
+                "icon": [
+                    "Expressions/Stances/Remembrance/Injured_Stance.png",
+                    "Masks/Remembrance/Wounded_Warrior_Mask.png",
+                    "Outfits/Remembrance/Wounded_Warrior_Outfit.png",
+                    "Capes/Remembrance/Wounded_Warrior_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "夜行",
+        "name_en": "Passage",
+        "time": [
+            {
+                "S": "2023-04-27",
+                "E": "2023-07-19"
+            },
+            {
+                "S": "2023-04-17",
+                "E": "2023-07-02"
+            }
+        ],
+        "seasonIcon": "Necklaces/Passage/Passage.png",
+        "spirits": [
+            {
+                "name": "古怪边缘人",
+                "name_en": "Oddball Outcast",
+                "icon": [
+                    "Expressions/Emotes/Passage/Hacky_sack.png",
+                    "Hair/Passage/Oddball_Outcast_Hair.png",
+                    "Necklaces/Passage/Oddball_Outcast_Neckpiece.png",
+                    "Outfits/Passage/Oddball_Outcast_Outfit.png"
+                ]
+            },
+            {
+                "name": "翻滚捣蛋鬼",
+                "name_en": "Tumbling Troublemaker",
+                "icon": [
+                    "Expressions/Emotes/Passage/Somersault.png",
+                    "Hair/Passage/Tumbling_Troublemaker_Hair.png",
+                    "Capes/Passage/Tumbling_Troublemaker_Cape.png",
+                    "HeadAccessories/Passage/Tumbling_Troublemaker_Face_Accessory.png"
+                ]
+            },
+            {
+                "name": "忧郁自艾者",
+                "name_en": "Melancholy Mope",
+                "icon": [
+                    "Expressions/Emotes/Passage/Moping.png",
+                    "HeadAccessories/Passage/Melancholy_Mope_Face_Accessory.png",
+                    "Hair/Passage/Melancholy_Mope_Hair.png",
+                    "Outfits/Passage/Melancholy_Mope_Outfit.png"
+                ]
+            },
+            {
+                "name": "活跃优等生",
+                "name_en": "Overactive Overachiever",
+                "icon": [
+                    "Expressions/Emotes/Passage/Pull-up.png",
+                    "Props/Instruments/Passage/Manta_Flute.png",
+                    "Capes/Passage/Overactive_Overachiever_Cape.png",
+                    "Hair/Passage/Overactive_Overachiever_Hair.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "拾光",
+        "name_en": "Moments",
+        "time": [
+            {
+                "S": "2023-07-27",
+                "E": "2023-10-11"
+            },
+            {
+                "S": "2023-07-17",
+                "E": "2023-10-01"
+            }
+        ],
+        "seasonIcon": "Necklaces/Moments/Moments.png",
+        "spirits": [
+            {
+                "name": "可靠护林员",
+                "name_en": "Reassuring Ranger",
+                "icon": [
+                    "Expressions/FriendActions/Moments/Side_Hug.png",
+                    "FaceAccessories/Moments/Reassuring_Ranger_Wheat_Stalk.png",
+                    "Masks/Moments/Reassuring_Ranger_Mask.png",
+                    "Capes/Moments/Reassuring_Ranger_Cape.png",
+                    "Hair/Moments/Reassuring_Ranger_Hat.png"
+                ]
+            },
+            {
+                "name": "雀跃地质学家",
+                "name_en": "Jolly Geologist",
+                "icon": [
+                    "Expressions/Emotes/Moments/Jolly_Dance.png",
+                    "FaceAccessories/Moments/Jolly_Geologist_Face_Accessory.png",
+                    "Hair/Moments/Jolly_Geologist_Hair.png",
+                    "Props/SmallProps/Moments/Jolly_Geologist_Prop.png"
+                ]
+            },
+            {
+                "name": "苦行僧侣",
+                "name_en": "Ascetic Monk",
+                "icon": [
+                    "Expressions/Emotes/Moments/Blindfold_Balance_Pose.png",
+                    "Masks/Moments/Ascetic_Monk_Mask.png",
+                    "Hair/Moments/Ascetic_Monk_Tattoo.png",
+                    "Outfits/Moments/Ascetic_Monk_Outfit.png"
+                ]
+            },
+            {
+                "name": "夜鸟语者",
+                "name_en": "Nightbird Whisperer",
+                "icon": [
+                    "Expressions/Calls/Moments/Nightbird_Call.png",
+                    "Hair/Moments/Nightbird_Whisperer_Hair.png",
+                    "HairAccessories/Moments/Nightbird_Whisperer_Hat.png",
+                    "Outfits/Moments/Nightbird_Whisperer_Outfit.png",
+                    "Shoes/Moments/Nightbird_Whisperer_Shoes.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "归巢",
+        "name_en": "Revival",
+        "time": [
+            {
+                "S": "2023-10-19",
+                "E": "2024-01-10"
+            },
+            {
+                "S": "2023-10-16",
+                "E": "2023-12-31"
+            }
+        ],
+        "seasonIcon": "Necklaces/Revival/Revival.png",
+        "spirits": [
+            {
+                "name": "沙漠绿洲的余痕",
+                "name_en": "Vestige of a Deserted Oasis",
+                "icon": [
+                    "Hair/Revival/Vestig_of_a_Deserted_Oasis_Hair.png",
+                    "Capes/Revival/Vestig_of_a_Deserted_Oasis_Cape.png",
+                    "Shoes/Revival/Vestig_of_a_Deserted_Oasis_Shoes.png"
+                ]
+            },
+            {
+                "name": "失落小镇的记忆",
+                "name_en": "Memory of a Lost Village",
+                "icon": [
+                    "Capes/Revival/Memory_of_a_Lost_Village_Cape.png",
+                    "Outfits/Revival/Memory_of_a_Lost_Village_Outfit.png",
+                    "Hair/Revival/Memory_of_a_Lost_Village.png"
+                ]
+            },
+            {
+                "name": "被遗弃之处的回响",
+                "name_en": "Echo of an Abandoned Refuge",
+                "icon": [
+                    "Shoes/Revival/Echo_of_an_Abandoned_Refuge_Shoes.png",
+                    "Capes/Revival/Echo_of_an_Abandoned_Refuge_Cape.png",
+                    "HairAccessories/Revival/Echo_of_an_Abandoned_Refuge_Hat.png"
+                ]
+            },
+            {
+                "name": "被遗弃的天堂一隅",
+                "name_en": "Remnant of a Forgotten Haven",
+                "icon": [
+                    "Shoes/Revival/Remnant_of_a_Forgotten_Haven_Shoes.png",
+                    "Capes/Revival/Remnant_of_a_Forgotten_Haven_Cape.png",
+                    "HairAccessories/Revival/Remnant_of_a_Forgotten_Haven_Hair_Ribbon.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "九色鹿",
+        "name_en": "TheNine-ColoredDeer",
+        "time": [
+            {
+                "S": "2024-01-15",
+                "E": "2024-04-07"
+            },
+            {
+                "S": "2024-01-15",
+                "E": "2024-03-31"
+            }
+        ],
+        "seasonIcon": "Necklaces/TheNine-ColoredDeer/TheNine-ColoredDeer.png",
+        "spirits": [
+            {
+                "name": "采药人",
+                "name_en": "Herb Gatherer",
+                "icon": [
+                    "Expressions/Emotes/TheNine-ColoredDeer/Whistle.png",
+                    "Outfits/TheNine-ColoredDeer/Herb_Gatherer_Outfit.png",
+                    "Hair/TheNine-ColoredDeer/Herb_Gatherer_Hair.png",
+                    "Props/SmallProps/TheNine-ColoredDeer/Herb_Gatherer_Prop.png"
+                ]
+            },
+            {
+                "name": "猎手",
+                "name_en": "Hunter",
+                "icon": [
+                    "Expressions/Emotes/TheNine-ColoredDeer/Flex.png",
+                    "Outfits/TheNine-ColoredDeer/Hunter_Outfit.png",
+                    "Hair/TheNine-ColoredDeer/Hunter_Hair.png",
+                    "Capes/TheNine-ColoredDeer/Hunter_Cape.png"
+                ]
+            },
+            {
+                "name": "领主",
+                "name_en": "Feudal Lord",
+                "icon": [
+                    "Expressions/FriendActions/TheNine-ColoredDeer/Cradle_Carry.png",
+                    "HairAccessories/TheNine-ColoredDeer/Feudal_Lord_Hat.png",
+                    "Masks/TheNine-ColoredDeer/Feudal_Lord_Mask.png",
+                    "Capes/TheNine-ColoredDeer/Feudal_Lord_Cape.png"
+                ]
+            },
+            {
+                "name": "公主",
+                "name_en": "Princess",
+                "icon": [
+                    "Expressions/Emotes/TheNine-ColoredDeer/Float_Spin.png",
+                    "Masks/TheNine-ColoredDeer/Princess_Mask.png",
+                    "Hair/TheNine-ColoredDeer/Princess_Hair.png",
+                    "Outfits/TheNine-ColoredDeer/Princess_Outfit.png",
+                    "Capes/TheNine-ColoredDeer/Princess_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "筑巢",
+        "name_en": "Nesting",
+        "time": [
+            {
+                "S": "2024-04-25",
+                "E": "2024-07-17"
+            },
+            {
+                "S": "2024-04-15",
+                "E": "2024-06-30"
+            }
+        ],
+        "seasonIcon": "Necklaces/Nesting/Nesting.png",
+        "spirits": [
+            {
+                "name": "小屋一隅",
+                "name_en": "Nesting Nook",
+                "icon": []
+            },
+            {
+                "name": "日光浴室",
+                "name_en": "Nesting Solarium",
+                "icon": []
+            },
+            {
+                "name": "小屋庭院",
+                "name_en": "Nesting Atrium",
+                "icon": []
+            },
+            {
+                "name": "云中楼阁",
+                "name_en": "Nesting Loft",
+                "icon": []
+            }
+        ]
+    },
+    {
+        "name": "二重奏",
+        "name_en": "Duets",
+        "time": [
+            {
+                "S": "2024-07-23",
+                "E": "2024-10-07"
+            },
+            {
+                "S": "2024-07-15",
+                "E": "2024-09-29"
+            }
+        ],
+        "seasonIcon": "Necklaces/Duets/Duets.png",
+        "spirits": [
+            {
+                "name": "钢琴家的开始",
+                "name_en": "The Pianist's Beginnings",
+                "icon": []
+            },
+            {
+                "name": "大提琴家的开始",
+                "name_en": "The Cellist's Beginnings",
+                "icon": []
+            },
+            {
+                "name": "音乐家的遗产",
+                "name_en": "The Musician's Legacy",
+                "icon": []
+            },
+            {
+                "name": "大提琴家的辉煌",
+                "name_en": "The Pianist's Flourishing",
+                "icon": []
+            },
+            {
+                "name": "钢琴家的辉煌",
+                "name_en": "The Cellist's Flourishing",
+                "icon": []
+            }
+        ]
+    },
+    {
+        "name": "姆明",
+        "name_en": "Moomin",
+        "time": [
+            {
+                "S": "2024-10-18",
+                "E": "2025-01-06"
+            },
+            {
+                "S": "2024-10-14",
+                "E": "2024-12-29"
+            }
+        ],
+        "seasonIcon": "Necklaces/Moomin/Moomin.png",
+        "spirits": [
+            {
+                "name": "善意的宽慰",
+                "name_en": "Comfort of Kindness",
+                "icon": []
+            },
+            {
+                "name": "自我的意识",
+                "name_en": "Sense of Self",
+                "icon": []
+            },
+            {
+                "name": "冒险的精神",
+                "name_en": "Spirit of Adventure",
+                "icon": []
+            },
+            {
+                "name": "包容的启示",
+                "name_en": "Inspiration of Inclusion",
+                "icon": []
+            }
+        ]
+    },
+    {
+        "name": "彩染",
+        "name_en": "Radiance",
+        "time": [
+            {
+                "S": "2025-01-21",
+                "E": "2025-04-14"
+            },
+            {
+                "S": "2025-01-20",
+                "E": "2025-04-07"
+            }
+        ],
+        "seasonIcon": "Necklaces/Radiance/Radiance.png",
+        "spirits": [
+            {
+                "name": "跃动舞者",
+                "name_en": "Rediance Leaping Dancet",
+                "icon": [
+                    "Expressions/Emotes/Radiance/Cartwheel.png",
+                    "Hair/Radiance/Radiance_Leaping Dancer_Hair.png",
+                    "Props/Instruments/Radiance/Cymbals.png",
+                    "Outfits/Radiance/Radiance_Leaping_Dancer_Outfit.png",
+                    "Capes/Radiance/Radiance_Leaping_Dancer_Cape.png",
+                    "Shoes/Radiance/Radiance_Leaping_Dancer_Shoes.png"
+                ]
+            },
+            {
+                "name": "热情舞者",
+                "name_en": "Rediance Provoking Performer",
+                "icon": [
+                    "Expressions/Emotes/Radiance/Hype_Dance.png",
+                    "HeadAccessories/Radiance/Radiance_Provoking_Performer_Head_Accessory.png",
+                    "Props/SmallProps/Radiance/Radiance_Leaping_Dancer_Prop.png",
+                    "Outfits/Radiance/Radiance_Provoking_Performer_Qutfit.png",
+                    "Capes/Radiance/Radiance_Provoking_Performer_Cape.png",
+                    "Shoes/Radiance/Radiance_Provoking_Performer_Shoes.png"
+                ]
+            },
+            {
+                "name": "问候舞者",
+                "name_en": "Rediance Greeting Shaman",
+                "icon": [
+                    "Expressions/Emotes/Radiance/Heart_Gesture.png",
+                    "HairAccessories/Radiance/Radiance_Greeting Shaman_Hair_Accessory.png",
+                    "Hair/Radiance/Radiance_Greeting Shaman_Hair.png",
+                    "Outfits/Radiance/Radiance_Greeting_Shaman_Outfit.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "青鸟",
+        "name_en": "TheBluebird",
+        "time": [
+            {
+                "S": "2025-04-24",
+                "E": "2025-07-09"
+            },
+            {
+                "S": "2025-04-21",
+                "E": "2025-07-07"
+            }
+        ],
+        "seasonIcon": "Necklaces/TheBlueBird/The_Blue_Bird.png",
+        "spirits": [
+            {
+                "name": "占卜智慧长者",
+                "name_en": "Divining Wise Grandparent",
+                "icon": [
+                    "FaceAccessories/TheBlueBird/Divining_Wise_Grandparent_Face_Accessory.png",
+                    "Capes/TheBlueBird/Divining_Wise_Grandparent_Cape.png"
+                ]
+            },
+            {
+                "name": "戏服礼花表亲",
+                "name_en": "Customed Confetti Cousin",
+                "icon": [
+                    "HairAccessories/TheBlueBird/Customed_Confetti_Cousin_Hair_Accessory.png",
+                    "Masks/TheBlueBird/Customed_Confetti_Cousin_Mask.png",
+                    "Outfits/TheBlueBird/Customed_Confetti_Cousin_Outfit.png",
+                    "Hair/TheBlueBird/Customed_Confetti_Cousin_Hair.png"
+                ]
+            },
+            {
+                "name": "皇家蓬头青年",
+                "name_en": "Royal Hairtousle Teen",
+                "icon": [
+                    "Expressions/Emotes/TheBlueBird/Surprised.png",
+                    "HeadAccessories/TheBlueBird/Royal_Hairtousle_Teen_Head_Accessory.png",
+                    "Outfits/TheBlueBird/Royal_Hairtousle_Teen_Outfit.png",
+                    "Capes/TheBlueBird/Royal_Hairtousle_Teen_Cape.png"
+                ]
+            },
+            {
+                "name": "怀旧火花家长",
+                "name_en": "Nostalgic Sparkler Parent",
+                "icon": [
+                    "HairAccessories/TheBlueBird/Nostalgic_Sparkler_Parent_Hair_Accessory.png",
+                    "Capes/TheBlueBird/Nostalgic_Sparkler_Parent_Cape.png"
+                ]
+            },
+            {
+                "name": "伐木不舍家长",
+                "name_en": "Woodcutting Pleaful Parent",
+                "icon": [
+                    "Shoes/TheBlueBird/Woodcutting_Pleaful_Parent_Shoes.png",
+                    "Outfits/TheBlueBird/Woodcutting_Pleaful_Parent_Outfit.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "双星",
+        "name_en": "TheTwoEmbers-Part1",
+        "time": [
+            {
+                "S": "2025-07-30",
+                "E": "2025-10-14"
+            },
+            {
+                "S": "2025-07-21",
+                "E": "2025-10-05"
+            }
+        ],
+        "seasonIcon": "Necklaces/TheTwoEmbers-Part1/TheTwoEmbers-Part1.png",
+        "spirits": [
+            {
+                "name": "温柔的玩具匠",
+                "name_en": "Tender Toymaker",
+                "icon": [
+                    "Props/SmallProps/TheTwoEmbers-Part1/Crab_Figurine.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Manatee_Toy.png",
+                    "Outfits/TheTwoEmbers-Part1/Tender_Toymaker_Outfit.png",
+                    "Hair/TheTwoEmbers-Part1/Tender_Toymaker_Hair.png"
+                ]
+            },
+            {
+                "name": "巧手隐士",
+                "name_en": "Resourceful Recluse",
+                "icon": [
+                    "Masks/TheTwoEmbers-Part1/Resourceful_Recluse_Mask.png",
+                    "Outfits/TheTwoEmbers-Part1/Resourceful_Recluse_Outfit.png",
+                    "Props/LargeProps/TheTwoEmbers-Part1/Resourceful_Recluse_Tea_Table.png",
+                    "Props/LargeProps/TheTwoEmbers-Part1/Resourceful_Recluse_Tree_Prop.png"
+                ]
+            },
+            {
+                "name": "刀疤士兵",
+                "name_en": "Scarred Sentry",
+                "icon": [
+                    "Expressions/Stances/TheTwoEmbers-Part1/Scarred_Stance.png",
+                    "Hair/TheTwoEmbers-Part1/Scarred_Sentry_Cracked_Helmet.png",
+                    "Hair/TheTwoEmbers-Part1/Scarred_Sentry_Helmet.png",
+                    "Capes/TheTwoEmbers-Part1/Scarred_Sentry_Cape.png",
+                    "Outfits/TheTwoEmbers-Part1/Scarred_Sentry_Outfit.png",
+                    "Shoes/TheTwoEmbers-Part1/Scarred_Sentry_Shoes.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Scarred_Sentry_Shield.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Scarred_Sentry_Spear.png"
+                ]
+            },
+            {
+                "name": "严厉的牧牛人",
+                "name_en": "Stern Shepherd",
+                "icon": [
+                    "Expressions/Calls/TheTwoEmbers-Part1/Manatee_Call.png",
+                    "Hair/TheTwoEmbers-Part1/Stern_Shepherd_Hair.png",
+                    "Outfits/TheTwoEmbers-Part1/Stern_Shepherd_Outfit.png",
+                    "Props/Instruments/TheTwoEmbers-Part1/Stern_Shepherd_Cane.png",
+                    "Masks/TheTwoEmbers-Part1/Stern_Shepherd_Mask.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "迁徒",
+        "name_en": "Migration",
+        "time": [
+            {
+                "S": "2025-10-24",
+                "E": "2026-1-8"
+            },
+            {
+                "S": "2025-10-20",
+                "E": "2026-1-4"
+            }
+        ],
+        "seasonIcon": "Necklaces/Migration/Migration.png",
+        "spirits": [
+            {
+                "name": "迁徒钟匠",
+                "name_en": "Migrating Bellmaker",
+                "icon": [
+                    "Expressions/Calls/Migration/Lighthom_Call.png",
+                    "Hair/Migrating/Migrating_Bellmaker_Hair.png",
+                    "FaceAccessories/Migration/Migrating_Bellmaker_Face_Accessory.png",
+                    "Capes/Migration/Migrating_Bellmaker_Cape.png"
+                ]
+            },
+            {
+                "name": "迁徒水母语者",
+                "name_en": "Migrating Jelly Whisperer",
+                "icon": [
+                    "Expressions/Emotes/Migration/Jellyfish_Dance.png",
+                    "Outfits/Migration/Migrating_Jelly_Whisperer_Outfit.png",
+                    "HairAccessories/Migration/Migrating_Jelly_Whisperer_Hair_Accessory.png"
+                ]
+            },
+            {
+                "name": "迁徒引蝶人",
+                "name_en": "Migrating Butterfly Charmer",
+                "icon": [
+                    "Expressions/Emotes/Migration/Dizzy.png",
+                    "Capes/Migration/Migrating_Butterfly_Charmer_Cape.png",
+                    "HairAccessories/Migration/Migrating_Butterfly_Charmer_Hair_Accessory.png"
+                ]
+            },
+            {
+                "name": "迁徒鳐语者",
+                "name_en": "Migrating Manta Whisperer",
+                "icon": [
+                    "Expressions/Emotes/Migration/Flag_Signal.png",
+                    "Hair/Migrating/Migrating_Manta_Whisperer_Hair.png",
+                    "Capes/Migration/Migrating_Manta_Whisperer_Cape.png",
+                    "Outfits/Migration/Migrating_Manta_Whisperer_Outfit.png"
+                ]
+            },
+            {
+                "name": "迁徒鸟语者",
+                "name_en": "Migrating Bird Whisperer",
+                "icon": [
+                    "Expressions/Emotes/Migration/Flight_Run.png",
+                    "Outfits/Migration/Migrating_Bird_Whisperer_Outfit.png",
+                    "Capes/Migration/Migrating_Bird_Whisperer_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "织光",
+        "name_en": "Lightmending",
+        "time": [
+            {
+                "S": "2026-1-23",
+                "E": "2026-4-9"
+            },
+            {
+                "S": "2026-1-16",
+                "E": "2026-4-2"
+            }
+        ],
+        "seasonIcon": "Necklaces/Lightmending/Lightmending.png",
+        "spirits": [
+            {
+                "name": "织光开荒者",
+                "name_en": "Lightmending Pioneer",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Pioneer_Emote.png",
+                    "Hair/Lightmending/Lightmending_Pioneer_Hair.png",
+                    "Outfits/Lightmending/Lightmending_Pioneer_Outfit.png",
+                    "Masks/Lightmending/Lightmending_Pioneer_Mask.png"
+                ]
+            },
+            {
+                "name": "织光学者",
+                "name_en": "Lightmending Light Scholar",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Light_Scholar_Emote.png",
+                    "Hair/Lightmending/Lightmending_Light_Scholar_Hair.png",
+                    "Masks/Lightmending/Lightmending_Light_Scholar_Mask.png",
+                    "Outfits/Lightmending/Lightmending_Light_Scholar_Outfit.png"
+                ]
+            },
+            {
+                "name": "织光光衣",
+                "name_en": "Lightmending Light Catcher",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Light_Catcher_Emote.png",
+                    "Capes/Lightmending/Lightmending_Light_Catcher_Cape.png",
+                    "Hair/Lightmending/Lightmending_Light_Catcher_Hair.png",
+                    "Props/Instruments/Lightmending/Lightmending_Light_Catcher_Instrument.png",
+                    "Masks/Lightmending/Lightmending_Light_Catcher_Mask.png"
+                ]
+            },
+            {
+                "name": "织光冠军",
+                "name_en": "Lightmending Champion",
+                "icon": [
+                    "Expressions/Emotes/Lightmending/Lightmending_Champion_Emote.png",
+                    "FaceAccessories/Lightmending/Lightmending_Champion_Face_Accessory.png",
+                    "Masks/Lightmending/Lightmending_Champion_Mask.png",
+                    "Outfits/Lightmending/Lightmending_Champion_Outfit.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "狂欢",
+        "name_en": "Carnival",
+        "time": [
+            {
+                "S": "2026-04-23",
+                "E": "2026-07-08"
+            },
+            {
+                "S": "2026-05-04",
+                "E": "2026-07-20"
+            }
+        ],
+        "seasonIcon": "Necklaces/Carnival/Carnival.png",
+        "spirits": [
+            {
+                "name": "狂欢健美舞者",
+                "name_en": "Carnival Athletic Dancer",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Break_Dance.png",
+                    "Outfits/Carnival/Carnival_Athletic_Dancer_Outfit.png",
+                    "Masks/Carnival/Carnival_Athletic_Dancer_Mask.png",
+                    "Capes/Carnival/Carnival_Athletic_Dancer_Cape.png"
+                ]
+            },
+            {
+                "name": "狂欢杂耍师",
+                "name_en": "Carnival Juggler",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Ball_Spin_Trick.png",
+                    "Outfits/Carnival/Carnival_Juggler_Outfit.png",
+                    "Masks/Carnival/Carnival_Juggler_Mask.png",
+                    "Necklaces/Carnival/Carnival_Juggler_Neck_Accessory.png"
+                ]
+            },
+            {
+                "name": "狂欢解谜导演",
+                "name_en": "Carnival Puzzle Director",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Take_Notes.png",
+                    "Outfits/Carnival/Carnival_Puzzle_Director_Outfit.png",
+                    "Hair/Carnival/Carnival_Puzzle_Director_Hair.png",
+                    "HairAccessories/Carnival/Carnival_Puzzle_Director_Hair_Accessory.png"
+                ]
+            },
+            {
+                "name": "狂欢特技演员",
+                "name_en": "Carnival Stunt Actor",
+                "icon": [
+                    "Expressions/Emotes/Carnival/Approve.png",
+                    "Outfits/Carnival/Carnival_Stunt_Actor_Outfit.png",
+                    "Hair/Carnival/Carnival_Stunt_Actor_Hair.png",
+                    "HairAccessories/Carnival/Carnival_Stunt_Actor_Hair_Accessory.png",
+                    "Capes/Carnival/Carnival_Stunt_Actor_Cape.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "致梵高",
+        "name_en": "DearVanGogh",
+        "time": [
+            {
+                "S": "2026-07-17",
+                "E": "2026-10-02"
+            },
+            {
+                "S": "2026-07-17",
+                "E": "2026-10-02"
+            }
+        ],
+        "seasonIcon": "Necklaces/DearVanGogh/DearVanGogh.png",
+        "spirits": [
+            {
+                "name": "荷兰的回忆",
+                "name_en": "Memory of Holland",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Frustration.png",
+                    "Props/SmallProps/DearVanGogh/Blossom_Tea.png",
+                    "Capes/DearVanGogh/Sheer_Shawl.png",
+                    "Outfits/DearVanGogh/Worker_Dress.png",
+                    "Hair/DearVanGogh/Bonnet_Hair.png"
+                ]
+            },
+            {
+                "name": "乡野的回忆",
+                "name_en": "Memory of the Countryside",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Bask.png",
+                    "Props/SmallProps/DearVanGogh/Windmill_Painting.png",
+                    "Shoes/DearVanGogh/Clogs.png",
+                    "HairAccessories/DearVanGogh/Bandage.png",
+                    "Capes/DearVanGogh/Red_Cape.png"
+                ]
+            },
+            {
+                "name": "艺术的回忆",
+                "name_en": "Memory of Art",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Draw.png",
+                    "Props/SmallProps/DearVanGogh/Sunflower_Vase.png",
+                    "Props/SmallProps/DearVanGogh/Sunflower_Painting.png",
+                    "HairAccessories/DearVanGogh/Blue_Fur_Hat.png",
+                    "Capes/DearVanGogh/Almond_Blossom_Cape.png"
+                ]
+            },
+            {
+                "name": "欢乐的回忆",
+                "name_en": "Memory of Joy",
+                "icon": [
+                    "Expressions/Emotes/DearVanGogh/Slow_Walk.png",
+                    "Props/SmallProps/DearVanGogh/House_Painting.png",
+                    "Hair/DearVanGogh/Almond_Blossom_Hair.png",
+                    "Capes/DearVanGogh/Postman_Cape.png",
+                    "HairAccessories/DearVanGogh/Postman_Hat.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "珍珠",
+        "name_en": "Pearl",
+        "time": [
+            {
+                "S": "",
+                "E": ""
+            },
+            {
+                "S": "",
+                "E": ""
+            }
+        ],
+        "seasonIcon": "Necklaces/Pearl/Pearl.png",
+        "spirits": []
+    }
+]

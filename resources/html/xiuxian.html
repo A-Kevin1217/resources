@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修仙游戏管理面板</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        #app {
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        #sidebar {
+            width: 250px;
+            background-color: #2a2a2a;
+            padding: 20px;
+            transition: width 0.3s;
+        }
+
+        #sidebar h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        #sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #sidebar li {
+            margin-bottom: 10px;
+        }
+
+        #sidebar a {
+            text-decoration: none;
+            color: #b0b0b0;
+            transition: color 0.3s;
+        }
+
+        #sidebar a:hover {
+            color: #ffffff;
+        }
+
+        #content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        input,
+        button,
+        select {
+            margin-top: 10px;
+            background-color: #3a3a3a;
+            color: #e0e0e0;
+            border: 1px solid #4a4a4a;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        input,
+        button,
+        select,
+        textarea {
+            margin-top: 10px;
+            background-color: #3a3a3a;
+            color: #e0e0e0;
+            border: 1px solid #4a4a4a;
+            padding: 8px 12px;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        button {
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #4a4a4a;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #realm-tags,
+        #monster-list,
+        #item-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .realm-tag,
+        .monster-tag {
+            background-color: #3a3a3a;
+            color: #e0e0e0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .realm-tag span:first-child,
+        .monster-tag span:first-child {
+            margin-right: 8px;
+        }
+
+        .delete-btn {
+            cursor: pointer;
+            font-weight: bold;
+            color: #b0b0b0;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .realm-tag:hover .delete-btn,
+        .monster-tag:hover .delete-btn {
+            opacity: 1;
+        }
+
+        .delete-btn:hover {
+            color: #ff4d4d;
+        }
+
+        .add-realm,
+        .add-monster,
+        .add-item {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .add-realm input,
+        .add-monster input,
+        .add-item input,
+        .add-item select {
+            flex: 1 1 200px;
+        }
+
+        .add-realm button,
+        .add-monster button,
+        .add-item button {
+            flex: 0 0 auto;
+        }
+
+        #item-list li {
+            background-color: #3a3a3a;
+            color: #e0e0e0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #item-list li:hover {
+            background-color: #4a4a4a;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #2a2a2a;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .delete-item-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .delete-item-btn:hover {
+            background-color: #ff3333;
+        }
+
+        #login-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1a1a1a;
+        }
+
+        #login-form {
+            background-color: #2a2a2a;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        #login-form h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #3a3a3a;
+            background-color: #333333;
+            color: #ffffff;
+            border-radius: 4px;
+        }
+
+        #login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4a4a4a;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #login-form button:hover {
+            background-color: #5a5a5a;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login-container">
+        <div id="login-form">
+            <h2>修仙游戏管理系统</h2>
+            <input type="text" id="username" placeholder="用户名">
+            <input type="password" id="password" placeholder="密码">
+            <button onclick="login()">登录</button>
+        </div>
+    </div>
+    <div id="app">
+        <nav id="sidebar">
+            <h1>修仙游戏管理面板</h1>
+            <ul>
+                <li><a href="#" data-section="users">用户管理</a></li>
+                <li><a href="#" data-section="realms">境界管理</a></li>
+                <li><a href="#" data-section="monsters">妖怪管理</a></li>
+                <li><a href="#" data-section="items">商店物品管理</a></li>
+            </ul>
+        </nav>
+        <main id="content">
+            <section id="users" class="hidden">
+                <h2>用户管理</h2>
+                <ul id="user-list"></ul>
+            </section>
+            <section id="realms" class="hidden">
+                <h2>境界管理</h2>
+                <div id="realm-tags"></div>
+                <div class="add-realm">
+                    <input type="text" id="new-realm" placeholder="新境界名称">
+                    <button onclick="addRealm()">+ 新增</button>
+                </div>
+            </section>
+            <section id="monsters" class="hidden">
+                <h2>妖怪管理</h2>
+                <div id="monster-list"></div>
+                <div class="add-monster">
+                    <input type="text" id="new-monster-name" placeholder="妖怪名称">
+                    <input type="number" id="new-monster-level" placeholder="妖怪等级" min="1">
+                    <button onclick="addMonster()">+ 新增</button>
+                </div>
+            </section>
+            <section id="items" class="hidden">
+                <h2>商店物品管理</h2>
+                <ul id="item-list"></ul>
+                <div class="add-item">
+                    <input type="text" id="new-item-name" placeholder="物品名称">
+                    <input type="number" id="new-item-price" placeholder="物品价格" min="1">
+                    <textarea id="new-item-description" placeholder="物品描述"></textarea>
+                    <select id="new-item-effect-type">
+                        <option value="">选择效果类型</option>
+                        <option value="energy">恢复灵力</option>
+                        <option value="exp">增加经验</option>
+                        <option value="attribute">提升属性</option>
+                        <option value="heal">恢复生命</option>
+                        <option value="special">特殊效果</option>
+                        <option value="buff">临时增益</option>
+                    </select>
+                    <input type="number" id="new-item-effect-value" placeholder="效果数值" min="1">
+                    <input type="text" id="new-item-effect-attribute" placeholder="属性名称">
+                    <input type="number" id="new-item-effect-duration" placeholder="持续时间" min="1">
+                    <button onclick="addItem()">+ 新增</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div id="item-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-item-name"></h3>
+            <p id="modal-item-price"></p>
+            <p id="modal-item-description"></p>
+            <p id="modal-item-effect"></p>
+            <button id="delete-item-btn" class="delete-item-btn">删除物品</button>
+        </div>
+    </div>
+    <script>
+        // 用户管理
+        async function fetchUsers() {
+            const response = await fetch('/api/users');
+            const users = await response.json();
+            const userList = document.getElementById('user-list');
+            userList.innerHTML = '';
+            Object.entries(users).forEach(([userId, user]) => {
+                const li = document.createElement('li');
+                li.textContent = `${user.name} (ID: ${userId})`;
+                userList.appendChild(li);
+            });
+        }
+
+        // 境界管理
+        async function fetchRealms() {
+            const response = await fetch('/api/realms');
+            const realms = await response.json();
+            const realmTags = document.getElementById('realm-tags');
+            realmTags.innerHTML = '';
+            realms.forEach((realm, index) => {
+                const tag = document.createElement('div');
+                tag.className = 'realm-tag';
+                const name = document.createElement('span');
+                name.textContent = String(realm);
+                const deleteButton = document.createElement('span');
+                deleteButton.className = 'delete-btn';
+                deleteButton.textContent = '×';
+                deleteButton.addEventListener('click', () => deleteRealm(index));
+                tag.append(name, deleteButton);
+                realmTags.appendChild(tag);
+            });
+        }
+
+        async function addRealm() {
+            const newRealm = document.getElementById('new-realm').value.trim();
+            if (newRealm) {
+                await fetch('/api/realms', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ realm: newRealm })
+                });
+                fetchRealms();
+                document.getElementById('new-realm').value = '';
+            }
+        }
+
+        async function deleteRealm(index) {
+            if (confirm(`确定要删除这个境界吗?`)) {
+                await fetch(`/api/realms/${index}`, { method: 'DELETE' });
+                fetchRealms();
+            }
+        }
+
+        // 妖怪管理
+        async function fetchMonsters() {
+            const response = await fetch('/api/monsters');
+            const monsters = await response.json();
+            const monsterList = document.getElementById('monster-list');
+            monsterList.innerHTML = '';
+            monsters.forEach((monster, index) => {
+                const div = document.createElement('div');
+                div.className = 'monster-tag';
+                const name = document.createElement('span');
+                name.textContent = `${String(monster.name)} (${String(monster.level)})`;
+                const deleteButton = document.createElement('span');
+                deleteButton.className = 'delete-btn';
+                deleteButton.textContent = '×';
+                deleteButton.addEventListener('click', () => deleteMonster(index));
+                div.append(name, deleteButton);
+                monsterList.appendChild(div);
+            });
+        }
+
+        async function addMonster() {
+            const name = document.getElementById('new-monster-name').value.trim();
+            const level = parseInt(document.getElementById('new-monster-level').value);
+            if (name && !isNaN(level)) {
+                await fetch('/api/monsters', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, level })
+                });
+                fetchMonsters();
+                document.getElementById('new-monster-name').value = '';
+                document.getElementById('new-monster-level').value = '';
+            }
+        }
+
+        async function deleteMonster(index) {
+            if (confirm(`确定要删除这个妖怪吗?`)) {
+                await fetch(`/api/monsters/${index}`, { method: 'DELETE' });
+                fetchMonsters();
+            }
+        }
+
+        // 商店物品管理
+        async function fetchItems() {
+            try {
+                const response = await fetch('/api/items');
+                const items = await response.json();
+                const itemList = document.getElementById('item-list');
+                itemList.innerHTML = '';
+                items.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = `${item.name} (价格: ${item.price})`;
+                    li.onclick = () => showItemDetails(item);
+                    itemList.appendChild(li);
+                });
+            } catch (error) {
+                console.error('获取物品列表时出错:', error);
+            }
+        }
+
+        function showItemDetails(item) {
+            const modal = document.getElementById('item-modal');
+            document.getElementById('modal-item-name').textContent = item.name;
+            document.getElementById('modal-item-price').textContent = `价格: ${item.price}`;
+            document.getElementById('modal-item-description').textContent = item.description || '无描述';
+            document.getElementById('modal-item-effect').textContent = `效果: ${JSON.stringify(item.effect)}`;
+            document.getElementById('delete-item-btn').onclick = () => deleteItem(item.name);
+            modal.style.display = 'block';
+        }
+
+        async function addItem() {
+            const name = document.getElementById('new-item-name').value.trim();
+            const price = parseInt(document.getElementById('new-item-price').value);
+            const description = document.getElementById('new-item-description').value.trim();
+            const effectType = document.getElementById('new-item-effect-type').value;
+            const effectValue = parseInt(document.getElementById('new-item-effect-value').value);
+            const effectAttribute = document.getElementById('new-item-effect-attribute').value.trim();
+            const effectDuration = parseInt(document.getElementById('new-item-effect-duration').value);
+
+            if (name && !isNaN(price)) {
+                const effect = {};
+                effect[effectType] = {
+                    value: effectValue,
+                    attribute: effectAttribute,
+                    duration: effectDuration
+                };
+
+                try {
+                    await fetch('/api/items', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ name, price, description, effect: JSON.stringify(effect) })
+                    });
+                    fetchItems();
+                    // 清空输入字段
+                    document.getElementById('new-item-name').value = '';
+                    document.getElementById('new-item-price').value = '';
+                    document.getElementById('new-item-description').value = '';
+                    document.getElementById('new-item-effect-type').value = '';
+                    document.getElementById('new-item-effect-value').value = '';
+                    document.getElementById('new-item-effect-attribute').value = '';
+                    document.getElementById('new-item-effect-duration').value = '';
+                } catch (error) {
+                    console.error('添加物品时出错:', error);
+                }
+            }
+        }
+
+        async function deleteItem(itemName) {
+            if (confirm(`确定要删除 ${itemName} 吗?`)) {
+                try {
+                    await fetch(`/api/items/${encodeURIComponent(itemName)}`, { method: 'DELETE' });
+                    fetchItems();
+                    document.getElementById('item-modal').style.display = 'none';
+                } catch (error) {
+                    console.error('删除物品时出错:', error);
+                }
+            }
+        }
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('login-container').style.display = 'flex';
+            document.getElementById('app').style.display = 'none';
+
+            document.querySelectorAll('#sidebar a').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    showSection(e.target.dataset.section);
+                });
+            });
+
+            document.querySelector('.close').onclick = () => {
+                document.getElementById('item-modal').style.display = 'none';
+            };
+
+            window.onclick = (event) => {
+                if (event.target == document.getElementById('item-modal')) {
+                    document.getElementById('item-modal').style.display = 'none';
+                }
+            };
+        });
+
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.add('hidden');
+            });
+            document.getElementById(sectionId).classList.remove('hidden');
+        }
+
+        async function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const response = await fetch('/api/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ username, password }),
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    document.getElementById('login-container').style.display = 'none';
+                    document.getElementById('app').style.display = 'flex';
+                    // 初始化应用
+                    fetchUsers();
+                    fetchRealms();
+                    fetchMonsters();
+                    fetchItems();
+                    showSection('users');
+                } else {
+                    alert(result.message);
+                }
+            } catch (error) {
+                console.error('登录时出错:', error);
+                alert('登录失败,请稍后再试。');
+            }
+        }
+    </script>
+</body>
+
+</html>
