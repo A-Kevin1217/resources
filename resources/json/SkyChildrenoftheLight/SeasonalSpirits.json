@@ -1808,15 +1808,36 @@
         "name_en": "Pearl",
         "time": [
             {
-                "S": "",
-                "E": ""
+                "S": "2026-10-22",
+                "E": "2027-1-6"
             },
             {
-                "S": "",
-                "E": ""
+                "S": "2026-10-16",
+                "E": "2026-12-31"
             }
         ],
         "seasonIcon": "Necklaces/Pearl/Pearl.png",
-        "spirits": []
+        "spirits": [
+            {
+                "name": "迟疑渔翁",
+                "name_en": "Hesitant Angler",
+                "icon": []
+            },
+            {
+                "name": "嬉闹孩童",
+                "name_en": "Cuddly Rolling Child",
+                "icon": []
+            },
+            {
+                "name": "炫耀商人",
+                "name_en": "Showy Merchant",
+                "icon": []
+            },
+            {
+                "name": "角力水手",
+                "name_en": "Wrestling Sailor",
+                "icon": []
+            }
+        ]
     }
 ]
