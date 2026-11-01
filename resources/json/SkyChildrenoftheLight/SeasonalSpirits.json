@@ -1821,22 +1821,43 @@
             {
                 "name": "迟疑渔翁",
                 "name_en": "Hesitant Angler",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Pearl/Hesitate.png",
+                    "Outfits/Pearl/Cargo_Broken.png",
+                    "Masks/Pearl/Beard_Lion.png",
+                    "HairAccessories/Pearl/Ship_Hat_Broken.png"
+                ]
             },
             {
                 "name": "嬉闹孩童",
                 "name_en": "Cuddly Rolling Child",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Pearl/Wallow.png",
+                    "Capes/Pearl/Fishernet.png",
+                    "Outfits/Pearl/Waist_Scarf_Shorts.png",
+                    "Hair/Pearl/Messy_Curly.png",
+                    "Masks/Pearl/Freckle.png"
+                ]
             },
             {
                 "name": "炫耀商人",
                 "name_en": "Showy Merchant",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Pearl/Show_Off.png",
+                    "Capes/Pearl/Ribbon.png",
+                    "Outfits/Pearl/Gown.png",
+                    "Hair/Pearl/Coral.png"
+                ]
             },
             {
                 "name": "角力水手",
                 "name_en": "Wrestling Sailor",
-                "icon": []
+                "icon": [
+                    "Expressions/Emotes/Pearl/Arm_Wrestle.png",
+                    "Capes/Pearl/Sailor_Short.png",
+                    "Outfits/Pearl/Sailor.png",
+                    "Hair/Pearl/Hair_Band.png"
+                ]
             }
         ]
     }
